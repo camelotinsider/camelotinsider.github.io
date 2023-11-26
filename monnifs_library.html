@@ -1,0 +1,13 @@
+---
+title: Monsters Nifs Library
+layout: default
+nav_exclude: true
+---
+<h1>Monsters Nifs</h1>
+
+<ul>
+{% for monnif in site.data.monnifs_enhanced %}
+  <li><a href="{{ monnif.ID | datapage_url: 'monnifs' }}">{{monnif.ID}}</a></li>
+{% endfor %}
+</ul>
+

@@ -1,0 +1,73 @@
+---
+title: {{page.title}}
+nav_exclude: true
+layout: default
+---
+
+<h1>AnimSet {{page.ID}}</h1>
+
+<table>
+  <tr>
+    <th align="left">Id</th>
+    <th align="left">Name</th> 
+    <th align="left">Walk</th>
+    <th align="left">Back</th>
+    <th align="left">Run</th>
+	
+    <th align="left">TurnLeft</th>
+    <th align="left">TurnRight</th> 
+    <th align="left">Jump</th>
+    <th align="left">Land</th>
+    <th align="left">Fly</th>
+	
+    <th align="left">Idle</th>
+    <th align="left">Death</th> 
+    <th align="left">Ladder</th>
+    <th align="left">SlideLeft</th>
+    <th align="left">SlideRight</th>	
+	
+    <th align="left">Idle1</th>
+    <th align="left">Idle2</th> 
+    <th align="left">Idle3</th>
+    <th align="left">CastStart</th>
+    <th align="left">CastMid</th>		
+	
+    <th align="left">CastEnd</th>
+    <th align="left">SitDown</th> 
+    <th align="left">SitIdle</th>
+    <th align="left">StandUp</th>
+
+  </tr>
+  <tr>
+    <td>{{page.ID}}</td>
+    <td>{{page.AnimName}}</td> 
+    <td>{% if page.Walk != "0" %} <a href="/animnifs/{{page.Walk}}.html">{{page.Walk}}</a>{% endif %} </td>
+    <td>{% if page.Back != "0" %} <a href="/animnifs/{{page.Back}}.html">{{page.Back}}</a>{% endif %} </td>
+    <td>{% if page.Run != "0" %} <a href="/animnifs/{{page.Run}}.html">{{page.Run}}</a>{% endif %} </td>
+	
+    <td>{% if page.TurnLeft != "0" %} <a href="/animnifs/{{page.TurnLeft}}.html">{{page.TurnLeft}}</a>{% endif %} </td>
+    <td>{% if page.TurnRight != "0" %} <a href="/animnifs/{{page.TurnRight}}.html">{{page.TurnRight}}</a>{% endif %} </td>
+    <td>{% if page.Jump != "0" %} <a href="/animnifs/{{page.Jump}}.html">{{page.Jump}}</a>{% endif %} </td>
+    <td>{% if page.Land != "0" %} <a href="/animnifs/{{page.Land}}.html">{{page.Land}}</a>{% endif %} </td>
+    <td>{% if page.Fly != "0" %} <a href="/animnifs/{{page.Fly}}.html">{{page.Fly}}</a>{% endif %} </td>
+	
+    <td>{% if page.Idle != "0" %} <a href="/animnifs/{{page.Idle}}.html">{{page.Idle}}</a>{% endif %} </td>
+    <td>{% if page.Death != "0" %} <a href="/animnifs/{{page.Death}}.html">{{page.Death}}</a>{% endif %} </td>
+    <td>{% if page.Ladder != "0" %} <a href="/animnifs/{{page.Ladder}}.html">{{page.Ladder}}</a>{% endif %} </td>
+    <td>{% if page.SlideLeft != "0" %} <a href="/animnifs/{{page.SlideLeft}}.html">{{page.SlideLeft}}</a>{% endif %} </td>
+    <td>{% if page.SlideRight != "0" %} <a href="/animnifs/{{page.SlideRight}}.html">{{page.SlideRight}}</a>{% endif %} </td>
+	 
+    <td>{% if page.Idle1 != "0" %} <a href="/animnifs/{{page.Idle1}}.html">{{page.Idle1}}</a>{% endif %} </td>
+    <td>{% if page.Idle2 != "0" %} <a href="/animnifs/{{page.Idle2}}.html">{{page.Idle2}}</a>{% endif %} </td>
+    <td>{% if page.Idle3 != "0" %} <a href="/animnifs/{{page.Idle3}}.html">{{page.Idle3}}</a>{% endif %} </td>
+    <td>{% if page.CastStart != "0" %} <a href="/animnifs/{{page.CastStart}}.html">{{page.CastStart}}</a>{% endif %} </td>
+    <td>{% if page.CastMid != "0" %} <a href="/animnifs/{{page.CastMid}}.html">{{page.CastMid}}</a>{% endif %} </td>	
+	
+    <td>{% if page.CastEnd != "0" %} <a href="/animnifs/{{page.CastEnd}}.html">{{page.CastEnd}}</a>{% endif %} </td>
+    <td>{% if page.SitDown != "0" %} <a href="/animnifs/{{page.SitDown}}.html">{{page.SitDown}}</a>{% endif %} </td>
+    <td>{% if page.SitIdle != "0" %} <a href="/animnifs/{{page.SitIdle}}.html">{{page.SitIdle}}</a>{% endif %} </td>
+    <td>{% if page.StandUp != "0" %} <a href="/animnifs/{{page.StandUp}}.html">{{page.StandUp}}</a>{% endif %} </td>	
+  </tr>
+</table>
+
+

@@ -1,0 +1,487 @@
+ID,enabled,proxy_zone,type,frontiers,region,zonename,region_offset_x,region_offset_y,width,height,entry_music,temperature,skydome,map_enabled,override_time,expansion
+zone000,1,,0,,1,Camelot Hills,67,59,8,8,2,,,,,
+zone001,1,,0,,1,Salisbury Plains,67,67,8,8,2,,,,,
+zone002,1,,0,,1,Black Mtns. South,59,53,8,8,2,,,,,
+zone003,1,,0,,1,Black Mtns. North,59,45,8,8,2,,,,,
+zone004,1,,,,1,Dartmoor,43,85,8,8,2,70,sky_dartmoor.dat,,,
+zone006,1,,0,,1,Cornwall,43,77,8,8,2,,,,,
+zone007,1,,0,,1,Llyn Barfog,51,45,8,8,2,,,,,
+zone008,1,,0,,1,Campacorentin Forest,59,71,8,8,2,,,,,
+zone009,1,,0,,1,Avalon Marsh,51,75,8,8,2,,,,,
+zone010,1,,0,,1,Lyonesse,35,77,8,8,2,,,,,
+zone011,1,,0,,1,Forest Sauvage,69,51,8,8,2,,,0,,
+zone012,1,,0,,1,Snowdonia,61,37,8,8,2,35,,0,,
+zone013,1,,0,,2,Caerwent,64,64,8,8,2,,,,,
+zone014,1,,0,,1,Pennine Mountains,69,43,8,8,2,,,0,,
+zone015,1,,0,,1,Hadrian's Wall,73,35,8,8,2,,,0,,
+zone016,1,,0,,2,Old Sarum,64,72,8,8,,,,,,
+zone017,1,,0,,2,Rilan,64,56,8,8,2,,,,,
+zone018,1,,0,,2,Dalton,56,64,8,8,2,,,,,
+zone019,1,,2,,20,Stonehenge Barrows,1,1,8,8,,,,,,
+zone020,1,,0,,2,Brisworthy,56,56,8,8,,,,,,
+zone021,1,,2,,21,Tomb of Mithra,1,1,8,8,,,,,,
+zone022,1,,2,,22,Keltoi Fogou,1,1,8,8,,,,,,
+zone023,1,,2,,23,Catacombs of Cardova,1,1,8,8,,,,,,
+zone024,1,,2,,24,Tepok's Mine,1,1,8,8,,,,,,
+zone026,1,,1,,10,City of Camelot,1,1,8,8,2,,,,,
+zone027,1,,0,,27,Constantine's Sound,8,8,8,8,,70,sky_albion.dat,,,
+zone028,1,,0,,27,Grenlock's Sound,24,24,8,8,,30,sky_midgard.dat,,,
+zone029,1,,0,,27,Lamfhota's Sound,40,40,8,8,,70,sky_hibernia.dat,,,
+zone030,1,73,,,30,Oceanus Hesperos,32,64,8,8,28,,sky_oceanus.dat,,,
+zone031,1,74,,,30,Mesothalassa,40,64,8,8,28,,sky_oceanus.dat,,,
+zone032,1,75,,,30,Oceanus Boreal,40,56,8,8,28,,sky_oceanus.dat,,,
+zone033,1,76,,,30,Oceanus Notos,40,72,8,8,28,,sky_oceanus.dat,,,
+zone034,1,77,,,30,Oceanus Anatole,48,64,8,8,28,,sky_oceanus.dat,,,
+zone035,1,78,2,,35,Cetus' Pit,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone036,1,79,2,,36,Sobekite Eternal,1,1,8,8,,,sky_oceanus.dat,1,,
+zone037,1,80,2,,37,Temple of Twilight,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone038,1,81,,,30,Stygian Delta,36,48,8,8,38,,sky_stygia.dat,,,
+zone039,1,82,,,30,Land of Atum,28,48,8,8,38,,sky_stygia.dat,,,
+zone040,1,83,2,,40,Halls of Ma'ati,1,1,8,8,27,,sky_stygia.dat,1,68400,
+zone041,1,84,,,30,Typhon's Reach,56,64,8,8,37,,sky_volcanus.dat,,,
+zone042,1,85,,,30,Ashen Isles,64,64,8,8,37,,sky_volcanus.dat,,,
+zone043,1,86,,,30,Green Glades,44,80,8,8,38,,sky_aerus.dat,,,
+zone044,1,87,,,30,Arbor Glen,52,80,8,8,38,,sky_aerus.dat,,,
+zone045,1,88,2,,45,the Great Pyramid of Stygia,1,1,8,8,36,,sky_stygia.dat   ,,,
+zone046,1,89,2,,46,Deep Volcanus,1,1,8,8,26,,sky_volcanus.dat,1,43200,
+zone047,1,90,4,,47,City of Aerus,1,1,8,8,26,,sky_aeruscity.dat,1,,
+zone048,1,,2,,48,Dream,1,1,8,8,,,,,,3
+zone049,1,,2,,49,Marrach Briollag,1,1,8,8,,,,,,3
+zone050,1,,1,,50,Avalon City,1,1,8,8,2,,sky_avaloncity.dat,,,
+zone051,1,,0,,51,Isle of Glass,60,60,8,8,2,,,,,
+zone052,1,,0,,51,Avalon Isle,52,54,8,8,2,,sky_avalonisland.dat,,,
+zone053,1,,0,,51,Dales of Devwy,46,46,8,8,2,,,,,
+zone054,1,,0,,51,Caldey,38,44,8,8,2,,,,,
+zone055,1,,0,,51,Gwyddneau,36,52,8,8,2,,,,,
+zone056,1,,0,,51,Aldland,44,58,8,8,2,,,,,
+zone057,1,,0,,51,Inishail Island,28,52,8,8,2,,,,,
+zone058,1,,4,,58,Midgard's Underground Forest,1,1,8,8,,,sky_uforest.dat,,46800,3
+zone059,1,,2,,59,Albion's Glashtin Forges,1,1,8,8,,,,,,3
+zone060,1,,2,,60,Caer Sidi,1,1,8,8,,,,,,
+zone061,1,,2,,61,Krondon,1,1,8,8,,,,,,
+zone062,1,,2,,62,Crystal Cave,1,1,8,8,,,,,,
+zone063,1,,2,,63,Roman Aqueducts,1,1,8,8,,,,,,3
+zone064,1,,0,,2,Aylesbury,56,72,8,8,,,,,,
+zone065,1,,2,,65,Inconnu Crypt,1,1,8,8,,,,,,3
+zone066,1,,4,,66,Albion's Underground Forest,1,1,8,8,,,sky_uforest.dat,,46800,3
+zone067,1,,4,,67,The Deadlands of Annwn,1,1,8,8,,,sky_deadlands.dat,,21600,3
+zone068,1,,2,,68,Lower Crypt,1,1,8,8,,,,,,3
+zone069,1,,2,,69,Albion's Darkspire,1,1,8,8,,,,,,3
+zone070,1,,,,70,Ruins of Atlantis,64,64,8,8,20,,,,,
+zone071,1,,,,71,Ruinerar av Atlantis,64,64,8,8,7,,,,,
+zone072,1,,,,72,Scrios de Atlantis,64,64,8,8,34,,,,,
+zone073,1,,,,73,Oceanus Hesperos,32,64,8,8,28,,sky_oceanus.dat,,,
+zone074,1,,,,73,Mesothalassa,40,64,8,8,28,,sky_oceanus.dat,,,
+zone075,1,,,,73,Oceanus Boreal,40,56,8,8,28,,sky_oceanus.dat,,,
+zone076,1,,,,73,Oceanus Notos,40,72,8,8,28,,sky_oceanus.dat,,,
+zone077,1,,,,73,Oceanus Anatole,48,64,8,8,28,,sky_oceanus.dat,,,
+zone078,1,,2,,78,Cetus' Pit,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone079,1,,2,,79,Sobekite Eternal,1,1,8,8,,,sky_oceanus.dat,1,,
+zone080,1,,2,,80,Temple of Twilight,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone081,1,,,,73,Stygian Delta,36,48,8,8,38,70,sky_stygia.dat,,,
+zone082,1,,,,73,Land of Atum,28,48,8,8,38,70,sky_stygia.dat,,,
+zone083,1,,2,,83,Halls of Ma'ati,1,1,8,8,27,,sky_stygia.dat,1,68400,
+zone084,1,,,,73,Typhon's Reach,56,64,8,8,37,70,sky_volcanus.dat,,,
+zone085,1,,,,73,Ashen Isles,64,64,8,8,37,70,sky_volcanus.dat,,,
+zone086,1,,,,73,Green Glades,44,80,8,8,38,,sky_aerus.dat,,,
+zone087,1,,,,73,Arbor Glen,52,80,8,8,38,,sky_aerus.dat,,,
+zone088,1,,2,,88,the Great Pyramid of Stygia,1,1,8,8,36,,sky_stygia.dat,,,
+zone089,1,,2,,89,Deep Volcanus,1,1,8,8,26,,sky_volcanus.dat,1,43200,
+zone090,1,,4,,90,City of Aerus,1,1,8,8,26,,sky_aeruscity.dat,1,,
+zone091,1,,2,,91,Celestius,1,1,8,8,26,,,,,
+zone092,1,,2,,92,Veil Rift,1,1,8,8,,,sky_theveil.dat,,36000,3
+zone093,1,,2,,93,Shar Labyrinth,1,1,8,8,,,,,,3
+zone094,1,,2,,94,The Queen's Labyrinth,1,1,8,8,,,,,,3
+zone095,1,,4,,95,Hibernia's Frontlines,1,1,8,8,26,,sky_koboldfrontlines.dat,,54000,3
+zone096,1,,4,,96,Hibernia's Underground Forest,1,1,8,8,26,,sky_uforest.dat,,46800,3
+zone097,1,,4,,97,Hibernia's Deadlands,1,1,8,8,26,,sky_deadlands.dat,,21600,3
+zone098,1,,2,,98,Hibernia's Darkspire,1,1,8,8,,,,,,3
+zone099,1,,2,,99,Hibernia's Glashtin Forge,1,1,8,8,,,,,,3
+zone100,1,,0,,100,Vale of Mularn,92,82,8,8,3,,,,,
+zone101,1,,0,,100,East Svealand,88,90,8,8,3,,,,,
+zone102,1,,0,,100,West Svealand,80,90,8,8,3,,,,,
+zone103,1,,0,,100,Gotar,88,98,8,8,3,,,,,
+zone104,1,,0,,100,Muspelheim,100,78,8,8,3,,sky_muspelheim.dat,,,
+zone105,1,,0,,100,Myrkwood Forest,92,106,8,8,3,,,,,
+zone106,1,,0,,100,Skona Ravine,84,110,8,8,3,,,,,
+zone107,1,,0,,100,Vanern Swamp,76,106,8,8,3,,,,,
+zone108,1,,0,,100,Raumarik,72,90,8,8,3,33,,,,
+zone109,1,,4,,109,Albion's Frontlines,1,1,8,8,,,sky_koboldfrontlines.dat,,54000,3
+zone111,1,,0,,100,Uppland,88,74,8,8,3,30,,0,,
+zone112,1,,0,,100,Yggdra Forest,80,82,8,8,3,30,,0,,
+zone113,1,,0,,100,Jamtland Mountains,80,74,8,8,3,35,,0,,
+zone114,1,,0,,102,Erikstaad,64,64,8,8,3,30,,,,
+zone115,1,,0,,100,Odin's Gate,72,70,8,8,3,30,,0,,
+zone116,1,,0,,100,Malmohus,84,118,8,8,3,35,sky_malmohus.dat,,1,
+zone117,1,,0,,102,Arothi,64,56,8,8,,35,,,,
+zone118,1,,0,,102,Carlingford,72,64,8,8,3,30,,,,
+zone119,1,,0,,102,Wyndham,64,72,8,8,3,,,,,
+zone120,1,,1,,101,Jordheim,1,1,8,8,3,,,,,
+zone121,1,,0,,102,Frisia,72,72,8,8,,35,,,,
+zone122,1,,0,,102,Kaupang,72,56,8,8,,35,,,,
+zone123,1,,2,,123,Aphophian,1,1,8,8,26,,sky_volcanus.dat,,43200,
+zone124,1,,2,,124,Hephaestian,1,1,8,8,26,,sky_volcanus.dat,,43200,
+zone125,1,,2,,125,Spindelhalla,1,1,8,8,,,,,,
+zone126,1,,2,,126,Vendo Caverns,1,1,8,8,,,,,,
+zone127,1,,2,,127,Varulvhamn,1,1,8,8,,,,,,
+zone128,1,,2,,128,Cursed Tomb,1,1,8,8,,,,,,
+zone129,1,,2,,129,Nisse's Lair,1,1,8,8,,,,,,
+zone130,1,73,,,130,Oceanus Hesperos,32,64,8,8,28,,sky_oceanus.dat,,,
+zone131,1,74,,,130,Mesothalassa,40,64,8,8,28,,sky_oceanus.dat,,,
+zone132,1,75,,,130,Oceanus Boreal,40,56,8,8,28,,sky_oceanus.dat,,,
+zone133,1,76,,,130,Oceanus Notos,40,72,8,8,28,,sky_oceanus.dat,,,
+zone134,1,77,,,130,Oceanus Anatole,48,64,8,8,28,,sky_oceanus.dat,,,
+zone135,1,78,2,,135,Cetus' Pit,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone136,1,79,2,,136,Sobekite Eternal,1,1,8,8,,,sky_oceanus.dat,1,,
+zone137,1,80,2,,137,Temple of Twilight,1,1,8,8,35,,sky_oceanus.dat,1,,
+zone138,1,81,,,130,Stygian Delta,36,48,8,8,38,,sky_stygia.dat,,,
+zone139,1,82,,,130,Land of Atum,28,48,8,8,38,,sky_stygia.dat,,,
+zone140,1,83,2,,140,Halls of Ma'ati,1,1,8,8,27,,sky_stygia.dat,1,68400,
+zone141,1,84,,,130,Typhon's Reach,56,64,8,8,37,,sky_volcanus.dat,,,
+zone142,1,85,,,130,Ashen Isles,64,64,8,8,37,,sky_volcanus.dat,,,
+zone143,1,86,,,130,Green Glades,44,80,8,8,38,,sky_aerus.dat,,,
+zone144,1,87,,,130,Arbor Glen,52,80,8,8,38,,sky_aerus.dat,,,
+zone145,1,88,2,,145,the Great Pyramid of Stygia,1,1,8,8,36,,sky_stygia.dat    ,,,
+zone146,1,89,2,,146,Deep Volcanus,1,1,8,8,26,,sky_volcanus.dat,1,43200,
+zone147,1,90,4,,147,City of Aerus,1,1,8,8,26,,sky_aeruscity.dat,1,,
+zone148,1,,4,,148,The Frontlines,1,1,8,8,26,,sky_koboldfrontlines.dat,,54000,3
+zone149,1,,2,,149,Nyttheim,1,1,8,8,,,,,,3
+zone150,1,,2,,150,Trollheim,1,1,8,8,,,,,,
+zone151,1,,0,,151,Aegir's Landing,30,38,8,8,2,,,,,
+zone152,1,,0,,151,Gripklosa Mountains,34,30,8,8,2,30,,,,
+zone153,1,,0,,151,Delling Crater,42,32,8,8,2,33,,,,
+zone154,1,,0,,151,Faraheim,44,40,8,8,2,,,,,
+zone155,1,,0,,151,Munin Sound,36,46,8,8,2,,,,,
+zone156,1,,0,,151,Iarnwood,48,48,8,8,2,,,,,
+zone157,1,,0,,151,Dummy Zone,34,22,8,8,2,,,,,
+zone158,1,,0,,151,Modernagrav,52,40,8,8,2,,,,,
+zone160,1,,2,,160,Tuscaran Glacier,1,1,8,8,,30,,,,
+zone161,1,,2,,161,Iarnvidiur's Lair,1,1,8,8,,,,,,
+zone162,1,,4,,162,Midgard's Deadlands,1,1,8,8,6,,sky_deadlands.dat,,21600,3
+zone163,1,,0,1,163,Ellan Vannin,60,52,8,8,,,sky_ocean_frontier.dat,,,
+zone164,1,,0,1,163,Irish Sea,60,60,8,8,,,sky_ocean_frontier.dat,,,
+zone165,1,,0,1,165,Cathal Valley,64,64,8,8,,,,1,,
+zone167,1,,0,1,163,Odin's Gate,64,44,8,8,,30,sky_midgard_frontier.dat,,,
+zone168,1,,0,1,163,Jamtland Mountains,72,44,8,8,,30,sky_midgard_frontier.dat,,,
+zone169,1,,0,1,163,Yggdra Forest,80,44,8,8,,30,sky_midgard_frontier.dat,,,
+zone170,1,,0,1,163,Uppland,72,36,8,8,,30,sky_midgard_frontier.dat,,,
+zone171,1,,0,1,163,Emain Macha,52,60,8,8,,,sky_hibernia_frontier.dat,,,
+zone172,1,,0,1,163,Breifine,52,68,8,8,,,sky_hibernia_frontier.dat,,,
+zone173,1,,0,1,163,Cruachan Gorge,44,68,8,8,,,sky_hibernia_frontier.dat,,,
+zone174,1,,0,1,163,Mount Collory,52,76,8,8,,,sky_hibernia_frontier.dat,,,
+zone175,1,,0,1,163,Snowdonia,68,76,8,8,,,sky_albion_frontier.dat,,,
+zone176,1,,0,1,163,Forest Sauvage,76,68,8,8,,,sky_albion_frontier.dat,,,
+zone177,1,,0,1,163,Pennine Mountains,68,68,8,8,,,sky_albion_frontier.dat,,,
+zone178,1,,0,1,163,Hadrian's Wall,68,60,8,8,,,sky_albion_frontier.dat,,,
+zone179,1,,0,,3,Lyonesse,1,1,8,8,0,,sky_spiritWorld.dat,,23400,
+zone180,1,,2,,180,Fomor,1,1,8,8,,,,,,
+zone181,1,,0,,181,Domnann,48,48,8,8,2,,,,,
+zone182,1,,0,,181,Caillte Garran,40,44,8,8,2,,,,,
+zone183,1,,0,,181,Vale of Balor,32,40,8,8,2,,,,,
+zone184,1,,0,,181,Cothrom Gorge,34,32,8,8,2,,,,,
+zone185,1,,0,,181,World's End,42,28,8,8,2,,,,,
+zone186,1,,0,,181,Vigilant Rock,46,36,8,8,2,,,,,
+zone187,1,,0,,181,Allta Fearann,42,20,8,8,2,,,,,
+zone188,1,,2,,188,Midgard's Darkspire,1,1,8,8,,,,,,3
+zone189,1,,2,,189,Midgard's Glashtin Forges,1,1,8,8,,,,,,3
+zone190,1,,2,,190,Tur Suil,1,1,8,8,,,,,,
+zone191,1,,2,,191,Galladoria,1,1,8,8,,,,,,
+zone192,1,,2,,192,The High Consul's Sanctum,1,1,8,8,,,,,,5
+zone193,1,,2,,193,The High Consul's Sanctum,1,1,8,8,,,,,,5
+zone194,1,,2,,194,The High Consul's Sanctum,1,1,8,8,,,,,,5
+zone195,1,,4,,195,Midgard's Otherworld,1,1,8,8,26,,sky_otherworld.dat,,46800,3
+zone196,1,,4,,196,Albion's Otherworld,1,1,8,8,26,,sky_otherworld.dat,,46800,3
+zone197,1,,4,,197,The Otherworld,1,1,8,8,26,,sky_otherworld.dat,,46800,3
+zone198,1,,2,,198,Shaitan,1,1,8,8,26,,sky_volcanus.dat,,43200,
+zone199,1,,2,,199,Volurgon,1,1,8,8,26,,sky_volcanus.dat,,43200,
+zone200,1,,0,,200,Lough Derg,39,59,8,8,5,,,,,
+zone201,1,,0,,200,Silvermine Mts.,39,67,8,8,5,,,,,
+zone202,1,,0,,200,Shannon Estuary,35,75,8,8,5,,,,,
+zone203,1,,0,,200,Cliffs of Moher,27,51,8,8,5,,,,,
+zone204,1,,0,,200,Lough Gur,35,83,8,8,5,,,,,
+zone205,1,,0,,200,Bog of Cullen,43,87,8,8,5,,,,,
+zone206,1,,0,,200,Valley of Bri Leith,47,59,8,8,5,,,,,
+zone207,1,,0,,200,Connacht,35,51,8,8,5,,,,,
+zone208,1,,0,,200,Cursed Forest,55,59,8,8,5,,,,,
+zone209,1,,1,,201,Tir na Nog,1,1,8,8,5,70,,,,
+zone210,1,,0,,200,Mount Collory,47,51,8,8,5,,,0,,
+zone211,1,,0,,200,Cruachan Gorge,39,43,8,8,5,,,0,,
+zone212,1,,0,,200,Breifine,47,43,8,8,5,,,0,,
+zone213,1,,0,,202,Meath,64,64,8,8,,,,,,
+zone214,1,,0,,200,Emain Macha,51,35,8,8,5,,,0,,
+zone215,1,,0,,202,Dunshire,56,64,8,8,,,,,,
+zone216,1,,0,,200,Sheeroe Hills,43,79,8,8,5,70,sky_sheeroe.dat,,70200,
+zone217,1,,0,,202,Torrylin,64,72,8,8,,,,,,
+zone218,1,,0,,202,Kilcullen,72,64,8,8,,,,,,
+zone219,1,,0,,202,Saeranthal,56,72,8,8,,,,,,
+zone220,1,,2,,220,Coruscating Mine,1,1,8,8,,,,,,
+zone221,1,,2,,221,Muire Tomb,1,1,8,8,,,,,,
+zone222,1,,2,,222,Spraggon Den,1,1,8,8,,,,,,
+zone223,1,,2,,223,Koalinth Caverns,1,1,8,8,,,,,,
+zone224,1,,2,,224,Treibh Caillte,1,1,8,8,,,,,,
+zone225,1,,0,,202,Aberillan,72,72,8,8,,,,,,
+zone226,1,,2,,226,Midgard's Abandoned Mines,1,1,8,8,,,,,,3
+zone227,1,,2,,227,Albion's Abandoned Mines,1,1,8,8,,,,,,3
+zone228,1,,2,,228,Hibernia's Abandoned Mines,1,1,8,8,,,,,,3
+zone229,1,,2,,229,Burial Grounds,1,1,8,8,,,,,,3
+zone231,1,,0,1,231,ArtOutside,80,80,8,8,,,,,,
+zone232,1,,2,,232,ArtInside,1,1,8,8,,,,,,
+zone233,1,,2,,233,Summoner's Hall,1,1,8,8,,,,,,
+zone234,1,,0,1,234,The Proving Grounds,64,64,8,8,,,,,,
+zone235,1,,0,1,235,The Lion's Den,64,64,8,8,,,,,,
+zone236,1,,0,1,236,The Hills of Claret,64,64,8,8,,,,,,
+zone237,1,,0,1,237,Killaloe,64,64,8,8,,,,,,
+zone238,1,,0,1,238,Thidranki,64,64,8,8,,,,,,
+zone239,1,,0,1,239,Braemar,64,64,8,8,,,,,,
+zone240,1,,0,1,240,Wilton,64,64,8,8,,,,,,
+zone241,1,,0,1,241,Molvik,64,64,8,8,,,,,,
+zone242,1,,0,1,254,TestBG,64,64,8,8,,,,,,
+zone243,1,,2,,243,Kobold Undercity,1,1,8,8,,,,,,3
+zone244,1,,2,,244,Passage of Conflict,1,1,8,8,,,,,,
+zone245,1,,2,,245,The Labyrinth,1,1,8,8,,,sky_theveil.dat,1,36000,
+zone249,1,,2,,249,Darkness Falls,1,1,8,8,,,,,,
+zone250,1,,,,166,Caledonia,1,1,8,8,3,,,,,
+zone251,1,,,,167,Caledonia,1,1,8,8,3,,,,,
+zone252,1,,,,168,Caledonia,1,1,8,8,3,,,,,
+zone254,1,,0,1,242,Leirvik,32,32,8,8,,,,,,
+zone255,1,,0,,3,Camelot Hills 2,46,1,8,8,2,,sky_spiritWorld.dat,,23400,
+zone256,1,,2,,256,Forgotten Mines,1,1,8,8,,,,,,3
+zone257,1,,2,,257,Forgotten Mines,1,1,8,8,,,,,,3
+zone258,1,,2,,258,Forgotten Mines,1,1,8,8,,,,,,3
+zone259,1,,0,,3,Black Mtns. South,91,1,8,8,2,,sky_spiritWorld.dat,,23400,
+zone260,1,,0,,2,Chiltern,48,64,8,8,,,,,,
+zone261,1,,0,,2,Sherborne,48,72,8,8,,,,,,
+zone262,1,,0,,2,Stoneleigh,48,56,8,8,,,,,,
+zone263,1,,0,,3,Vanern Swamp,1,46,8,8,3,,sky_spiritWorld.dat,,23400,
+zone264,1,,0,,3,Vale of Mularn,46,46,8,8,3,,sky_spiritWorld.dat,,23400,
+zone265,1,,0,,3,Gotar,91,46,8,8,3,,sky_spiritWorld.dat,,23400,
+zone266,1,,0,,102,Holmestrand,80,64,8,8,,35,,,,
+zone267,1,,0,,102,Nittedal,80,72,8,8,,35,,,,
+zone268,1,,0,,102,Stavgaard,80,56,8,8,,35,,,,
+zone269,1,,0,,3,Bog of Cullen,1,91,8,8,5,,sky_spiritWorld.dat,,23400,
+zone270,1,,0,,3,Lough Derg,46,91,8,8,5,,sky_spiritWorld.dat,,23400,
+zone271,1,,0,,3,Silvermine Mts.,91,91,8,8,5,,sky_spiritWorld.dat,,23400,
+zone272,1,,0,,202,Tullamore,64,80,8,8,,,,,,
+zone273,1,,0,,202,Moycullen,56,80,8,8,,,,,,
+zone274,1,,0,,202,Broughshane,72,80,8,8,,,,,,
+zone275,1,,0,1,275,Manannan's Room,60,52,8,8,,,sky_ocean_frontier.dat,,,
+zone277,1,,2,,277,Frozen Cavern,1,1,8,8,,15,sky_malmohus.dat,,1,
+zone278,1,,2,,278,Damp Cavern,1,1,8,8,,,,,,3
+zone279,1,,2,,279,Damp Cavern,1,1,8,8,,,,,,3
+zone280,1,,2,,280,Damp Cavern,1,1,8,8,,,,,,3
+zone281,1,,2,,281,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone282,1,,2,,282,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone283,1,,2,,283,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone284,1,,2,,284,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone285,1,,2,,285,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone286,1,,2,,286,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone287,1,,2,,287,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone288,1,,2,,288,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone289,1,,2,,289,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone290,1,,2,,290,Underground Tunnel,1,1,8,8,,,,,,3
+zone291,1,,2,,291,Underground Tunnel,1,1,8,8,,,,,,3
+zone292,1,,2,,292,Underground Tunnel,1,1,8,8,,,,,,3
+zone293,1,,2,,293,Burial Tomb,1,1,8,8,,,,,,3
+zone294,1,,2,,294,Burial Tomb,1,1,8,8,,,,,,3
+zone295,1,,2,,295,Burial Tomb,1,1,8,8,,,,,,3
+zone296,1,,2,,296,Desecrated Grounds,1,1,8,8,,,,,,3
+zone297,1,,2,,297,Desecrated Grounds,1,1,8,8,,,,,,3
+zone298,1,,2,,298,Desecrated Grounds,1,1,8,8,,,,,,3
+zone300,1,,2,,300,Damp Cavern,1,1,8,8,,,,,,3
+zone301,1,,2,,301,Damp Cavern,1,1,8,8,,,,,,3
+zone302,1,,2,,302,Damp Cavern,1,1,8,8,,,,,,3
+zone303,1,,2,,303,Damp Cavern,1,1,8,8,,,,,,3
+zone304,1,,2,,304,Damp Cavern,1,1,8,8,,,,,,3
+zone305,1,,2,,305,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone306,1,,2,,306,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone307,1,,2,,307,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone308,1,,2,,308,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone309,1,,2,,309,Forgotten Sepulchre,1,1,8,8,,,,,,3
+zone310,1,,2,,310,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone311,1,,2,,311,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone312,1,,2,,312,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone313,1,,2,,313,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone314,1,,2,,314,Concealed Guardhouse,1,1,8,8,,,,,,3
+zone315,1,,2,,315,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone316,1,,2,,316,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone317,1,,2,,317,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone318,1,,2,,318,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone319,1,,2,,319,The Gossamer Grotto,1,1,8,8,,,,,,3
+zone320,1,,2,,320,Underground Tunnel,1,1,8,8,,,,,,3
+zone321,1,,2,,321,Underground Tunnel,1,1,8,8,,,,,,3
+zone322,1,,2,,322,Underground Tunnel,1,1,8,8,,,,,,3
+zone323,1,,2,,323,Underground Tunnel,1,1,8,8,,,,,,3
+zone324,1,,2,,324,Underground Tunnel,1,1,8,8,,,,,,3
+zone325,1,,2,,325,Forgotten Tunnels,1,1,8,8,,,,,,
+zone326,1,,2,,326,The Hidden Lair,1,1,8,8,,,,,,
+zone327,1,,2,,327,Caverns of Madness,1,1,8,8,,,,,,3
+zone328,1,,2,,328,The Hidden Lair,1,1,8,8,,,,,,
+zone329,1,,2,,329,Jarlsberg's Hideout,1,1,8,8,,,,,,3
+zone330,1,,0,,330,The Foothills of Albion,1,1,8,8,,,,,,
+zone331,1,,2,,331,Drakulvhamn Sanctum,1,1,8,8,,,,,,3
+zone332,1,,2,,332,Kingdom of the Sidhe,1,1,8,8,,,,,,3
+zone333,1,,2,,333,Battle Atop the Oseberg,1,1,8,8,,,,,,3
+zone334,1,,0,,334,The Foothills of Midgard,1,1,8,8,,35,,,,
+zone335,1,,0,,335,The Foothills of Hibernia,1,1,8,8,,,,,,
+zone336,1,,2,,336,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone337,1,,2,,337,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone338,1,,2,,338,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone339,1,,2,,339,Brimstone Caverns,1,1,8,8,,,,1,,
+zone340,1,,2,,340,Halls of Helgardh,1,1,8,8,,,,1,,
+zone341,1,,2,,341,Cave of Cruachan,1,1,8,8,,,,1,,
+zone342,1,,2,,342,Mid Launch 2,1,1,8,8,,,,,,3
+zone343,1,,2,,343,Alb Launch 2,1,1,8,8,,,,,,3
+zone344,1,,2,,344,Hib Launch 2,1,1,8,8,,,,,,3
+zone345,1,,2,,345,Tomte Prison,1,1,8,8,,,,,,3
+zone346,1,,2,,346,Nisse's Retreat,1,1,8,8,,,,,,3
+zone347,1,,4,,347,Lair of the Demon Lord,1,1,8,8,,,sky_theveil.dat,,36000,
+zone348,1,,2,,348,The Baron's Gaol,1,1,8,8,,,,1,,
+zone349,1,,2,,349,Lios's Eternal Rest,1,1,8,8,,,,,,3
+zone350,1,,2,,350,Liche's Unrest,1,1,8,8,,,,,,3
+zone351,1,,2,,351,Nephraals Gaol,1,1,8,8,,,,1,,
+zone352,1,,2,,352,Morfesas Gaol,1,1,8,8,,,,1,,
+zone353,1,,2,,353,Den of Bones,1,1,8,8,,,,,,3
+zone354,1,,2,,354,The Lost Burrow,1,1,8,8,,,,,,3
+zone355,1,,2,,355,Tethra's Stronghold,1,1,8,8,,,,,,
+zone356,1,,2,,356,Barrow of the Restless Dead,1,1,8,8,,,,,,
+zone357,1,,2,,357,The Cursed Lair,1,1,8,8,,,,,,3
+zone358,1,,2,,358,Drakulvhamn,1,1,8,8,,,,,,3
+zone359,1,,2,,359,Red Dagger Hideout,1,1,8,8,,,,,,
+zone360,1,,2,,360,Eirik's Throne Room,1,1,8,8,,,,1,,
+zone361,1,,2,,361,Arachnid's Labyrinth,1,1,8,8,,,,,,3
+zone362,1,,2,,362,The Master's Lair,1,1,8,8,,,,,,3
+zone363,1,,2,,363,Anataeus' Sanctuary,1,1,8,8,,,,,,
+zone364,1,,2,,364,Keeper Iraeda's Sanctuary,1,1,8,8,,,,,,
+zone365,1,,2,,365,Bandit Lair,1,1,8,8,,,,,,3
+zone366,1,,2,,366,Gnoll Lair,1,1,8,8,,,,,,3
+zone367,1,,2,,367,Vandr's Bane,1,1,8,8,,,,,,3
+zone368,1,,2,,368,Past and Present,1,1,8,8,,,,,,3
+zone369,1,,2,,369,Half-Orc Camp,1,1,8,8,,,,,,3
+zone370,1,,2,,370,Brutal Realization,1,1,8,8,,,,,,3
+zone371,1,,2,,371,History Repeats Itself,1,1,8,8,,,,,,3
+zone372,1,,2,,372,Hallowed Ruins,1,1,8,8,,,,,,3
+zone373,1,,2,,373,Passage of Echoes,1,1,8,8,,,,,,3
+zone374,1,,2,,374,Childe's Tomb,1,1,8,8,,,,,,3
+zone375,1,,2,,375,Lost Passages,1,1,8,8,,,,,,3
+zone376,1,,2,,376,Goblin's Cookery,1,1,8,8,,,,,,3
+zone377,1,,2,,377,The Beastmaster's Den,1,1,8,8,,,,,,3
+zone378,1,,2,,378,Keeper Garran's Sanctuary,1,1,8,8,,,,,,
+zone379,1,,2,,379,The Funerary Hall,1,1,8,8,,,,,,3
+zone380,1,,2,,380,Lair of Doom,1,1,8,8,,,,,,3
+zone381,1,,2,,381,The Arena,1,1,8,8,,,,,,3
+zone382,1,,2,,382,The Funerary Hall,1,1,8,8,,,,,,3
+zone383,1,,2,,383,The Funerary Hall,1,1,8,8,,,,,,3
+zone384,1,,2,,384,The Ritual Hall,1,1,8,8,,,,,,3
+zone385,1,,2,,385,The Betrayer's Den,1,1,8,8,,,,,,3
+zone386,1,,2,,386,the Sundered Tombs,1,1,8,8,,,,,,3
+zone387,1,,2,,387,the Sundered Tombs,1,1,8,8,,,,,,3
+zone388,1,,2,,388,the Sundered Tombs,1,1,8,8,,,,,,3
+zone389,1,,2,,389,Halls of Flame,1,1,8,8,,,,,,3
+zone390,1,,2,,390,Granite Halls,1,1,8,8,,,,,,3
+zone391,1,,2,,391,Arcane Tower,1,1,8,8,,,,,,5
+zone392,1,,2,,392,The Hall of Reawakening,1,1,8,8,,,,,,3
+zone393,1,,2,,393,The Hidden Crypt,1,1,8,8,,,,,,3
+zone394,1,,2,,394,Constantine's Throne Room,1,1,8,8,,,,1,,
+zone395,1,,2,,395,Lamfhotas' Throne Room,1,1,8,8,,,,1,,
+zone396,1,,2,,396,Depths of Despair,1,1,8,8,,,,,,3
+zone397,1,,2,,397,Childe's Vault,1,1,8,8,,,,,,3
+zone398,1,,2,,398,Arcane Tower,1,1,8,8,,,,,,5
+zone399,1,,2,,399,Arcane Tower,1,1,8,8,,,,,,5
+zone400,1,,2,,400,Burial Tomb,1,1,8,8,,,,,,3
+zone401,1,,2,,401,Burial Tomb,1,1,8,8,,,,,,3
+zone402,1,,2,,402,Burial Tomb,1,1,8,8,,,,,,3
+zone403,1,,2,,403,Burial Tomb,1,1,8,8,,,,,,3
+zone404,1,,2,,404,Burial Tomb,1,1,8,8,,,,,,3
+zone405,1,,2,,405,Desecrated Grounds,1,1,8,8,,,,,,3
+zone406,1,,2,,406,Desecrated Grounds,1,1,8,8,,,,,,3
+zone407,1,,2,,407,Desecrated Grounds,1,1,8,8,,,,,,3
+zone408,1,,2,,408,Desecrated Grounds,1,1,8,8,,,,,,3
+zone409,1,,2,,409,Desecrated Grounds,1,1,8,8,,,,,,3
+zone410,1,,2,,410,Forgotten Mines,1,1,8,8,,,,,,3
+zone411,1,,2,,411,Forgotten Mines,1,1,8,8,,,,,,3
+zone412,1,,2,,412,Forgotten Mines,1,1,8,8,,,,,,3
+zone413,1,,2,,413,Forgotten Mines,1,1,8,8,,,,,,3
+zone414,1,,2,,414,Forgotten Mines,1,1,8,8,,,,,,3
+zone415,1,,2,,415,The Funerary Hall,1,1,8,8,,,,,,3
+zone416,1,,2,,416,The Funerary Hall,1,1,8,8,,,,,,3
+zone417,1,,2,,417,The Funerary Hall,1,1,8,8,,,,,,3
+zone418,1,,2,,418,The Funerary Hall,1,1,8,8,,,,,,3
+zone419,1,,2,,419,The Funerary Hall,1,1,8,8,,,,,,3
+zone420,1,,2,,420,the Sundered Tombs,1,1,8,8,,,,,,3
+zone421,1,,2,,421,Dream,1,1,8,8,,,,,,3
+zone422,1,,2,,422,the Sundered Tombs,1,1,8,8,,,,,,3
+zone423,1,,2,,423,Dream,1,1,8,8,,,,,,
+zone424,1,,2,,424,Dream,1,1,8,8,,,,,,3
+zone425,1,,2,,425,The Lost Wing,1,1,8,8,,,,,,3
+zone426,1,,2,,426,Deliah's Sanctuary,1,1,8,8,,,,,,3
+zone427,1,,2,,427,The Cursed Barrow,1,1,8,8,,,,,,3
+zone428,1,,2,,428,The Cursed Barrow,1,1,8,8,,,,,,3
+zone429,1,,2,,429,Snyblem's Lair,1,1,8,8,,,,,,3
+zone430,1,,2,,430,the Plutonian Shore,1,1,8,8,,,,,,3
+zone431,1,,2,,431,The Cursed Barrow,1,1,8,8,,,,,,3
+zone432,1,,2,,432,Dismal Grotto,1,1,8,8,,,,,,3
+zone433,1,,2,,433,Snarg's Grotto,1,1,8,8,,,,,,3
+zone434,1,,2,,434,Maze of Tribulation,1,1,8,8,,,,,,3
+zone435,1,,2,,435,The Smelting Pot,1,1,8,8,,,,,,3
+zone436,1,,2,,436,Forges of Flame,1,1,8,8,,,,,,3
+zone437,1,,2,,437,Hammer Hugak's Smithy,1,1,8,8,,,,,,3
+zone438,1,,2,,438,the Goblin Workshop,1,1,8,8,,,,,,3
+zone439,1,,2,,439,Wolak's Crucible,1,1,8,8,,,,,,3
+zone440,1,,2,,440,Marik's Workroom,1,1,8,8,,,,,,3
+zone441,1,,2,,441,Dismal Grotto,1,1,8,8,,,,,,3
+zone442,1,,2,,442,The Steward's Crypt,1,1,8,8,,,,,,3
+zone443,1,,2,,443,Serf's Folly,1,1,8,8,,,,,,3
+zone444,1,,2,,444,Dream,1,1,8,8,,,,,,3
+zone445,1,,2,,445,Dream,1,1,8,8,,,,,,3
+zone446,1,,4,,446,A Rift,1,1,8,8,,,sky_theveil.dat,,36000,3
+zone447,1,,4,,447,The Inner Veil,1,1,8,8,,,sky_theveil.dat,,36000,3
+zone448,1,,2,,448,Dark Cavern,1,1,8,8,,,,,,3
+zone449,1,,2,,449,Dark Cavern,1,1,8,8,,,,,,3
+zone450,1,,2,,450,The Cursed Barrow,1,1,8,8,,,,,,3
+zone451,1,,2,,451,The Cursed Barrow,1,1,8,8,,,,,,3
+zone452,1,,2,,452,The Cursed Barrow,1,1,8,8,,,,,,3
+zone453,1,,2,,453,The Cursed Barrow,1,1,8,8,,,,,,3
+zone454,1,,2,,454,The Cursed Barrow,1,1,8,8,,,,,,3
+zone455,1,,2,,455,Dismal Grotto,1,1,8,8,,,,,,3
+zone456,1,,2,,456,Dismal Grotto,1,1,8,8,,,,,,3
+zone457,1,,2,,457,Dismal Grotto,1,1,8,8,,,,,,3
+zone458,1,,2,,458,Dismal Grotto,1,1,8,8,,,,,,3
+zone459,1,,2,,459,Dismal Grotto,1,1,8,8,,,,,,3
+zone460,1,,2,,460,The Accursed Caves,1,1,8,8,,,,,,3
+zone461,1,,2,,461,The Accursed Caves,1,1,8,8,,,,,,3
+zone462,1,,2,,462,The Accursed Caves,1,1,8,8,,,,,,3
+zone463,1,,2,,463,The Accursed Caves,1,1,8,8,,,,,,3
+zone464,1,,2,,464,The Accursed Caves,1,1,8,8,,,,,,3
+zone465,1,,2,,465,Dark Cavern,1,1,8,8,,,,,,3
+zone466,1,,2,,466,Dark Cavern,1,1,8,8,,,,,,3
+zone467,1,,2,,467,Dark Cavern,1,1,8,8,,,,,,3
+zone468,1,,2,,468,Dark Cavern,1,1,8,8,,,,,,3
+zone469,1,,2,,469,Dark Cavern,1,1,8,8,,,,,,3
+zone470,1,,2,,470,Half Orc Command Post,1,1,8,8,,,,,,3
+zone471,1,,2,,471,Unused Mine,1,1,8,8,,,,,,3
+zone472,1,,2,,472,Unused Mine,1,1,8,8,,,,,,3
+zone473,1,,2,,473,Unused Mine,1,1,8,8,,,,,,3
+zone474,1,,2,,474,Unused Mine,1,1,8,8,,,,,,3
+zone475,1,,2,,475,Rise of the Spraggons,1,1,8,8,,,,,,3
+zone476,1,,2,,476,The Warrens,1,1,8,8,,,,,,3
+zone477,1,,2,,477,The Accursed Caves,1,1,8,8,,,,,,3
+zone478,1,,2,,478,The Accursed Caves,1,1,8,8,,,,,,3
+zone479,1,,2,,479,The Ancient's Retreat,1,1,8,8,,,,,,3
+zone480,1,,2,,480,The Shaman's Inner Sanctum,1,1,8,8,,,,,,3
+zone481,1,,2,,481,The Accursed Caves,1,1,8,8,,,,,,3
+zone482,1,,2,,482,Unused Mine,1,1,8,8,,,,,,3
+zone483,1,,2,,483,The Brawler's Den,1,1,8,8,,,,,,3
+zone484,1,,2,,484,Felena's Sorrow,1,1,8,8,,,,,,3
+zone485,1,,2,,485,Dream,1,1,8,8,,,,,,3
+zone486,1,,4,,486,Dream,1,1,8,8,,,,,,3
+zone487,1,,2,,487,The Pit of Despair,1,1,8,8,,,,,,3
+zone488,1,,2,,488,The Forgotten Vein,1,1,8,8,,,,,,3
+zone489,1,,2,,489,Demons' Breach,1,1,8,8,,,,,,
+zone491,1,,2,,491,Maze of Madness,1,1,8,8,,,,,,3
+zone492,1,,2,,492,the Shattered Lands,1,1,8,8,,,,,,3
+zone494,1,,2,,494,Heart of Darkness,1,1,8,8,,,,,,3
+zone495,1,,2,,495,Inner Sanctum,1,1,8,8,,,,,,3
+zone496,1,,2,,496,the Deep,1,1,8,8,,,,,,3
+zone497,1,,2,,497,Mid Launch,1,1,8,8,,,,,,3
+zone498,1,,2,,498,Alb Launch,1,1,8,8,,,,,,3
+zone499,1,,2,,499,Hib Launch,1,1,8,8,,,,,,3

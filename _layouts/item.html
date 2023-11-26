@@ -1,0 +1,28 @@
+---
+title: {{page.title}}
+nav_exclude: true
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+
+<table>
+  <tr>
+    <th align="left">Model Id</th>
+    <th align="left">Name</th> 
+    <th align="left">NIF</th>
+    <th align="left">Icon</th>
+  </tr>
+  <tr>
+    <td>{{page.ID}}</td>
+    <td>{{page.ObjectName}}</td> 
+    <td>{{page.NIF}}</td>
+    <td>{{page.Icon}}</td>
+  </tr>
+</table>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Eve-of-Darkness/DolModels/master/src/items/{{page.ID}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';">
+

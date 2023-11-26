@@ -1,0 +1,13 @@
+---
+title: Monsters Anims Library
+layout: default
+nav_exclude: true
+---
+<h1>Monsters Anims</h1>
+
+<ul>
+{% for anim in site.data.anims_enhanced %}
+  <li><a href="{{ anim.ID | datapage_url: 'anims' }}">{{anims.ID}}</a></li>
+{% endfor %}
+</ul>
+

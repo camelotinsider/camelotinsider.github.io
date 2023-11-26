@@ -1,0 +1,31 @@
+---
+title: {{page.title}}
+nav_exclude: true
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+
+<table>
+  <tr>
+    <th align="left">Zone</th>
+    <th align="left">Name</th> 
+    <th align="left">Region</th>
+    <th align="left">Reg. offset X</th>
+    <th align="left">Reg. offset Y</th>
+  </tr>
+  <tr>
+    <td>{{page.ID}}</td>
+    <td>{{page.zonename}}</td> 
+    <td>{{page.region}}</td>
+    <td>{{page.region_offset_x}}</td>
+    <td>{{page.region_offset_y}}</td>
+  </tr>
+</table>
+
+<br>
+
+<center>Click on image for interactive map</center><br>
+
+<a href="/map.html?zone={{page.ID}}&title={{page.zonename}}"><img src="/assets/zones/{{page.ID}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';"></a>

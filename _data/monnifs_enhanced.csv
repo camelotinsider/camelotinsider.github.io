@@ -1,0 +1,905 @@
+ID,TextualName,NIF,Anim
+88,Albion Stone Minotaur,mino,357
+89,Albion Shade Minotaur,mino,357
+90,Albion Mummy Minotaur,mino,357
+91,Midgard Stone Minotaur,mino,357
+92,Midgard Shade Minotaur,mino,357
+93,Midgard Mummy Minotaur,mino,357
+94,Hibernian Stone Minotaur,mino,357
+95,Hibernian Shade Minotaur,mino,357
+96,Hibernian Mummy Minotaur,mino,357
+97,Cata Inconnu Stone Female,inc_f,256
+98,Cata Inconnu Shade Female,inc_f,256
+99,Cata Inconnu Mummy  Female,inc_f,256
+100,Cata Inconnu Stone Male,inc_m,255
+101,Cata Inconnu Shade Male,inc_m,255
+102,Cata Inconnu Mummy  Male,inc_m,255
+103,Cata Briton Stone Male,bri_m,233
+104,Cata Briton Shade Male,bri_m,233
+105,Cata Briton Mummy  Male,bri_m,233
+106,Cata Briton Stone Female,bri_f,234
+107,Cata Briton Shade Female,bri_f,234
+108,Cata Briton Mummy  Female,bri_f,234
+109,Cata Avalonian Stone Male,ava_m,241
+110,Cata Avalonian Shade Male,ava_m,241
+111,Cata Avalonian Mummy Male,ava_m,241
+112,Cata Avalonian Stone Female,ava_f,242
+113,Cata Avalonian Shade Female,ava_f,242
+114,Cata Avalonian Mummy Female,ava_f,242
+115,Cata Highlander Stone Male,hig_m,245
+116,Cata Highlander Shade Male,hig_m,245
+117,Cata Highlander Mummy Male,hig_m,245
+118,Cata Highlander Stone Female,hig_f,246
+119,Cata Highlander Shade Female,hig_f,246
+120,Cata Highlander Mummy Female,hig_f,246
+121,Cata Half Ogre Stone Male,hal_m,257
+122,Cata Half Ogre Shade Male,hal_m,257
+123,Cata Half Ogre Mummy Male,hal_m,257
+124,Cata Half Ogre Stone Female,hal_f,258
+125,Cata Half Ogre Shade Female,hal_f,258
+126,Cata Half Ogre Mummy Female,hal_f,258
+127,Cata Saracen Stone Male,sar_m,235
+128,Cata Saracen Shade Male,sar_m,235
+129,Cata Saracen Mummy Male,sar_m,235
+130,Cata Saracen Stone Female,sar_f,236
+131,Cata Saracen Shade Female,sar_f,236
+132,Cata Saracen Mummy Female,sar_f,236
+133,Cata Celt Stone Male,cel_m,265
+134,Cata Celt Shade Male,cel_m,265
+135,Cata Celt Mummy Male,cel_m,265
+136,Cata Celt Stone Female,cel_f,266
+137,Cata Celt Shade Female,cel_f,266
+138,Cata Celt Mummy Female,cel_f,266
+139,Cata Sylvan Stone Male,syl_m,267
+140,Cata Sylvan Shade Male,syl_m,267
+141,Cata Sylvan Mummy Male,syl_m,267
+142,Cata Sylvan Stone Female,syl_f,268
+143,Cata Sylvan Shade Female,syl_f,268
+144,Cata Sylvan Mummy Female,syl_f,268
+145,Cata Shar Stone Male,sha_m,239
+146,Cata Shar Shade Male,sha_m,239
+147,Cata Shar Mummy Male,sha_m,239
+148,Cata Shar Stone Female,sha_f,240
+149,Cata Shar Shade Female,sha_f,240
+150,Cata Shar Mummy Female,sha_f,240
+151,Cata Elf Stone Male,elf_m,243
+152,Cata Elf Shade Male,elf_m,243
+153,Cata Elf Mummy Male,elf_m,243
+154,Cata Elf Stone Female,elf_f,244
+155,Cata Elf Shade Female,elf_f,244
+156,Cata Elf Mummy Female,elf_f,244
+157,Cata Lurikeen Stone Male,lur_m,249
+158,Cata Lurikeen Shade Male,lur_m,249
+159,Cata Lurikeen Mummy Male,lur_m,249
+160,Cata Lurikeen Stone Female,lur_f,250
+161,Cata Lurikeen Shade Female,lur_f,250
+162,Cata Lurikeen Mummy Female,lur_f,250
+163,Cata Firbolg Stone Male,fir_m,261
+164,Cata Firbolg Shade Male,fir_m,261
+165,Cata Firbolg MummyMale,fir_m,261
+166,Cata Firbolg Stone Female,fir_f,262
+167,Cata Firbolg Shade  Female,fir_f,262
+168,Cata Firbolg Mummy Female,fir_f,262
+169,Cata Valkyn Stone Male,val_m,259
+170,Cata Valkyn Shade Male,val_m,259
+171,Cata Valkyn Mummy Male,val_m,259
+172,Cata Valkyn Stone Female,val_f,260
+173,Cata Valkyn Shade Female,val_f,260
+174,Cata Valkyn Mummy Female,val_f,260
+175,Cata Frostalf Stone Male,fro_m,237
+176,Cata Frostalf Shade Male,fro_m,237
+177,Cata Frostalf Mummy Male,fro_m,237
+178,Cata Frostalf Stone Female,fro_f,238
+179,Cata Frostalf Shade Female,fro_f,238
+180,Cata Frostalf Mummy Female,fro_f,238
+181,Cata Norse Stone Male,nor_m,247
+182,Cata Norse Shade Male,nor_m,247
+183,Cata Norse Mummy Male,nor_m,247
+184,Cata Norse Stone Female,nor_f,248
+185,Cata Norse Shade Female,nor_f,248
+186,Cata Norse Mummy Female,nor_f,248
+187,Cata Kobold Stone Male,kob_m,251
+188,Cata Kobold Shade Male,kob_m,251
+189,Cata Kobold Mummy Male,kob_m,251
+190,Cata Kobold Stone Female,kob_f,252
+191,Cata Kobold Shade Female,kob_f,252
+192,Cata Kobold Mummy Female,kob_f,252
+193,Cata Dwarf Stone Male,dwa_m,253
+194,Cata Dwarf Shade Male,dwa_m,253
+195,Cata Dwarf  Mummy Male,dwa_m,253
+196,Cata Dwarf Stone Female,dwa_f,254
+197,Cata Dwarf Shade Female,dwa_f,254
+198,Cata Dwarf Mummy Female,dwa_f,254
+199,Cata Troll Stone Male,tro_m,263
+200,Cata Troll Shade Male,tro_m,263
+201,Cata Troll Mummy  Male,tro_m,263
+202,Cata Troll Stone Female,tro_f,264
+203,Cata Troll Shade Female,tro_f,264
+204,Cata Troll Mummy Female,tro_f,264
+205,Demon,dem,3
+206,Briton Male,bcommonm,2
+207,Skeleton,skel01,4
+208,Snake,snake,5
+209,Briton Female,bcommonf,6
+210,Highlander Male,bhilandm,2
+211,Highlander Female,bhilandf,6
+212,Wolf,wolf,7
+213,Saracen Male,bsaracenm,2
+214,Saracen Female,bsaracenf,6
+215,Goblin,goblin,8
+216,Spider,spider,9
+217,Avalonian Male,bavalonm,2
+218,Avalonian Female,bavalonf,6
+219,Bear,bear,10
+220,Fellwood,fellwood,11
+221,Boar,boar,12
+222,Lion,lion,13
+223,Lizard,lizard,14
+224,Roman Skeleton,romandead1,69
+225,Roman Robed Skeleton,romandead2,69
+226,Zombie,zombie,15
+227,Brownie,brownie,16
+228,Troglodyte,troglo,16
+229,Rock Creature,rock,17
+230,Ant,ant,18
+231,Frog,frog,19
+232,Giant,giant,20
+233,worm,worm,21
+234,Lynx,lynx,13
+235,Huldu,huldu,16
+236,Sprite,sprite,23
+237,Male Troll,ntrollm,24
+238,Female Troll,ntrollf,25
+239,Male Norse,nvikingm,28
+240,Female Norse,nvikingf,29
+241,Male Kobold,nkoboldm,26
+242,Female Kobold,nkoboldf,27
+243,Male Dwarf,ndwarfm,40
+244,Female Dwarf,ndwarff,191
+245,Cabalist Pet,cabalpet,20
+246,Goblin 2,goblin2,30
+247,hobgoblin,hobgoblin,30
+248,vendo,vendo,31
+249,werewolf,ww,32
+250,Hibernian Celt Male,hceltm,48
+251,Hibernian Celt Female,hceltf,49
+252,Hibernian Elf male,helfm,48
+253,Hibernian Elf Female,helff,49
+254,Hibernian Firbolg Male,hfirbolgm,35
+255,Hibernian Firbolg Female,hfirbolgf,36
+256,Hibernian Lurikeen male,hlurikeenm,33
+257,Hibernian Lurikeen Female,hlurikeenf,34
+258,Ettin,ettin,37
+259,Ogre,ogre,39
+260,arachite 1,arachite01,38
+261,arachite 2,arachite02,38
+262,Horse,horse01,41
+263,Scrag,scrag,42
+264,Red CSR,csrred,0
+265,Yellow CSR,csryellow,0
+266,Green CSR,csrgreen,0
+267,Blue CSR,csrblue,0
+268,Bandit 1,b_band01,22
+269,Bandit 2,b_band02,22
+270,Bandit leader 1,b_bandlead01,22
+271,bandit leader 2,b_bandlead02,22
+272,Standard female bandit,b_band01f,50
+273,Standard female bandit 2,b_band02f,50
+274,female bandit leader 1,b_band03f,50
+275,female bandit leader 2,b_band04f,50
+276,Wight,wight,43
+277,Lich,lich,44
+278,Undead male troll,n_trollmon01,45
+279,Undead male Elf,h_elfmon01,46
+280,undead female elf,h_elfmon01f,46
+281,undead male avalonian,b_avmon01,45
+282,undead female avalonian,b_avmon01f,46
+283,Cockatrice,cockatrice,47
+284,Basilisk,basilisk,47
+285,Unicorn,unicorn,41
+286,Crab,crab,51
+287,Scorpion,scorp,52
+288,Rat,rat,53
+289,Badger,badger,54
+290,Vendo Man,vendo_man,24
+291,Stag Man,stag_man,35
+292,Giant Mite,giantmite,55
+293,Weird Land Creature,land2legs,55
+294,weird sea creature,sea2legs,56
+295,pixie,pixie,57
+296,dragon,dragon01,58
+297,Demon,demon,59
+298,Imp,imp,60
+299,Afanc,afanc,61
+300,Baby Afanc,afancb,61
+301,Ogre Boss,ogre2,39
+302,Wolf Dragon,wlfdragon01,58
+303,Stone Dragon,stonedragon,58
+304,Zombie Dragon,glimmerdragon,58
+305,Dragowolf,dragwolf,7
+306,Svartalf,svartalfm,48
+307,glimmer knight,glimmerknight,62
+308,glimmer spellcaster,glimmercaster,63
+309,glimmer ghoul,glimmerghoul,62
+310,Skinny Giant,giant2,64
+311,Female Svartalf,svartalfF,49
+312,Legion (Soul Keeper),soulkeeper,65
+313,3 Headed Demon,3head,66
+314,Hag,hag,67
+315,Succubus,succubus,68
+316,Wolf 2,wolf2,7
+317,Handsome knight,knight_cloak,2
+318,Demon Knight,demon_knight,69
+319,Wraith,wraith,70
+320,Hulker,hulker,71
+321,Locust Head,locust,72
+322,Invisible Warrior,Invisible,2
+323,Beetle,Beetle,74
+324,Gnome,Gnome,75
+325,Zombie Male Firbolg,HFirbolgMonM,35
+326,Zombie Female Firbolg,HFirbolgMonF,36
+327,Zombie Female Kobold,NKoboldMonF,27
+328,Zombie Male Kobold,NKoboldMonM,26
+329,Praying Mantis,Pmantis,80
+330,Primitive,Primitive,81
+331,Two  Headed Wolf ,2Hwolf,82
+332,Sabertooth,SaberT,83
+333,Gryphon,Gryphon,84
+334,Gryphon 2,Gryphon_wingless,85
+335,Cniogcrag,CNI,91
+336,Megalocerous,Mega,92
+337,Shriller,Shriller,86
+338,Amphitere,Amphitere,87
+339,Wooly Serpent,WoolyS,88
+340,Twisted Sylvan,tsylvan,89
+341,Formorian,Fomor1,90
+342,Legless Zombie,zombie_legless,73
+343,Formorian ,Fomor1,90
+346,Sylvan Male,HSylvanM_2,76
+347,Sylvan Female,HSylvanF_2,77
+348,Inconnu Male,BInconnuM_2,78
+349,Inconnu Female,BInconnuF_2,79
+350,Formorian with weapon,Fomor1,93
+351,Valkyn Male,NValkynM_2,96
+352,Valkyn Female,NValkynF_2,97
+353,Gryphon,Gryphon,94
+354,Orc,Orc,98
+355,Urchin,Urchin,99
+356,Manta,Manta,100
+357,Shrouder,Shrouder,101
+358,Botonid,Botonid,102
+359,Dragon Fly,Dfly,103
+360,Mushroom,Mushroom,104
+361,Red Cap Gnome,Gnome_redcap,105
+362,Guag,Guargaran,106
+363,Cicada,Cicada,107
+364,Formorian 02,Fomor2,108
+365,Formorian 03,Fomor3,109
+366,Formorian 04,Fomor4,110
+367,Mammoth,Mammoth,111
+368,Lamia,Lamia,112
+369,Necromancer Shade,Necroshade,113
+370,Fomorian Boss,BossF,114
+371,Clock Work Troll,CWTroll,115
+372,Slug,Slug,116
+373,Rencan,Rencan,117
+374,Tree Dervish,TreeD,118
+375,Larnvidur,Larnvidur,119
+376,Terror Bird,Terrorbird,120
+377,Clock Work Human,CWHuman,121
+378,Arbordon,Arbordon,122
+379,Anglich,Anglich,123
+380,2 Headed Dragon,2HDragon,124
+381,Ogress,Ogress,125
+382,Root Monster,Root,126
+383,Hydra,Hydra,127
+384,Sea Elf/Wood Elf Male,H_ElfMon01,48
+385,Sea Elf/Wood Elf Female,H_ElfMon01F,49
+386,Morvalt Female,NMorvaltF,97
+387,Morvalt Male,NMorvaltM,96
+388,Drak High Boss W/Wings,Drakwing,128
+389,Drak Low Boss w/o Wings,Drakwingless,128
+390,Drak Brute Squad,Drakwarrior,128
+391,Yale,Yale,92
+392,Dilophasaur ,Dilo,129
+393,Seadog,Seadog,83
+394,Griffman,Griffman,140
+395,Ghost,Ghost,130
+396,Vinemass,Vinemass,104
+397,Octonid,Octonid,133
+398,Stilter,Stilter,134
+399,Corpse Light Node,CorpseLightNode,0
+400,Sporite,Sporite,131
+401,Beckoner,Beckoner,139
+402,Fengundar,fengundar,138
+403,Skeleton With Guts,Skel02_guts,4
+404,Bug Bear,Bugbear,118
+405,Frost Giant,FrostGiant,135
+406,Thrawn Ogre,thrawnogre,137
+407,New Skeleton,skel02,166
+408,Corpse,corpse,45
+409,Headless Corpse,corpse_headless,45
+410,Crawling Zombie,corpse_half,136
+411,Armored Skeleton,Skel_armor,145
+412,Grazer,Grazer,141
+413,Ice Queen,Ice_Queen,142
+414,Treant,Treant,146
+415,Red Cap NO WEAP,Gnome_redcap,143
+416,Undead Elk,Mega,92
+417,Animus Giant,Arbordon,144
+418,Rock Golem,golem_rock,115
+419,Bone Dancer Pet,bonedancerpet,69
+420,Briton Male,bcommonm,147
+421,Briton Female,bcommonf,148
+422,Hibernian Celt Male,hceltm,147
+423,Hibernian Celt Female,hceltf,148
+424,Male Norse,nvikingm,147
+425,Female Norse,nvikingf,148
+426,Barracuda,barracuda,149
+427,Dread Shark,Dredshark,150
+428,Octopussy,Octopus,151
+429,Shark,shark,152
+430,Hammerhead,shark_hammerhead,153
+431,Cetus,Cetus,154
+432,Sting Ray,StingrayA,155
+433,Triton,Triton,156
+434,Nereid,Nereid,157
+435,Triton Lt,Triton_Lt,156
+436,Nereid Lt,Nereid_Lt,157
+437,Eel,Eel,158
+438,Hoplite,Hoplite,159
+439,Hoplite_Lt,Hoplite_Lt,160
+440,Amazon,Amazon,159
+441,Amazon_LT,Amazon_LT,160
+442,Harpy,Harpy,161
+443,Shark_tigerleopard,Shark_tigerleopard,152
+444,Fish 01,Fish01,162
+445,Fish 02,Fish02,162
+446,Fish 03,Fish03,162
+447,Fish 04,Fish04,162
+448,Atlantis Crab,crab,163
+449,Male Half Ogre,BHalfOgreM,164
+450,Female Half Ogre,BHalfOgreF,165
+451,Sobekite ,Sobekite,172
+452,Sobekite LT ,Sobekite_LT,172
+453,Setian ,Setian,173
+454,Setian LT ,Setian_LT,173
+455,Nehebkau ,NEHEBKAU,171
+456,Mau ,Mau,167
+457,Mau LT ,Mau_LT,167
+458,Horian ,Horian,168
+459,Anubite ,Anubite,167
+460,Anubite LT ,Anubite_LT,167
+461,Anubite MUM ,Anubite_MUM,167
+462,Ammut,Ammut,169
+463,Typhon,Typhon,170
+464,Male Frostalf,NSvartalfM,174
+465,Female Frostalf,NSvartalfF,29
+466,Hoplite Metal Statues,Hoplite_Metal,159
+467,Amazon Metal Statues,Amazon_metal,159
+468,Sphinx_Andro,Sphinx_Andro,176
+469,Sphinx_Hieraco,Sphinx_Hieraco,176
+470,Sphinx Crio,Sphinx_Crio,176
+471,Sphinx Gyno,Sphinx_Gyno,177
+472,Chimera,Chimera,178
+473,Talos,Talos,179
+474,Gorgon,Gorgon,180
+475,Medusa,Medusa,181
+476,Minotaur,Minotaur,182
+477,Minotaur_LT,Minotaur_LT,182
+478,Stygian_lion,Stygian_lion,183
+479,Djinn,Djinn,184
+480,Djinn LT,DJinn_LT,184
+481,Dao,Dao,184
+482,Marid,Marid,184
+483,Jinni,Jinni,184
+484,Efreet,Efreet,184
+485,Scarab 01,Scarab_00,74
+486,Scarab 02,Scarab_01,74
+487,Hoplite_extra,Hoplite_extra,159
+488,Winged Scarab,Wscarab,185
+489,Dragon Fly Mount,Dragonfly,186
+490,Shar Male,HSharM,197
+491,Shar Female,HSharF,198
+492,Centaur,Centaur,187
+493,Centaur LT,Centaur_LT,187
+494,CentaurW,CentaurW,188
+495,CentaurW lt,CentaurW_lt,188
+496,Phoenix,Phoenix,189
+497,Cyclops,Cyclops,190
+498,Cyclops Lt.,Cyclops_LT,190
+499,Iaculi,Iaculi,192
+500,Uraeus,Uraeus,192
+501,Crocodile,crocodile,194
+502,salamander,salamander,194
+503,Scorpion Two,Scorp2,195
+504,Manticore,Manticore,193
+505,Albion Relic Guard,BKnightM,2
+506,Draco,Draco,196
+508,Fire Elemental,Fire_elemental,159
+509,Mummy 1,mummy,110
+510,Mummy 2,mummy,45
+511,MJarlM,MJarlM,2
+512,HRangerM,HRangerM,2
+513,HGuardianM,HGuardianM,2
+514,BScoutM,BScoutM,2
+515,Tornado Force Ride,Invisible,2
+516,Ettin,Cata_ettin,199
+517,Lion,Cata_lion,203
+518,Spider,Cata_spider,201
+519,Snake,Cata_snake,202
+520,Lynx,Cata_lynx,203
+521,Ogre,Cata_ogre,204
+522,Skeleton,Skeleton,206
+523,Bear,Cata_bear,205
+524,New Briton,BritonM1,207
+525,Giant,Cata_giant,215
+526,Crystal Titan,Crystal_Titan,159
+527,Ant,Cata_ant,208
+528,Wounded Highlander,bhilandm,45
+529,Wolf,Cata_wolf,209
+530,tournament_statue_alb03,tournament_statue_alb03,0
+531,tournament_statue_alb04,tournament_statue_alb04,0
+532,tournament_statue_alb05,tournament_statue_alb05,0
+533,tournament_statue_hib03,tournament_statue_hib03,0
+534,tournament_statue_hib04,tournament_statue_hib04,0
+535,tournament_statue_hib05,tournament_statue_hib05,0
+536,tournament_statue_mid03,tournament_statue_mid03,0
+537,tournament_statue_mid04,tournament_statue_mid04,0
+538,tournament_statue_mid05,tournament_statue_mid05,0
+541,Sprite,Cata_Sprite,212
+542,Fellwood,Cata_Fellwood,213
+543,New Scrag,Cata_scrag,214
+544,New Brownie,Cata_brownie,216
+545,New Roman Dead,Romandead_new,217
+546,Cata - 2 Headed Wolf,2headed_Wolf,218
+549,Wolf,wolf,221
+550,Wolf 2,wolf2,222
+561,Tadpole,SpriteTadpol,294
+566,Evil Kobold,EvilKobold,225
+575,Mine Cart,Kobold_minecart_A,211
+580,Trebuchet Monster,siege_cat_ranged,232
+581,Terraacite Minion,terracite_minion,269
+582,Cata Briton Male,bri_m,233
+583,Cata Valkyn Male,val_m,259
+584,Cata Saracen Male,sar_m,235
+585,Cata Saracen Female,sar_f,236
+586,Cata Frostalf Male,fro_m,237
+587,Cata Frostalf Female,fro_f,238
+588,Cata Shar Male,sha_m,239
+589,Cata Shar Female,sha_f,240
+590,Cata Avalonian Male,ava_m,241
+591,Cata Avalonian Female,ava_f,242
+592,Cata Elf Male,elf_m,243
+593,Cata Elf Female,elf_f,244
+594,Cata Highlander Male,hig_m,245
+595,Cata Highlander Female,hig_f,246
+596,Cata Norse Male,nor_m,247
+597,Cata Norse Female,nor_f,248
+598,Cata Lurikeen Male,lur_m,249
+599,Cata Lurikeen Female,lur_f,250
+600,Cata Kobold Male,kob_m,251
+601,Cata Kobold Female,kob_f,252
+602,Cata Dwarf Male,dwa_m,253
+603,Cata Dwarf Female,dwa_f,254
+604,Cata Inconnu Male,inc_m,255
+605,Cata Inconnu Female,inc_f,256
+606,Cata Half Ogre Male,hal_m,257
+607,Cata Half Ogre Female,hal_f,258
+608,Cata Briton Female,bri_f,234
+609,Cata Valkyn Female,val_f,260
+610,Cata Firbolg Male,fir_m,261
+611,Cata Firbolg Female,fir_f,262
+612,Cata Troll Male,tro_m,263
+613,Cata Troll Female,tro_f,264
+614,Cata Celt Male,cel_m,265
+615,Cata Celt Female,cel_f,266
+616,Cata Sylvan Male,syl_m,267
+617,Cata Sylvan Female,syl_f,268
+618,Terraacite Minion,terracite_minion,269
+619,Terracite Boss,terracite_boss,269
+620,Gargoyle Ground,gargoyle_ground,270
+621,Gargoyle Air,gargoyle_air,271
+622,Posessed Kobold 2 Naked,PK2_naked,226
+623,Posessed Kobold 2 Leather,PK2_Leather,226
+624,Posessed Kobold 2 Plate,PK2_Plate,226
+625,Posessed Kobold 3 Naked,PK3_naked,276
+626,Posessed Kobold 3 Leather,PK3_leather,276
+627,Posessed Kobold 3 Plate,PK3_plate,276
+628,Half Orc,halforc,233
+629,Half Orc Heavy,halforc_heavy,233
+630,Gnoll,gnoll,96
+631,Gnoll Boss,gnoll_heavy,96
+632,Shackled Soul,shackled_soul,292
+633,Giant,Cata_giant,215
+634,Heretic Shapechange,zombie,8
+635,Kobold Tele,koboldteleporter,0
+636,Cata Rock Creature,cat_rock_creature,277
+637,Shar Teleporter,SharMiniTP,0
+638,Glastin,Glastin,274
+639,Glastin Shaman/War,Glastin,275
+640,Inconnu Teleporter,inconnuminitp,0
+641,Disturbed Crewman,Dis_crewman,233
+642,Cata Bandits,Cat_Bandits,233
+643,Bainshee Celt,Bainshee,290
+644,Bainshee Luri,lur_Bainshee,290
+645,Bainshee Elf,elf_Bainshee,290
+646,Possesed Inconnu 1,PI_base,226
+647,Possesed Inconnu 2,PI2_base,226
+648,Possesed Inconnu 3,PI3_base,276
+649,Giant,Cata_giant,215
+650,GlastinBoss2,GlastinBoss1,291
+651,GlastinBoss1,GlastinBoss2,291
+652,Possessed Inconnu 2 Leather,PI2_Leather,226
+653,Possessed Inconnu 2 Plate,PI2_Plate,226
+654,Possessed Inconnu 3 Leather,PI3_Leather,276
+655,Possessed Inconnu 3 Plate,PI3_Plate,276
+656,Mordred,mordred,233
+657,Morrigan,morrigan,233
+658,Bat,bat,293
+659,Gullvieg,gullvieg,233
+660,NPC Tree,tree_npc,213
+661,Classic Bainshee,BainsheeSI,295
+662,DarkElf_F,DarkElf_F,234
+663,DarkElf_M,DarkElf_M,233
+664,DarkElf_Queen,DarkElf_Queen,234
+665,DarkElf_King,DarkElf_KING,233
+666,PS_base,PS_base,226
+667,PS2_base,PS2_base,226
+668,PS2_Leather,PS2_Leather,226
+669,PS2_Plate,PS2_Plate,226
+670,PS3_naked,PS3_naked,276
+671,PS3_Leather,PS3_Leather,276
+672,PS3_Plate,PS3_Plate,276
+673,Mine Cart 2,minecart_A,211
+674,Cata Stag form,stag,297
+675,DIAN,DIAN,263
+676,DOTHER,DOTHER,253
+677,Dub,DUB,243
+678,Fafner,Fafner,296
+679,Cata Bear form,Bear,297
+680,Morgan Le Fay,morganlefay,234
+681,hockey_goalstick,hockey_goalstick,0
+682,Hockey Field Marker,Invisible,0
+683,Tutorial Freeze Monster,Invisible,2
+684,Tutorial Dead Icon,bhilandm,298
+685,Tutorial Dead Icon,hig_m,299
+686,Tutorial Dead Icon,BHalfOgreM,312
+687,Tutorial Dead Icon,hal_m,310
+688,Tutorial Dead Icon,bcommonm,298
+689,Tutorial Dead Icon,bri_m,299
+690,Tutorial Dead Icon,bsaracenm,312
+691,Tutorial Dead Icon,sar_m,310
+692,Tutorial Dead Icon,nvikingm,298
+693,Tutorial Dead Icon,nor_m,299
+694,Tutorial Dead Icon,ntrollm,312
+695,Tutorial Dead Icon,tro_m,310
+696,Tutorial Dead Icon,ndwarfm,298
+697,Tutorial Dead Icon,dwa_m,299
+698,Tutorial Dead Icon,NSvartalfM,312
+699,Tutorial Dead Icon,fro_m,310
+700,Tutorial Dead Icon,hceltm,298
+701,Tutorial Dead Icon,cel_m,299
+702,Tutorial Dead Icon,hfirbolgm,312
+703,Tutorial Dead Icon,fir_m,310
+704,Tutorial Dead Icon,helfm,298
+705,Tutorial Dead Icon,elf_m,299
+706,Tutorial Dead Icon,HSharM,312
+707,Tutorial Dead Icon,sha_m,310
+708,Tutorial Bat/Bird,bat,300
+709,Tutorial Dummy,dummy,0
+710,simulacrum_Cabalist,simulacrum_Cabalist,215
+711,Puppy,puppy,301
+712,Tutorial Dummy,dummy,302
+713,Tutorial Dummy,dummy,303
+714,Tutorial Dummy,dummy,304
+715,Tutorial Dummy,dummy,305
+716,Tutorial Dummy,dummy,306
+717,Cata Norse Male Smith,nor_m,307
+719,Cata Norse Lumberjack,nor_m,309
+720,Cata Briton Male Smith,bri_m,307
+721,Cata Celt Male Smith,cel_m,307
+722,Cata Briton Male Smith,bri_m,309
+723,Cata Celt Male Smith,cel_m,309
+724,Horse Cart Caravan ,Horsecart,311
+725,Classic Briton Smith,bcommonm,313
+726,Classic Norse Smith,nvikingm,313
+727,Classic  Celt Smith,hceltm,313
+728,Classic Briton Lumberjack,bcommonm,314
+729,Classic Norse Lumberjack,nvikingm,314
+730,Classic  Celt Lumberjack,hceltm,314
+731,Cata Old Man Briton,ava_m,272
+732,Cata Old Woman Briton,ava_f,273
+733,Cata Old Man Celt,ava_m,272
+734,Cata Old Woman Celt,ava_f,273
+735,Cata Old Man Norse,nor_m,272
+736,Cata Old Woman Norse,nor_f,273
+737,Nightmare,Horse_Medium,315
+738,Cata Celt Male Vampiir,cel_m,364
+739,Player Skeleton Vampiir,Albion_skeleton,366
+745,Chamberlain,Chamberlain,318
+746,SoulKeeper,SoulKeeper,65
+747,Unicorn,Horse_Medium,315
+748,DR_demonseal,DR_demonseal,0
+750,inq,inq,319
+751,Hawsie,Horse_Medium,315
+752,DR Demon,DR_Demon,320
+755,Clydesdale,Horse_Medium,315
+756,Undead,Horse_Medium,315
+757,DR_Abomination,DR_Abomination,233
+758,DR_Hulker,DR_Hulker,71
+759,DR_Hulker_demon,DR_Hulker_demon,71
+760,DR_imp_red,DR_imp_red,325
+761,DR_imp_gold,DR_imp_gold,325
+762,DR_Dpixie,DR_Dpixie,322
+763,Alt DR_Dpixie,DR_Dpixie,323
+764,Alt DR Demon,DR_Demon,321
+766,DR_rat,DR_rat,326
+767,Alt Imp Fly,DR_imp_gold,327
+768,Alt Imp Perch,DR_imp_gold,328
+769,Alt Red Imp Fly,DR_imp_red,327
+770,DR_LEGLESSZ,DR_LEGLESSZ,329
+771,Praying Briton Male,bri_m,330
+772,Praying Briton Female,bri_f,331
+773,Epic,Horse_Medium,315
+774,Cata Briton Female,bri_f,273
+775,DR_A_Rebel01,DR_A_Rebel01,233
+776,DR_A_Rebel02,DR_A_Rebel02,233
+777,DR_A_Rebel03,DR_A_Rebel03,233
+778,DR_A_Rebel04,DR_A_Rebel04,233
+779,DR_Xaphan,DR_Xaphan,332
+780,DR_Asteroth,DR_Asteroth,333
+781,Albion King,AlbK_M,338
+782,Midgard King,KingV_M,337
+783,Admorenth,admorenth,335
+784,New Classic Horse,Classic_Body01_Mount_Horse,334
+785,Hibernian King,HibK_M,339
+786,Darkness Rising 3 head Boss,DR_3head,66
+787,Moloch,DR_MOLOCH,336
+788,DR_wraith,DR_wraith,70
+789,DR_Svartalf,DR_Svartalf,346
+790,DR_Belial,DR_Belial,340
+791,DR_Wight,DR_Wight,346
+792,DR_A_Peasant01,DR_A_Peasant01,233
+793,DR_M_Rebel01_longhair,DR_M_Rebel01_longhair,233
+794,DR_M_Rebel02_hooded,DR_M_Rebel02_hooded,233
+795,DR_M_Rebel03_masked,DR_M_Rebel03_masked,233
+796,DR_M_Rebel04_Helmet,DR_M_Rebel04_Helmet,233
+797,DR_H_Rebel03_Sarg,DR_H_Rebel03_Sarg,352
+798,DR_H_Rebel04_Captain,DR_H_Rebel04_Captain,352
+799,DR_H_Rebel05_peasant,DR_H_Rebel05_peasant,352
+800,DR_H_Rebel01_Commoner,DR_H_Rebel01_Commoner,352
+801,DR_H_Rebel02_Private,DR_H_Rebel02_Private,352
+802,DR_Locust,DR_Locust,72
+803,DR_succubus,DR_succubus,341
+804,Copy of Wolf - Sitting,Cata_wolf,342
+805,Albion King Sitting,AlbK_M,343
+806,Hibernian King Sitting,HibK_M,344
+807,DR_GiantMite,DR_GiantMite,55
+808,DR_XaphanSoldier,DR_XaphanSoldier,346
+809,Copy of Wolf - Lying,Cata_wolf,345
+810,DR_hag,DR_hag,67
+811,DR_Lamia,DR_Lamia,112
+812,DR_bosshulker,DR_bosshulker,71
+813,Utgard,Utgard,347
+814,DR_Worm,DR_Worm,21
+815,DR_Belialschildren,DR_Belialschildren,55
+816,DR_landcreature,DR_landcreature,55
+817,DR_Svartalf_Female,DR_Svartalf_Female,67
+818,DR_Azazel,DR_Azazel,348
+819,DR_NecroServant,DR_NecroServant,349
+820,DR_GreaterNecro,DR_GreaterNecro,350
+821,Scorpion Two(used for DR fiery scorp),Scorp2,195
+822,DR_ReanimatedServant,DR_ReanimatedServant,351
+823,DR_ZombiePet,DR_ZombiePet,351
+824,MidBody01HeadA,MidBody01HeadA,233
+825,MidBody01HeadB,MidBody01HeadB,233
+826,MidBody02HeadA,MidBody02HeadA,233
+827,MidBody02HeadB,MidBody02HeadB,233
+828,MidBody03HeadA,MidBody03HeadA,233
+829,MidBody03HeadB,MidBody03HeadB,233
+830,MidBody04HeadA,MidBody04HeadA,233
+831,MidBody04HeadB,MidBody04HeadB,233
+832,AlbBody01HeadA,AlbBody01HeadA,233
+833,AlbBody01HeadB,AlbBody01HeadB,233
+834,AlbBody02HeadA,AlbBody02HeadA,233
+835,AlbBody02HeadB,AlbBody02HeadB,233
+836,AlbBody03HeadA,AlbBody03HeadA,233
+837,AlbBody03HeadB,AlbBody03HeadB,233
+838,AlbBody04HeadA,AlbBody04HeadA,233
+839,AlbBody04HeadB,AlbBody04HeadB,233
+840,HibBody01HeadA,HibBody01HeadA,233
+841,HibBody01HeadB,HibBody01HeadB,233
+842,HibBody02HeadA,HibBody02HeadA,233
+843,HibBody02HeadB,HibBody02HeadB,233
+844,HibBody03HeadA,HibBody03HeadA,233
+845,HibBody03HeadB,HibBody03HeadB,233
+846,HibBody04HeadA,HibBody04HeadA,233
+847,HibBody04HeadB,HibBody04HeadB,233
+848,DR_KingViking_Fallback,DR_KingViking_Fallback,337
+849,DR_KingLug_Fallback,DR_KingLug_Fallback,339
+850,KingConstantine_Rollback,KingConstantine_Rollback,338
+851,Female Inferanlist,DR_A_Infernalist02,234
+852,Praying Female Infernalist,DR_A_Infernalist02,331
+853,Praying Male Infernalist,DR_A_Rebel01,330
+854,Player Skeleton,Albion_skeleton,356
+855,DR_AdmorenthMinion,DR_AdmorenthMinion,274
+856,Player Rez Skeleton,Albion_skeleton,241
+857,Rebel Used For Male Infernalist,DR_A_Rebel01,233
+858,Troll Beating Coconuts,TrollCoco,353
+859,FirbolgCoco,FirbolgCoco,354
+860,HalfOgreCoco,HalfOgreCoco,355
+861,Pink Unicorn,Horse_Medium,315
+862,Cata Elf Male,elf_m,243
+863,Albion Player Minotaur,mino,382
+864,Revamped Lizard,Cat_Lizard,358
+865,Revamped Worm,Cat_Worm,359
+866,Revamped Goblin,Cat_Goblin,360
+867,Midgard Player Minotaur,mino,383
+868,Hibernian Player Minotaur,mino,357
+869,Winged Demon Wolf,Lab_DemonWolf,361
+870,Flying Winged Demon Wolf,Lab_DemonWolf,362
+871,Construct,Construct,363
+872,ConstructSpider,ConstructSpider,365
+873,Undead_Drakoran,Undead_Drakoran,367
+874,7 Legged Spider,7Legspider,201
+875,Corrupt Minotaur 1,mino,357
+876,Corrupt Minotaur 2,mino,357
+877,Corrupt Minotaur 3,mino,357
+878,Dopple Ganger Minotaur,DopplegangerMino,368
+879,Dopple Ganger Demon,DopplegangerDemon,369
+880,Skeleton Minotaur,mino,357
+881,Cerberus,Cerberus,370
+882,Minotaur Construct,Mino_Construct,371
+883,Dead Minotaur Albion,mino,372
+884,Dead Minotaur Midgard,mino,372
+885,Dead Minotaur Hibernia,mino,372
+886,Clockwork Cat,Clockwork_Cat,373
+887,Dead Corrupt Minotaur 1,mino,372
+888,Dead Corrupt Minotaur 2,mino,372
+889,Dead Corrupt Minotaur 3,mino,372
+890,Classic Albion Minotaur,BMinotaurM,200
+891,Classic Midgard Minotaur,MMinotaurM,200
+892,Classic Hibernian Minotaur,HMinotaurM,200
+893,Minotaur Metal Golem,golem,374
+894,Labyrinth Teleporter,LabTeleportation_device,0
+895,Agramon,Agramon,375
+896,Dead Undead Minotaur,mino,372
+897,Dead Player Skeleton,Albion_skeleton,299
+898,Dead Classic Player Skeleton,skel02,298
+899,Cata Rock Creature for Crystal Guy,cat_rock_creature,277
+900,Goblin Chief,GoblinChief,376
+901,Minotaur Stone Golem,Golem_Stone,377
+902,Classic Corrupt Mino 1,Clas_CorruptMino1,357
+903,Classic Corrupt Mino 2,Clas_CorruptMino2,357
+904,Classic Corrupt Mino 3,Clas_CorruptMino3,357
+905,Dead Classic Corrupt Mino 1,Clas_CorruptMino1,378
+906,Dead Classic Corrupt Mino 2,Clas_CorruptMino2,378
+907,Dead Classic Corrupt Mino 3,Clas_CorruptMino3,378
+908,Classic Undead Mino,Clas_SkeleMino,357
+909,Classic Undead Dead Mino,Clas_SkeleMino,378
+910,Dead Classic Albion Minotaur,BMinotaurM,378
+911,Dead Classic Midgard Minotaur,MMinotaurM,378
+912,Dead Classic Hibernian Minotaur,HMinotaurM,378
+913,Flying Undead Drakoran,Undead_Drakoran,379
+914,Dracolich,Dracolich,380
+915,Dracolich Sleeping,Dracolich,381
+916,Ambient Red Snake,Ambsnake_red,385
+917,Ambient Gray Snake,Ambsnake_gray,385
+918,Ambient Brown Snake,Ambsnake_brown,385
+919,Ambient Green Snake,Ambsnake_green,385
+920,Ambient Gray Slug,Ambslug_gray,389
+921,Ambient Green Slug,Ambslug_green,389
+922,Ambient Brown Roach,Ambroach_brown,386
+923,Ambient Gray Rat,Ambrat_gray,388
+924,Ambient White Rat,Ambrat_white,388
+925,Ambient Black Rat,Ambrat_black,388
+926,Ambient Brown Rat,Ambrat_brown,388
+927,Ambient Brown Cricket,Ambcricket_brown,387
+928,Ambient Green Cricket,Ambcricket_green,387
+929,Ambient Black Spider,Ambspider_black,384
+930,Ambient White Spider,Ambspider_white,384
+931,Alb Dragon (Always Flying),cat_StoneDragon,390
+932,Mid Dragon (Always Flying),cat_wlfdragon01,390
+933,Hib Dragon (Always Flying),cat_GlimmerDragon,390
+934,Stone Dragon (Albion),cat_StoneDragon,391
+935,Wolf Dragon (Mid),cat_wlfdragon01,391
+936,Valentines Day Imp,Val_Imp,228
+937,Glimmer Dragon (Hib),cat_GlimmerDragon,391
+938,Brown Werewolf Revamp,Werewolf,392
+939,Drakulv Werewolf Revamp,Werewolf,392
+940,Stone Giant Revamp,Cat_StoneGiant,393
+941,Baby Winged Stone Dragon,cat_babystonedragon_fledgling,400
+942,Baby Wingless Stone Dragon,cat_babystonedragon_immature,394
+943,Revamp Glimmer Knight,Cat_GlimmerKnight,395
+944,Baby Wingless Glimmer Dragon,cat_babyglimmerdragon_immature,394
+945,Baby Winged Glimmer Dragon,cat_babyglimmerdragon_fledgling,400
+946,Baby Wingless Wolf Dragon,cat_babywolfdragon_immature,394
+947,Baby Winged Wolf Dragon,cat_babywolfdragon_fledgling,400
+948,Dragonsworn Spy,bri_m,233
+949,Revamped Wolf Lizard,cat_WolfLizard,401
+950,White Werewolf Revamp,Werewolf,392
+951,Revamp Glimmer Caster,cat_glimmercaster,402
+952,Revamped Glimmer Ghoul,cat_glimmer_ghoul,404
+953,Alb Dragon (Soar/Flap),cat_StoneDragon,405
+954,Mid Dragon (Soar/Flap),cat_wlfdragon01,405
+955,Hib Dragon (Soar/Flap),cat_GlimmerDragon,405
+956,Rock Critter,cat_rock_critter,407
+957,Pet Baby Wingless Glimmer Dragon,cat_babyglimmerdragon_immature,408
+958,Pet Baby Wingless Wolf Dragon,cat_babywolfdragon_immature,408
+959,Pet Baby Wingless Stone Dragon,cat_babystonedragon_immature,408
+960,Dead Cata Elf Shade Male Down/Up,elf_m,299
+961,Siege Tower,siegetower,0
+962,Black Cat,amb_blackcat,409
+963,Krumpi,Krumpi,174
+964,Winterlord_A,Winterlord_A,174
+965,Winter_JackFrost,Winter_JackFrost,174
+966,Winterlord_B,Winterlord_B,174
+967,amb_rabbit,amb_rabbit,410
+968,amb_bird,amb_bird,411
+969,harbinger_of_spring,harbinger_of_spring,412
+970,amb_bat,amb_bat,413
+971,amb_sqrl,amb_sqrl,414
+972,Event Demon Model,DR_Demon,417
+973,boobriebird blue,Terrorbird,120
+974,Pict Female 1,hig_f,246
+975,Pict Female 2,hig_f,246
+976,Pict Female 3,hig_f,246
+977,Snow Pict Female 3,hig_f,246
+978,Snow Pict Female 3,hig_f,246
+979,Snow Pict Female 3,hig_f,246
+980,Pict Male 1,hig_m,245
+981,Pict Male 2,hig_m,245
+982,Pict Male 3,hig_m,245
+983,Snow Pict Male 2,hig_m,245
+984,Snow Pict Male 2,hig_m,245
+985,Snow Pict Male 3,hig_m,245
+986,tournament_statue_alb_generic01,tournament_statue_alb_generic01,0
+987,tournament_statue_hib_generic01,tournament_statue_hib_generic01,0
+988,tournament_statue_mid_generic01,tournament_statue_mid_generic01,0
+989,tournament_statue_hib01,tournament_statue_hib01,0
+990,tournament_statue_hib02,tournament_statue_hib02,0
+991,tournament_statue_alb01,tournament_statue_alb01,0
+992,tournament_statue_alb02,tournament_statue_alb02,0
+993,tournament_statue_mid01,tournament_statue_mid01,0
+994,tournament_statue_mid02,tournament_statue_mid02,0
+995,ghost king,ghostKing01,418
+996,bat (pet),amb_bat,419
+999,baby wolf dragon mount CATA,wolf_dragon_mount_skeleton,421
+1000,baby wolf dragon mount classic,wolf_dragon_mount_base-monsterprocess,421
+1001,baby glimmer dragon mount CATA,glimmer_dragon_mount_skeleton,421
+1002,baby glimmer dragon mount classic,glimmer_dragon_mount_base_MP,421
+1003,stone_dragon_mount CATA,glimmer_dragon_mount_skeleton,421
+1004,stone_dragon_mount classic,stone_dragon_mount,421
+1005,baby wolf dragon mount classic -HACK,wolf_dragon_mount_base-monsterprocess,421
+1006,Botonid revamp,Botonid_AnimSet_bind,422
+1007,Lamia_REVAMPED_BIND,Lamia_REVAMPED_BIND,423
+1008,Urchin_REVAMP_BIND,Urchin_REVAMP_BIND,424
+1009,Boar_Revamp,Boar_CATA,12
+1010,Boar_Keggers,Boar_Keggers,425
+1011,fox_pet01,fox_pet01,426
+1012,fox_pet02,fox_pet02,426
+1013,fox_pet03-firefox,fox_pet03-firefox,426
+1014,fox_pet03-icefox,fox_pet03-icefox,426
+1015,fox_pet04-fey,fox_pet04-fey,426
+1016,wolverine,wolverine,427
+1017,owl,owl,428
+1018,gandolaf,gandolaf,429
+1019,great_elk,great_elk01,430
+1020,great_wolf01,great_wolf01,431
+1021,lion_mount01,lion_mount01,432
+1022,questingBeast01,questingBeast01,433
+1023,tournament_statue_2022_hib01,tournament_statue_2022_hib01,0
+1024,tournament_statue_2022_hib02,tournament_statue_2022_hib02,0
+1025,tournament_statue_2022_hib03,tournament_statue_2022_hib03,0
+1026,tournament_statue_2022_alb01,tournament_statue_2022_alb01,0
+1027,tournament_statue_2022_alb02,tournament_statue_2022_alb02,0
+1028,tournament_statue_2022_alb03,tournament_statue_2022_alb03,0
+1029,tournament_statue_2022_mid01,tournament_statue_2022_mid01,0
+1030,tournament_statue_2022_mid02,tournament_statue_2022_mid02,0
+1031,tournament_statue_2022_mid03,tournament_statue_2022_mid03,0
+1032,rabbit_mount,rabbit_mount,434
+1033,rabbitKILLER_mount,rabbitKILLER_mount,434
+1034,rabbit_horned_mount,rabbit_horned_mount,434
+1035,rabbit_mount-FEY,rabbit_mount-FEY,434
+1036,rabbit_mount-unibunny,rabbit_mount-unibunny,434

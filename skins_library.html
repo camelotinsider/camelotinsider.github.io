@@ -1,0 +1,13 @@
+---
+title: Skins Library
+layout: default
+nav_exclude: true
+---
+<h1>Skins</h1>
+
+<ul>
+{% for skin in site.data.skins_enhanced %}
+  <li><a href="{{ skin.ID | datapage_url: 'skins' }}">{{skin.ID}}</a></li>
+{% endfor %}
+</ul>
+

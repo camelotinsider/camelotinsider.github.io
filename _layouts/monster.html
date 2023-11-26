@@ -1,0 +1,32 @@
+---
+title: {{page.title}}
+nav_exclude: true
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+
+<table>
+  <tr>
+    <th align="left">Model Id</th>
+    <th align="left">Name</th> 
+    <th align="left">NIF</th>
+    <th align="left">Skins Body</th>
+    <th align="left">Biped</th>
+    <th align="left">Cata NIF</th>
+  </tr>
+  <tr>
+    <td>{{page.ID}}</td>
+    <td>{{page.MonsterName}}</td> 
+    <td><a href="/monnifs/{{page.NIF}}.html">{{page.NIF}}</a></td>
+    <td><a href="/skins/{{page.SkinsBody}}.html">{{page.SkinsBody}}</a></td>
+    <td>{{page.Biped}}</td>
+    <td>{% if page.CataNIF != "0" %} <a href="/monnifs/{{page.CataNIF}}.html">{{page.CataNIF}}</a>{% endif %} </td>
+  </tr>
+</table>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Eve-of-Darkness/DolModels/master/src/mobs/{{page.ID}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';">
+
