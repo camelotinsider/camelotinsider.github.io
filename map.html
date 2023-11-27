@@ -112,26 +112,61 @@
 	var tradeWatchtower = L.icon({		iconUrl:       'assets/icons/tradeWatchtower.png',		iconRetinaUrl: 'assets/icons/tradeWatchtower.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
  	
  
+    const treePatternArray = ["Elm", "Pin", "tree", "Tree", "Willow", "oak", "Oak", "Evergreen"];
+    const cityPatternArray = ["Keep", "keep", "Gatein", "Camwall", "forge", "Barn", "tower", "Tower", "town", "House", "Tavern", "Forge", "Stall", "Stable", "Stonehenge"];
+    const stonePatternArray = ["stone", "Stone", "STONE", "boulder", "Menhir", "Rock", "rock"];
+    const portalPatternArray = ["portal", "Portal", "Cave", "Entrance"];
+    const structurePatternArray = ["dock", "Bridge", "fence", "Fence", "Hitch"];
+    const campPatternArray = ["tent", "campfire", "HUT", "Hut"];
+
 	function retrieveIcon(nifname) {
-		if (nifname.match(/Elm.*/) || nifname.match(/Pin.*/) || nifname.match(/tree.*/) || nifname.match(/Tree.*/) || nifname.match(/Willow.*/) || nifname.match(/oak.*/) || nifname.match(/Oak.*/) || nifname.match(/Evergreen.*/) )
-			return townDruid;
-		else if (nifname.match(/Keep.*/) || nifname.match(/keep.*/) || nifname.match(/Gatein.*/) || nifname.match(/Camwall.*/) || nifname.match(/forge.*/) || nifname.match(/Barn.*/) || nifname.match(/tower.*/) || nifname.match(/Tower.*/) || nifname.match(/town.*/) || nifname.match(/House.*/) || nifname.match(/Tavern.*/) || nifname.match(/Forge.*/) || nifname.match(/Stall.*/) || nifname.match(/Stable.*/) || nifname.match(/Stonehenge.*/) )
-			return city;
-		else if (nifname.match(/stone.*/) || nifname.match(/Stone.*/) || nifname.match(/STONE.*/) || nifname.match(/boulder.*/) ||  nifname.match(/Menhir.*/) || nifname.match(/Rock.*/) || nifname.match(/rock.*/) )
-			return templeMonolith;
-		else if (nifname.match(/portal.*/) || nifname.match(/Portal.*/) || nifname.match(/Cave.*/) || nifname.match(/Entrance.*/) )
-			return mageTower;
-		else if (nifname.match(/dock.*/) || nifname.match(/Bridge.*/) || nifname.match(/fence.*/) || nifname.match(/Fence.*/) || nifname.match(/Hitch.*/) )
-			return tradeHunter;
-		else if (nifname.match(/tent.*/) || nifname.match(/campfire.*/) || nifname.match(/HUT.*/) || nifname.match(/Hut.*/) )
-			return poiCave;
-		else
-			return tradeStable;
+		
+		var pattern;
+		var regex;
+		
+		// Trees
+		for (pattern of treePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return townDruid;
+	    }
+		// Cities
+		for (pattern of cityPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return city;
+	    }
+		// Stones
+		for (pattern of stonePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return templeMonolith;
+	    }
+		// Portals
+		for (pattern of portalPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return mageTower;
+	    }
+		// Structures
+		for (pattern of structurePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return tradeHunter;
+	    }
+		// Camps
+		for (pattern of campPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return poiCave;
+	    }
+		// Others
+		return tradeStable;
 	}
 	
-  let buildingsMarquers = [];
+  let citiesMarquers = [];
   let treesMarquers = [];
-  let banditMarquers = [];
+  let campsMarquers = [];
   let stonesMarquers = [];
   let portalsMarquers = [];
   let structuresMarquers = [];
@@ -160,11 +195,11 @@
 	  var y = remap(-nifsList[key].y_pos);
 
 	  if (icon == city)
-		  buildingsMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+		  citiesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
 	  else if (icon == townDruid)
 		  treesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
 	  else if (icon == poiCave)
-		  banditMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+		  campsMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
 	  else if (icon == templeMonolith)
 		  stonesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
 	  else if (icon == mageTower)
@@ -178,11 +213,11 @@
   
   //poiCave
   
-  var groupBuildings =L.layerGroup(buildingsMarquers);
-  groupBuildings.addTo(map);
+  var groupCities =L.layerGroup(citiesMarquers);
+  groupCities.addTo(map);
   
   var groupTrees =L.layerGroup(treesMarquers);
-  var groupBandits =L.layerGroup(banditMarquers);
+  var groupCamps =L.layerGroup(campsMarquers);
   var groupStones =L.layerGroup(stonesMarquers);
   var groupPortals =L.layerGroup(portalsMarquers);
   var groupStructures =L.layerGroup(structuresMarquers);
@@ -191,21 +226,16 @@
   
 //Marker Overlay
   var overlays={
-    "Buildings" : groupBuildings,
+    "Cities" : groupCities,
     "Trees" : groupTrees,
-    "Camps" : groupBandits,
+    "Camps" : groupCamps,
     "Stones" : groupStones,
     "Portals" : groupPortals,
     "Structures" : groupStructures,
     "Others" : groupOthers,
-	  	/*    "Trading Posts" : groupTradingPosts,
-    "Forts" : groupForts,
-    "Temples" : groupTemples,
-    "Mage Towers" : groupMageTowers,
-	"Points of Interest" : groupPOI,*/
     }
 
-//GROUP CONTROLS
+//Group Controls
   L.control.layers(null, overlays).addTo(map);
   L.control.scale({metric: false, maxWidth: 250}).addTo(map);
 
