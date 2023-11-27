@@ -92,6 +92,5 @@ page_gen:
     dir: 'items'
   - data: 'zones_enhanced'
     template: 'zone'
-    name: 'ID'
+    name: 'zonename'
     dir: 'zones'
-
