@@ -116,13 +116,13 @@
   	var other = L.icon({		iconUrl:       'assets/icons/other.png',		iconRetinaUrl: 'assets/icons/other.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
 
  
-    const treePatternArray = ["Elm", "Pin", "tree", "Tree", "Willow", "oak", "Oak", "Evergreen"];
-    const cityPatternArray = ["Keep", "keep", "Gatein", "Camwall", "forge", "Barn", "tower", "Tower", "town", "House", "Tavern", "Forge", "Stall", "Stable", "Stonehenge"];
-    const bindstonePatternArray = ["bindstone","Bindstone"];
-    const stonePatternArray = ["stone", "Stone", "STONE", "boulder", "Boulder", "Menhir", "Rock", "rock","OUTCROP"];
-    const portalPatternArray = ["portal", "Portal", "Cave", "Entrance"];
-    const structurePatternArray = ["dock", "Bridge", "fence", "Fence", "Hitch"];
-    const campPatternArray = ["tent", "campfire", "Campfire", "HUT", "Hut"];
+    const portalPatternArray = ["portalplat", "DemonPortal", "demonportal", "SI\\sPortal", "Cave", "Entrance", "entrance", "KT\\sEnt", "Mine\\sEnt", "tomb-ent", "Killdoor"];
+    const treePatternArray = ["Elm", "Pin", "tree", "Tree", "Willow", "oak", "Oak", "Evergreen", "Stump2Small", "Hstumpy", "SpanishMoss", "Bush", "Stump"];
+    const cityPatternArray = ["Keep", "keep", "Gatein", "Camwall", "CamWall", "Fort", "Castle", "Church", "Hovel", "forge", "bhouse", "brit_shop", "Barn", "tower", "Tower", "Villa", "town", "Town", "Temple", "House", "Tavern", "tavern", "farmhouse", "Forge", "Stall", "Stable", "Stonehenge", "Blacksmith", "Dragon\\sLair", "Station"];
+    const bindstonePatternArray = ["bindstone", "Bindstone", "BindStone", "Bind Stone", "bindst"];
+    const stonePatternArray = ["stone", "Stone", "STONE", "boulder", "Boulder", "Menhir", "Rock", "rock", "OUTCROP"];
+    const structurePatternArray = ["dock", "Dock", "Bridge", "fence", "Fence", "Hitch", "Aqueduc", "spikes", "Brdge", "Colum"];
+    const campPatternArray = ["tent", "campfire", "Campfire", "HUT", "Hut", "morvalt_hut", "Goblin\\sBanner", "Goblin\\shut"];
 
 
 	function retrieveIcon(nifname) {
@@ -130,6 +130,12 @@
 		var pattern;
 		var regex;
 		
+		// Portals
+		for (pattern of portalPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return mageTower;
+	    }
 		// Trees
 		for (pattern of treePatternArray) {
 			regex=new RegExp(pattern);
@@ -153,12 +159,6 @@
 			regex=new RegExp(pattern);
 			if (nifname.match(regex))
 				return stones;
-	    }
-		// Portals
-		for (pattern of portalPatternArray) {
-			regex=new RegExp(pattern);
-			if (nifname.match(regex))
-				return mageTower;
 	    }
 		// Structures
 		for (pattern of structurePatternArray) {
