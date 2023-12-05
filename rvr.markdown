@@ -1,0 +1,26 @@
+---
+layout: page
+title: RVR Map
+nav_exclude: true
+search_exclude: true
+---
+
+<div class="imgbox">
+<img class="center-fit" src="assets/zones/overview/OldFrontiers_overview_legends.jpg" usemap="#rvr_overview_map">
+
+</div>
+<map name="rvr_overview_map">
+  <area shape="rect" coords="1063,1232,1318,1487" alt="Forest Sauvage" href="map.html?zone=zone011&title=Forest%20Sauvage">
+  <area shape="rect" coords="1063,976,1318,1231" alt="Pennine Mountains" href="map.html?zone=zone014&title=Pennine%20Mountains">
+  <area shape="rect" coords="1191,720,1446,975" alt="Hadrians Wall" href="map.html?zone=zone015&title=Hadrian%27s%20Wall">
+  <area shape="rect" coords="807,784,1062,1039" alt="Snowdonia" href="map.html?zone=zone012&title=Snowdonia">
+  <area shape="rect" coords="599,53,854,308" alt="Odins Gate" href="map.html?zone=zone115&title=Odin%27s%20Gate">
+  <area shape="rect" coords="855,181,1110,308" alt="Jamtland Mountains" href="map.html?zone=zone113&title=Jamtland%20Mountains">
+  <area shape="rect" coords="1111,181,1366,308" alt="Uppland" href="map.html?zone=zone111&title=Uppland">
+  <area shape="rect" coords="855,309,1110,564" alt="Yggdra Forest" href="map.html?zone=zone112&title=Yggdra%20Forest">
+  <area shape="rect" coords="71,978,326,1233" alt="Cruachan Gorge" href="map.html?zone=zone211&title=Cruachan%20Gorge">
+  <area shape="rect" coords="327,978,582,1233" alt="Breifine" href="map.html?zone=zone212&title=Breifine">
+  <area shape="rect" coords="327,1234,582,1489" alt="Mount Collory" href="map.html?zone=zone210&title=Mount%20Collory">
+  <area shape="rect" coords="455,722,710,977" alt="Emain Macha" href="map.html?zone=zone214&title=Emain%20Macha">
+</map>
+
