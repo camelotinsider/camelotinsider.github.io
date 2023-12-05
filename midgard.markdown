@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Midgard Map
+title: Midgard realm maps
 nav_exclude: true
 search_exclude: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RVR Map
+title: RVR maps
 nav_exclude: true
 search_exclude: true
 ---

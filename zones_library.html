@@ -10,16 +10,12 @@ nav_order: 12
     <th align="left">Zone</th>
     <th align="left">Name</th>
     <th align="left">Region</th>
-    <th align="left">Reg. offset X</th>
-    <th align="left">Reg. offset Y</th>	
   </tr>
 {% for zone in site.data.zones_enhanced %}
   <tr>
     <td>{{zone.ID}}</td>
     <td><a href="{{ zone.zonename | datapage_url: 'zones' }}">{{zone.zonename}}</a></td>
     <td>{{zone.region}}</td>
-    <td>{{zone.region_offset_x}}</td>
-    <td>{{zone.region_offset_y}}</td>
   </tr>
 {% endfor %}	
 </table>

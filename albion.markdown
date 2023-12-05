@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Albion Map
+title: Albion realm maps
 nav_exclude: true
 search_exclude: true
 ---

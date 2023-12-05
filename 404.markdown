@@ -1,0 +1,13 @@
+---
+layout: page
+title: Page not found
+nav_exclude: true
+search_exclude: true
+---
+
+<br>
+<div class="container">
+  <p>Error 404 : the requested page could not be found.</p>
+</div>
+
+

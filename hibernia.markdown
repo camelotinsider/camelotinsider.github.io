@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hibernia Map
+title: Hibernia realm maps
 nav_exclude: true
 search_exclude: true
 ---
