@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html = style="height: 100%;">
+  <head>
+    <title>Structure Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scripts/leaflet.css">
+    <script src="assets/scripts/leaflet.js"></script>
+	<link rel="stylesheet" href="assets/scripts/L.Control.BetterScale.css" />
+	<script src="assets/scripts/L.Control.BetterScale.js"></script>
+	<style>
+		.info {
+		    padding: 6px 8px;
+		    font: 14px/16px Arial, Helvetica, sans-serif;
+		    background: white;
+		    background: rgba(255,255,255,0.8);
+		    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		    border-radius: 5px;
+		}
+		.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+		  background-color: #000;
+		  color: gray;
+		}
+	</style>
+  </head>
+  
+  <body style="height: 100%;margin: 0;">
+    <div id="map" style="width: 100%; height: 100%; background: #000000;"></div>
+
+    <script type="module"> // text/javascript"
+	
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const zone = urlParams.get('zone');
+	const title = urlParams.get('title');
+		
+		const response = await fetch("assets/zones/"+zone+"/nifs.json");
+		const nifsList = await response.json();
+		
+		function remap(val) {
+		  if (val != 0)
+		    return ((val/65536)*256);
+		  return 0;
+		}
+		
+		
+
+  //Creating the Map
+    var map = L.map('map', {crs: L.CRS.Simple}).setView([0, 0], 0);
+    L.tileLayer('assets/zones/'+zone+'/map/{z}/{x}-{y}.jpg', {
+      continuousWorld: false,
+      noWrap: true,  
+      minZoom: 1,
+      maxZoom: 4,
+    }).addTo(map);
+	
+	
+	var info = L.control();
+	info.onAdd = function (map) {
+	    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+	    this.update();
+	    return this._div;
+	};
+	// method that we will use to update the control based on feature properties passed
+	info.update = function (props) {
+	    this._div.innerHTML = title;
+	};
+	info.addTo(map);
+	
+	map.setView( [-130.25, 123.8], 1);
+  //Boundaries Variables
+    var mapSW = [-255,255], mapNE = [0,0];
+	map.setMaxBounds(new L.LatLngBounds(mapSW, mapNE));	
+
+  //Icons
+	var city = L.icon({		iconUrl:       'assets/icons/city.png',		iconRetinaUrl: 'assets/icons/city.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var cityBarbarian = L.icon({		iconUrl:       'assets/icons/cityBarbarian.png',		iconRetinaUrl: 'assets/icons/cityBarbarian.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var cityCapital = L.icon({		iconUrl:       'assets/icons/cityCapital.png',		iconRetinaUrl: 'assets/icons/cityCapital.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var cityDruid = L.icon({		iconUrl:       'assets/icons/cityDruid.png',		iconRetinaUrl: 'assets/icons/cityDruid.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var cityDwarves = L.icon({		iconUrl:       'assets/icons/cityDwarves.png',		iconRetinaUrl: 'assets/icons/cityDwarves.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var cityElves = L.icon({		iconUrl:       'assets/icons/cityElves.png',		iconRetinaUrl: 'assets/icons/cityElves.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var cityHalflings = L.icon({		iconUrl:       'assets/icons/cityHalflings.png',		iconRetinaUrl: 'assets/icons/cityHalflings.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var cityLizard = L.icon({		iconUrl:       'assets/icons/cityLizard.png',		iconRetinaUrl: 'assets/icons/cityLizard.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var cityPort = L.icon({		iconUrl:       'assets/icons/cityPort.png',		iconRetinaUrl: 'assets/icons/cityPort.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var fort = L.icon({		iconUrl:       'assets/icons/fort.png',		iconRetinaUrl: 'assets/icons/fort.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var fortTower = L.icon({		iconUrl:       'assets/icons/fortTower.png',		iconRetinaUrl: 'assets/icons/fortTower.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var mageTower = L.icon({		iconUrl:       'assets/icons/mageTower.png',		iconRetinaUrl: 'assets/icons/mageTower.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var poiBramble = L.icon({		iconUrl:       'assets/icons/poiBramble.png',		iconRetinaUrl: 'assets/icons/poiBramble.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var poiCave = L.icon({		iconUrl:       'assets/icons/poiCave.png',		iconRetinaUrl: 'assets/icons/poiCave.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var poiMine = L.icon({		iconUrl:       'assets/icons/poiMine.png',		iconRetinaUrl: 'assets/icons/poiMine.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var poiRuin = L.icon({		iconUrl:       'assets/icons/poiRuin.png',		iconRetinaUrl: 'assets/icons/poiRuin.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var poiWaterfall = L.icon({		iconUrl:       'assets/icons/poiWaterfall.png',		iconRetinaUrl: 'assets/icons/poiWaterfall.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var templeCathedral = L.icon({		iconUrl:       'assets/icons/templeCathedral.png',		iconRetinaUrl: 'assets/icons/templeCathedral.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var templeEldath = L.icon({		iconUrl:       'assets/icons/templeEldath.png',		iconRetinaUrl: 'assets/icons/templeEldath.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var templeMonolith = L.icon({		iconUrl:       'assets/icons/templeMonolith.png',		iconRetinaUrl: 'assets/icons/templeMonolith.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var templePyramid = L.icon({		iconUrl:       'assets/icons/templePyramid.png',		iconRetinaUrl: 'assets/icons/templePyramid.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var templeShrine = L.icon({		iconUrl:       'assets/icons/templeShrine.png',		iconRetinaUrl: 'assets/icons/templeShrine.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var templeZiggurat = L.icon({		iconUrl:       'assets/icons/templeZiggurat.png',		iconRetinaUrl: 'assets/icons/templeZiggurat.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var town = L.icon({		iconUrl:       'assets/icons/town.png',		iconRetinaUrl: 'assets/icons/town.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var townBarbarian = L.icon({		iconUrl:       'assets/icons/townBarbarian.png',		iconRetinaUrl: 'assets/icons/townBarbarian.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var townDock = L.icon({		iconUrl:       'assets/icons/townDock.png',		iconRetinaUrl: 'assets/icons/townDock.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var townDruid = L.icon({		iconUrl:       'assets/icons/townDruid.png',		iconRetinaUrl: 'assets/icons/townDruid.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var townDwarves = L.icon({		iconUrl:       'assets/icons/townDwarves.png',		iconRetinaUrl: 'assets/icons/townDwarves.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var townElves = L.icon({		iconUrl:       'assets/icons/townElves.png',		iconRetinaUrl: 'assets/icons/townElves.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var townHalflings = L.icon({		iconUrl:       'assets/icons/townHalflings.png',		iconRetinaUrl: 'assets/icons/townHalflings.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var townLizard = L.icon({		iconUrl:       'assets/icons/townLizard.png',		iconRetinaUrl: 'assets/icons/townLizard.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var townMill = L.icon({		iconUrl:       'assets/icons/townMill.png',		iconRetinaUrl: 'assets/icons/townMill.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var tradeCamp = L.icon({		iconUrl:       'assets/icons/tradeCamp.png',		iconRetinaUrl: 'assets/icons/tradeCamp.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var tradeCampLarge = L.icon({		iconUrl:       'assets/icons/tradeCampLarge.png',		iconRetinaUrl: 'assets/icons/tradeCampLarge.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var tradeForge = L.icon({		iconUrl:       'assets/icons/tradeForge.png',		iconRetinaUrl: 'assets/icons/tradeForge.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var tradeHunter = L.icon({		iconUrl:       'assets/icons/tradeHunter.png',		iconRetinaUrl: 'assets/icons/tradeHunter.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+ 	var tradeStable = L.icon({		iconUrl:       'assets/icons/tradeStable.png',		iconRetinaUrl: 'assets/icons/tradeStable.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var tradeWatchtower = L.icon({		iconUrl:       'assets/icons/tradeWatchtower.png',		iconRetinaUrl: 'assets/icons/tradeWatchtower.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var stones = L.icon({		iconUrl:       'assets/icons/stones.png',		iconRetinaUrl: 'assets/icons/stones.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var structures = L.icon({		iconUrl:       'assets/icons/structures.png',		iconRetinaUrl: 'assets/icons/structures.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var tree = L.icon({		iconUrl:       'assets/icons/tree.png',		iconRetinaUrl: 'assets/icons/tree.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+  	var other = L.icon({		iconUrl:       'assets/icons/other.png',		iconRetinaUrl: 'assets/icons/other.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+
+ 
+    const portalPatternArray = ["portalplat", "DemonPortal", "demonportal", "SI\\sPortal", "Cave", "Entrance", "entrance", "KT\\sEnt", "Mine\\sEnt", "tomb-ent", "Killdoor", "CorruptEnt", "MarfachEnt"];
+    const cityPatternArray = ["Keep", "keep", "Gatein", "Camwall", "CamWall", "Fort", "Castle", "Church", "Hovel", "forge", "bhouse", "brit_shop", "Barn", "tower", "Tower", "Villa", "town", "Town", "Temple", "House", "Tavern", "tavern", "farmhouse", "Forge", "Stall", "Stable", "Stonehenge", "Blacksmith", "Dragon\\sLair", "nest_drag", "Station", "cabin", "Cabin", "leanto", "Hall"];
+    const bindstonePatternArray = ["bindstone", "Bindstone", "BindStone", "Bind Stone", "bindst"];
+    const stonePatternArray = ["stone", "Stone", "STONE", "boulder", "Boulder", "Menhir", "Rock", "rock", "OUTCROP"];
+    const structurePatternArray = ["dock", "Dock", "Bridge", "fence", "Fence", "Hitch", "Aqueduc", "spikes", "Brdge", "Colum"];
+    const campPatternArray = ["tent", "Tent", "campfire", "Campfire", "HUT", "Hut", "morvalt_hut", "Goblin\\sBanner", "Goblin\\shut", "haystack", "TreeTower"];
+    const treePatternArray = ["Elm", "Pin", "tree", "Tree", "Willow", "oak", "Oak", "Evergreen", "Stump2Small", "Hstumpy", "SpanishMoss", "Bush", "Stump", "bspanmoss"];
+
+
+	function retrieveIcon(nifname) {
+		
+		var pattern;
+		var regex;
+		
+		// Portals
+		for (pattern of portalPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return mageTower;
+	    }
+		// Cities
+		for (pattern of cityPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return city;
+	    }
+		// Bindstones
+		for (pattern of bindstonePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return templeMonolith;
+	    }
+		// Stones
+		for (pattern of stonePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return stones;
+	    }
+		// Structures
+		for (pattern of structurePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return structures;
+	    }
+		// Camps
+		for (pattern of campPatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return poiCave;
+	    }
+		// Trees
+		for (pattern of treePatternArray) {
+			regex=new RegExp(pattern);
+			if (nifname.match(regex))
+				return tree;
+	    }
+		// Others
+		return other;
+	}
+	
+  let citiesMarquers = [];
+  let treesMarquers = [];
+  let campsMarquers = [];
+  let bindstonesMarquers = [];
+  let stonesMarquers = [];
+  let portalsMarquers = [];
+  let structuresMarquers = [];
+  let othersMarquers = [];
+  	
+  for (var key in nifsList) {
+	  var filename=nifsList[key].filename;
+	  var nifname=nifsList[key].name;
+	  var x=nifsList[key].x_pos;
+	  var y=nifsList[key].y_pos;
+	  var z=nifsList[key].z_pos;
+	  var link = "";
+	  var icon = retrieveIcon(nifname);
+	  
+	  if (filename != null && filename != "")
+	  {	  	
+		  var jpegfile = filename.replace(/\.nif/, ".jpg")
+		  //link="<a href='/assets/nifs/"+filename+"'>"+nifname+"</a>";
+		  //'&x='+x+'&y='+y+'&z='+z+
+		  link='<center>'+nifname+' ('+filename+'):</center><a href="nif.html?nif='+filename+'&name='+nifname+'&x='+x+'&y='+y+'&z='+z+'"><img src="/assets/nifs/'+jpegfile+'" width="250" height="auto" onerror="this.onerror=null;this.src=\'/assets/img/nop.jpg\';";/></a>';
+	  }
+	  else
+		  link=nifname;
+	  
+	  var x = remap(nifsList[key].x_pos);
+	  var y = remap(-nifsList[key].y_pos);
+
+	  if (icon == city)
+		  citiesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+	  else if (icon == tree)
+		  treesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+	  else if (icon == poiCave)
+		  campsMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+	  else if (icon == templeMonolith)
+		  bindstonesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
+	  else if (icon == stones)
+		  stonesMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
+	  else if (icon == mageTower)
+		  portalsMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
+	  else if (icon == structures)
+		  structuresMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
+	  else if (icon == other)
+		  othersMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));
+		  
+  } 
+  
+  //poiCave
+  
+  var groupCities =L.layerGroup(citiesMarquers);
+  groupCities.addTo(map);
+  
+  var groupTrees =L.layerGroup(treesMarquers);
+  var groupCamps =L.layerGroup(campsMarquers);
+  var groupBindstones =L.layerGroup(bindstonesMarquers);
+  var groupStones =L.layerGroup(stonesMarquers);
+  var groupPortals =L.layerGroup(portalsMarquers);
+  var groupStructures =L.layerGroup(structuresMarquers);
+  var groupOthers =L.layerGroup(othersMarquers);
+	
+  
+//Marker Overlay
+  var overlays={
+    "Cities" : groupCities,
+    "Trees" : groupTrees,
+    "Camps" : groupCamps,
+    "Binstones" : groupBindstones,
+    "Stones" : groupStones,
+    "Portals" : groupPortals,
+    "Structures" : groupStructures,
+    "Others" : groupOthers,
+    }
+
+//Group Controls
+  L.control.layers(null, overlays).addTo(map);
+  L.control.scale({metric: false, maxWidth: 250}).addTo(map);
+
+    </script>
+  </body>
+</html>
