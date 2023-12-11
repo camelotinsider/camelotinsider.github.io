@@ -6,12 +6,12 @@ layout: default
 
 <h1>{{page.title}}</h1>
 
-
 <table>
   <tr>
     <th align="left">Zone</th>
     <th align="left">Name</th> 
     <th align="left">Region</th>
+    <th align="left">Type</th>
     <th align="left">Reg. offset X</th>
     <th align="left">Reg. offset Y</th>
   </tr>
@@ -19,13 +19,21 @@ layout: default
     <td>{{page.ID}}</td>
     <td>{{page.zonename}}</td> 
     <td>{{page.region}}</td>
+    <td>{%if page.type=="0" or page.type==null%} Openfield {%elsif page.type=="1"%} City {%elsif page.type=="2"%} Dungeon {%else%} Other {% endif %}</td>
     <td>{{page.region_offset_x}}</td>
     <td>{{page.region_offset_y}}</td>
   </tr>
 </table>
+	
 
 <br>
+
+    
+
+{%if page.type=="0" or page.type==null %}
 
 <center>Click on image for interactive map</center><br>
 
 <a href="/map.html?zone={{page.ID}}&title={{page.zonename}}"><img src="/assets/zones/{{page.ID}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';"></a>
+
+{% endif %}
