@@ -8,6 +8,7 @@ search_exclude: true
 <div class="imgbox">
 <img class="center-fit" src="assets/zones/overview/Hibernia_overview_legends.jpg" usemap="#hibernia_overview_map">
 <img class="center-fit" src="assets/zones/overview/HiberniaSI_overview_legends.jpg" usemap="#hiberniasi_overview_map">
+<img class="center-fit" src="assets/zones/overview/Hibernia_toa_overview_legends.jpg" usemap="#hiberniatoa_overview_map">
 </div>
 <map name="hibernia_overview_map">
   <area shape="rect" coords="346,117,601,372" alt="Cliffs of Moher" href="map.html?zone=zone203&title=Cliffs%20of%20Moher">
@@ -31,8 +32,19 @@ search_exclude: true
   <area shape="rect" coords="720,170,975,425" alt="Allta Fearann" href="map.html?zone=zone187&title=Allta%20Fearann">
   <area shape="rect" coords="848,681,1103,936" alt="Vigilant Rock" href="map.html?zone=zone186&title=Vigilant%20Rock">
 </map>
-
-
-
+<map name="hiberniatoa_overview_map">
+  <area shape="rect" coords="1,724,256,979" alt="Scrios de Atlantis" href="map.html?zone=zone072&title=Scrios%20de%20Atlantis">
+  <area shape="rect" coords="257,724,512,979" alt="Oceanus Hesperos" href="map.html?zone=zone073&title=Oceanus%20Hesperos">
+  <area shape="rect" coords="513,724,768,979" alt="Mesothalassa" href="map.html?zone=zone074&title=Mesothalassa">
+  <area shape="rect" coords="769,724,1024,979" alt="Oceanus Anatole" href="map.html?zone=zone077&title=Oceanus%20Anatole">
+  <area shape="rect" coords="1025,724,1280,979" alt="Typhons Reach" href="map.html?zone=zone084&title=Typhon%27s%20Reach">
+  <area shape="rect" coords="1281,724,1536,979" alt="Ashen Isles" href="map.html?zone=zone085&title=Ashen%20Isles">
+  <area shape="rect" coords="513,468,768,723" alt="Oceanus Boreal" href="map.html?zone=zone075&title=Oceanus%20Boreal">
+  <area shape="rect" coords="513,980,768,1235" alt="Oceanus Notos" href="map.html?zone=zone076&title=Oceanus%20Notos">
+  <area shape="rect" coords="639,1236,894,1491" alt="Green Glades" href="map.html?zone=zone086&title=Green%20Glades">
+  <area shape="rect" coords="895,1236,1150,1491" alt="Arbor Glen" href="map.html?zone=zone087&title=Arbor%20Glen">
+  <area shape="rect" coords="384,212,639,467" alt="Stygian Delta" href="map.html?zone=zone081&title=Stygian%20Delta">
+  <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
+</map>
 
 
