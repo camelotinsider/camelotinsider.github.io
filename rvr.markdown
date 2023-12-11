@@ -6,9 +6,25 @@ search_exclude: true
 ---
 
 <div class="imgbox">
+<img class="center-fit" src="assets/zones/overview/NewFrontiers_overview_legends.jpg" usemap="#rvr_new_overview_map">
 <img class="center-fit" src="assets/zones/overview/OldFrontiers_overview_legends.jpg" usemap="#rvr_overview_map">
-
 </div>
+<map name="rvr_new_overview_map">
+  <area shape="rect" coords="336,767,591,1022" alt="Emain Macha" href="map.html?zone=zone171&title=Emain%20Macha%20NF">
+  <area shape="rect" coords="336,1023,591,1278" alt="Breifine" href="map.html?zone=zone172&title=Breifine%20NF">
+  <area shape="rect" coords="80,1023,335,1278" alt="Cruachan% Gorge" href="map.html?zone=zone173&title=Cruachan%20Gorge%20NF">
+  <area shape="rect" coords="336,1279,591,1534" alt="Mount Collory" href="map.html?zone=zone174&title=Mount%20Collory%20NF">
+  <area shape="rect" coords="592,776,847,1031" alt="Irish Sea" href="map.html?zone=zone164&title=Irish%20Sea%20NF">
+  <area shape="rect" coords="592,520,847,775" alt="Ellan Vannin" href="map.html?zone=zone163&title=Ellan%20Vannin%20NF">
+  <area shape="rect" coords="721,264,976,519" alt="Odins Gate" href="map.html?zone=zone167&title=Odin%27s%20Gate%20NF">
+  <area shape="rect" coords="977,264,1232,519" alt="Jamtland Mountains" href="map.html?zone=zone168&title=Jamtland%20Mountains%20NF">
+  <area shape="rect" coords="977,8,1232,263" alt="Uppland" href="map.html?zone=zone170&title=Uppland%20NF">
+  <area shape="rect" coords="1233,264,1488,519" alt="Yggdra Forest" href="map.html?zone=zone169&title=Yggdra%20Forest%20NF">
+  <area shape="rect" coords="846,767,1101,1022" alt="Hadrians Wall" href="map.html?zone=zone178&title=Hadrian%27s%20Wall%20NF">
+  <area shape="rect" coords="846,1023,1101,1278" alt="Pennine Mountains" href="map.html?zone=zone177&title=Pennine%20Mountains%20NF">
+  <area shape="rect" coords="1102,1023,1357,1278" alt="Forest Sauvage" href="map.html?zone=zone176&title=Forest%20Sauvage%20NF">
+  <area shape="rect" coords="846,1279,1101,1534" alt="Snowdonia" href="map.html?zone=zone175&title=Snowdonia%20NF">
+</map>
 <map name="rvr_overview_map">
   <area shape="rect" coords="1063,1232,1318,1487" alt="Forest Sauvage" href="map.html?zone=zone011&title=Forest%20Sauvage">
   <area shape="rect" coords="1063,976,1318,1231" alt="Pennine Mountains" href="map.html?zone=zone014&title=Pennine%20Mountains">
