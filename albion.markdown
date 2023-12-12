@@ -9,6 +9,7 @@ search_exclude: true
 <img class="center-fit" src="assets/zones/overview/Albion_overview_legends.jpg" usemap="#albion_overview_map">
 <img class="center-fit" src="assets/zones/overview/AlbionSI_overview_legends.jpg" usemap="#albionsi_overview_map">
 <img class="center-fit" src="assets/zones/overview/Albion_toa_overview_legends.jpg" usemap="#albiontoa_overview_map">
+<img class="center-fit" src="assets/zones/overview/Albion_foundations_overview_legends.jpg" usemap="#albionfnd_overview_map">
 </div>
 <map name="albion_overview_map">
   <area shape="rect" coords="1138,448,1394,704" alt="Camelot Hills" href="map.html?zone=zone000&title=Camelot%20Hills">
@@ -21,6 +22,7 @@ search_exclude: true
   <area shape="rect" coords="370,1030,625,1285" alt="Cornwall" href="map.html?zone=zone006&title=Cornwall">
   <area shape="rect" coords="114,1030,369,1285" alt="Lyonesse" href="map.html?zone=zone010&title=Lyonesse">
   <area shape="rect" coords="370,1286,625,1531" alt="Dartmoor" href="map.html?zone=zone004&title=Dartmoor">
+  <area shape="rect" coords="1137,1280,1392,1535" alt="Constantines Sound" href="map.html?zone=zone027&title=Constantine%27s%20Sound">
 </map>
 <map name="albionsi_overview_map">
   <area shape="rect" coords="1220,879,1475,1134" alt="Isle of Glass" href="map.html?zone=zone051&title=Isle%20of%20Glass">
@@ -45,4 +47,5 @@ search_exclude: true
   <area shape="rect" coords="384,212,639,467" alt="Stygian Delta" href="map.html?zone=zone081&title=Stygian%20Delta">
   <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
 </map>
-
+<map name="albionfnd_overview_map">
+</map>

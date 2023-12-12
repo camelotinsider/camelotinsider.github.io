@@ -9,6 +9,7 @@ search_exclude: true
 <img class="center-fit" src="assets/zones/overview/Hibernia_overview_legends.jpg" usemap="#hibernia_overview_map">
 <img class="center-fit" src="assets/zones/overview/HiberniaSI_overview_legends.jpg" usemap="#hiberniasi_overview_map">
 <img class="center-fit" src="assets/zones/overview/Hibernia_toa_overview_legends.jpg" usemap="#hiberniatoa_overview_map">
+<img class="center-fit" src="assets/zones/overview/Hibernia_foundations_overview_legends.jpg" usemap="#hiberniafnd_overview_map">
 </div>
 <map name="hibernia_overview_map">
   <area shape="rect" coords="346,117,601,372" alt="Cliffs of Moher" href="map.html?zone=zone203&title=Cliffs%20of%20Moher">
@@ -20,8 +21,8 @@ search_exclude: true
   <area shape="rect" coords="602,885,857,1140" alt="Shannon Estuary" href="map.html?zone=zone202&title=Shannon%20Estuary">
   <area shape="rect" coords="602,1141,857,1396" alt="Lough Gur" href="map.html?zone=zone204&title=Lough%20Gur">
   <area shape="rect" coords="858,1013,1113,1268" alt="Sheeroe Hills" href="map.html?zone=zone216&title=Sheeroe%20Hills">
-  <area shape="rect" coords="858,1269,1113,1524" alt="Bog of Cullen" href="map.html?zone=zone205&title=Bog%20of%20Cullen
-">
+  <area shape="rect" coords="858,1269,1113,1524" alt="Bog of Cullen" href="map.html?zone=zone205&title=Bog%20of%20Cullen">
+  <area shape="rect" coords="161,1269,416,1524" alt="Lamfhotas Sound" href="map.html?zone=zone029&title=Lamfhota%27s%20Sound">
 </map>
 <map name="hiberniasi_overview_map">
   <area shape="rect" coords="912,1065,1167,1320" alt="Domnann" href="map.html?zone=zone181&title=Domnann">
@@ -46,5 +47,6 @@ search_exclude: true
   <area shape="rect" coords="384,212,639,467" alt="Stygian Delta" href="map.html?zone=zone081&title=Stygian%20Delta">
   <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
 </map>
-
+<map name="hiberniafnd_overview_map">
+</map>
 

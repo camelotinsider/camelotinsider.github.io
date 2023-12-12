@@ -8,6 +8,7 @@ search_exclude: true
 <div class="imgbox">
 <img class="center-fit" src="assets/zones/overview/NewFrontiers_overview_legends.jpg" usemap="#rvr_new_overview_map">
 <img class="center-fit" src="assets/zones/overview/OldFrontiers_overview_legends.jpg" usemap="#rvr_overview_map">
+<img class="center-fit" src="assets/zones/overview/Battlegrounds_overview_legends.jpg" usemap="#bg_overview_map">
 </div>
 <map name="rvr_new_overview_map">
   <area shape="rect" coords="336,767,591,1022" alt="Emain Macha" href="map.html?zone=zone171&title=Emain%20Macha%20NF">
@@ -39,4 +40,5 @@ search_exclude: true
   <area shape="rect" coords="327,1234,582,1489" alt="Mount Collory" href="map.html?zone=zone210&title=Mount%20Collory">
   <area shape="rect" coords="455,722,710,977" alt="Emain Macha" href="map.html?zone=zone214&title=Emain%20Macha">
 </map>
-
+<map name="bg_overview_map">
+</map>

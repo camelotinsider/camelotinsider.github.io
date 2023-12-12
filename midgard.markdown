@@ -9,6 +9,7 @@ search_exclude: true
 <img class="center-fit" src="assets/zones/overview/Midgard_overview_legends.jpg" usemap="#midgard_overview_map">
 <img class="center-fit" src="assets/zones/overview/MidgardSI_overview_legends.jpg" usemap="#midgardsi_overview_map">
 <img class="center-fit" src="assets/zones/overview/Midgard_toa_overview_legends.jpg" usemap="#midgardtoa_overview_map">
+<img class="center-fit" src="assets/zones/overview/Midgard_foundations_overview_legends.jpg" usemap="#midgardfnd_overview_map">
 </div>
 <map name="midgard_overview_map">
   <area shape="rect" coords="374,385,629,640" alt="Raumarik" href="map.html?zone=zone108&title=Raumarik">
@@ -21,6 +22,7 @@ search_exclude: true
   <area shape="rect" coords="758,1026,1013,1281" alt="Skona Ravine" href="map.html?zone=zone106&title=Skona%20Ravine">
   <area shape="rect" coords="758,1282,1013,1537" alt="Malmohus" href="map.html?zone=zone116&title=Malmohus">
   <area shape="rect" coords="502,898,757,1153" alt="Vanern Swamp" href="map.html?zone=zone107&title=Vanern%20Swamp">
+  <area shape="rect" coords="216,1280,471,1535" alt="Grenlocks Sound" href="map.html?zone=zone028&title=Grenlock%27s%20Sound">
 </map>
 <map name="midgardsi_overview_map">
   <area shape="rect" coords="335,622,590,877" alt="Aegirs Landing" href="map.html?zone=zone151&title=Aegir%27s%20Landing">
@@ -44,5 +46,7 @@ search_exclude: true
   <area shape="rect" coords="895,1236,1150,1491" alt="Arbor Glen" href="map.html?zone=zone087&title=Arbor%20Glen">
   <area shape="rect" coords="384,212,639,467" alt="Stygian Delta" href="map.html?zone=zone081&title=Stygian%20Delta">
   <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
+</map>
+<map name="midgardfnd_overview_map">
 </map>
 
