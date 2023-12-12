@@ -32,17 +32,15 @@
 	const urlParams = new URLSearchParams(queryString);
 	const zone = urlParams.get('zone');
 	const title = urlParams.get('title');
+
+	const response = await fetch("assets/zones/"+zone+"/nifs.json");
+	const nifsList = await response.json();
 		
-		const response = await fetch("assets/zones/"+zone+"/nifs.json");
-		const nifsList = await response.json();
-		
-		function remap(val) {
+	function remap(val) {
 		  if (val != 0)
 		    return ((val/65536)*256);
 		  return 0;
-		}
-		
-		
+	}
 
   //Creating the Map
     var map = L.map('map', {crs: L.CRS.Simple}).setView([0, 0], 0);
