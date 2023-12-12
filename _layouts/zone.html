@@ -19,7 +19,7 @@ layout: default
     <td>{{page.ID}}</td>
     <td>{{page.zonename}}</td> 
     <td>{{page.region}}</td>
-    <td>{%if page.type=="0" or page.type==null%} Openfield {%elsif page.type=="1"%} City {%elsif page.type=="2"%} Dungeon {%else%} Other {% endif %}</td>
+    <td>{%if page.type=="0" or page.type==null%} Outdoor {%elsif page.type=="1"%} City {%elsif page.type=="2"%} Dungeon {%else%} Other {% endif %}</td>
     <td>{{page.region_offset_x}}</td>
     <td>{{page.region_offset_y}}</td>
   </tr>
