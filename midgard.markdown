@@ -48,5 +48,19 @@ search_exclude: true
   <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
 </map>
 <map name="midgardfnd_overview_map">
+  <area shape="rect" coords="405,479,660,734" alt="Arothi" href="map.html?zone=zone117&title=Arothi">
+  <area shape="rect" coords="735,479,990,734" alt="Kaupang" href="map.html?zone=zone122&title=Kaupang">
+  <area shape="rect" coords="991,479,1246,734" alt="Stavgaard" href="map.html?zone=zone268&title=Stavgaard">
+  <area shape="rect" coords="405,735,660,990" alt="Erikstaad" href="map.html?zone=zone114&title=Erikstaad">
+  <area shape="rect" coords="735,735,990,990" alt="Carlingford" href="map.html?zone=zone118&title=Carlingford">
+  <area shape="rect" coords="991,735,1246,990" alt="Holmestrand" href="map.html?zone=zone266&title=Holmestrand">
+  <area shape="rect" coords="405,991,660,1246" alt="Wyndham" href="map.html?zone=zone119&title=Wyndham">
+  <area shape="rect" coords="735,991,990,1246" alt="Frisia" href="map.html?zone=zone121&title=Frisia">
+  <area shape="rect" coords="991,991,1246,1246" alt="Nittedal" href="map.html?zone=zone267&title=Nittedal">
 </map>
+
+
+
+
+
 

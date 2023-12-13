@@ -48,5 +48,14 @@ search_exclude: true
   <area shape="rect" coords="128,212,383,467" alt="Land of Atum" href="map.html?zone=zone082&title=Land%20of%20Atum">
 </map>
 <map name="hiberniafnd_overview_map">
+  <area shape="rect" coords="407,456,662,711" alt="Dunshire" href="map.html?zone=zone215&title=Dunshire">
+  <area shape="rect" coords="712,456,967,711" alt="Meath" href="map.html?zone=zone213&title=Meath">
+  <area shape="rect" coords="968,456,1223,711" alt="Kilcullen" href="map.html?zone=zone218&title=Kilcullen">
+  <area shape="rect" coords="407,712,662,967" alt="Saeranthal" href="map.html?zone=zone219&title=Saeranthal">
+  <area shape="rect" coords="712,712,967,967" alt="Torrylin" href="map.html?zone=zone217&title=Torrylin">
+  <area shape="rect" coords="968,712,1223,967" alt="Aberillan" href="map.html?zone=zone225&title=Aberillan">
+  <area shape="rect" coords="407,968,662,1223" alt="Moycullen" href="map.html?zone=zone273&title=Moycullen">
+  <area shape="rect" coords="712,968,967,1223" alt="Tullamore" href="map.html?zone=zone272&title=Tullamore">
+  <area shape="rect" coords="968,968,1223,1223" alt="Broughshane" href="map.html?zone=zone274&title=Broughshane">
 </map>
 

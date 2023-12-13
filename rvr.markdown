@@ -41,4 +41,14 @@ search_exclude: true
   <area shape="rect" coords="455,722,710,977" alt="Emain Macha" href="map.html?zone=zone214&title=Emain%20Macha">
 </map>
 <map name="bg_overview_map">
+  <area shape="rect" coords="643,324,898,579" alt="The Proving Grounds" href="map.html?zone=zone234&title=The%20Proving%20Grounds">
+  <area shape="rect" coords="994,324,1249,579" alt="The Lions Den" href="map.html?zone=zone235&title=The%20Lion%27s%20Den">
+  <area shape="rect" coords="129,686,384,941" alt="The Hills of Claret" href="map.html?zone=zone236&title=The%20Hills%20of%20Claret">
+  <area shape="rect" coords="477,686,732,941" alt="Killaloe" href="map.html?zone=zone237&title=Killaloe">
+  <area shape="rect" coords="821,686,1076,941" alt="Thidranki" href="map.html?zone=zone238&title=Thidranki">
+  <area shape="rect" coords="1159,686,1414,941" alt="Braemar" href="map.html?zone=zone239&title=Braemar">
+  <area shape="rect" coords="129,1060,384,1315" alt="Wilton" href="map.html?zone=zone240&title=Wilton">
+  <area shape="rect" coords="477,1060,732,1315" alt="Molvik" href="map.html?zone=zone241&title=Molvik">
+  <area shape="rect" coords="821,1060,1076,1315" alt="Leirvik" href="map.html?zone=zone254&title=Leirvik">
+  <area shape="rect" coords="1159,1060,1414,1315" alt="Cathal Valley" href="map.html?zone=zone165&title=Cathal%20Valley%20NF">
 </map>
