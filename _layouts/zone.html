@@ -12,6 +12,9 @@ layout: default
     <th align="left">Name</th> 
     <th align="left">Region</th>
     <th align="left">Type</th>
+{%if page.proxy_zone!=null%} 
+    <th align="left">Proxy</th>
+{% endif %}	
     <th align="left">Reg. offset X</th>
     <th align="left">Reg. offset Y</th>
   </tr>
@@ -20,6 +23,9 @@ layout: default
     <td>{{page.zonename}}</td> 
     <td>{{page.region}}</td>
     <td>{%if page.type=="0" or page.type==null%} Outdoor {%elsif page.type=="1"%} City {%elsif page.type=="2"%} Dungeon {%else%} Other {% endif %}</td>
+{%if page.proxy_zone!=null%} 
+    <td>{{page.proxy_zone}}</td>
+{% endif %}	
     <td>{{page.region_offset_x}}</td>
     <td>{{page.region_offset_y}}</td>
   </tr>
@@ -34,6 +40,10 @@ layout: default
 
 <center>Click on image for interactive map</center><br>
 
+	{%if page.proxy_zone==null%} 
 <a href="/map.html?zone={{page.ID}}&title={{page.zonename}}"><img src="/assets/zones/{{page.ID}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';"></a>
+	{%else%}
+<a href="/map.html?zone=zone0{{page.proxy_zone}}&title={{page.zonename}}"><img src="/assets/zones/zone0{{page.proxy_zone}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';"></a>
+	{% endif %}
 
 {% endif %}
