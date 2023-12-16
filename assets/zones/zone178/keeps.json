@@ -1,0 +1,17 @@
+[
+	{ "name": "Caer Benowyc", "x_pos": 19256, "y_pos": 10715, "z_pos": 0 },
+	{ "name": "Caer Berkstead", "x_pos": 59544, "y_pos": 19503, "z_pos": 0 },
+	{ "name": "Caer Erasleigh", "x_pos": 14946, "y_pos": 56760, "z_pos": 0 },
+	{ "name": "Caer Benowyc Guardtower", "x_pos": 22947, "y_pos": 13669, "z_pos": 0 },
+	{ "name": "Caer Berkstead Guardtower", "x_pos": 46845, "y_pos": 19233, "z_pos": 0 },
+	{ "name": "Caer Erasleigh Watchtower", "x_pos": 12808, "y_pos": 62775, "z_pos": 0 },
+	{ "name": "Caer Benowyc Watchtower", "x_pos": 15668, "y_pos": 7401, "z_pos": 0 },
+	{ "name": "Caer Berkstead Watchtower", "x_pos": 55838, "y_pos": 21428, "z_pos": 0 },
+	{ "name": "Caer Erasleigh Guardtower", "x_pos": 18275, "y_pos": 51900, "z_pos": 0 },
+	{ "name": "Caer Benowyc Outpost", "x_pos": 19628, "y_pos": 29086, "z_pos": 0 },
+	{ "name": "Caer Berkstead Outpost", "x_pos": 54962, "y_pos": 38637, "z_pos": 0 },
+	{ "name": "Caer Erasleigh Spire", "x_pos": 32671, "y_pos": 52558, "z_pos": 0 },
+	{ "name": "Caer Benowyc Spire", "x_pos": 36829, "y_pos": 8433, "z_pos": 0 },
+	{ "name": "Caer Berkstead Spire", "x_pos": 34070, "y_pos": 26697, "z_pos": 0 },
+	{ "name": "Caer Erasleigh Outpost", "x_pos": 25110, "y_pos": 40697, "z_pos": 0 }
+]

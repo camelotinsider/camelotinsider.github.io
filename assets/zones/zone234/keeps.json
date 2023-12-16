@@ -1,0 +1,6 @@
+[
+	{ "name": "Fort Brolorn", "x_pos": 32768, "y_pos": 32768, "z_pos": 0 },
+	{ "name": "Albion Portal Keep", "x_pos": 48401, "y_pos": 25399, "z_pos": 0 },
+	{ "name": "Midgard Portal Keep", "x_pos": 32871, "y_pos": 48873, "z_pos": 0 },
+	{ "name": "Hibernia Portal Keep", "x_pos": 17235, "y_pos": 25658, "z_pos": 0 }
+]

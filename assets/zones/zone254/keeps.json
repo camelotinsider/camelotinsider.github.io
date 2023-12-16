@@ -1,0 +1,9 @@
+[
+	{ "name": "Leirvik Castle", "x_pos": 32143, "y_pos": 33515, "z_pos": 0 },
+	{ "name": "Albion Portal Keep", "x_pos": 59724, "y_pos": 21720, "z_pos": 0 },
+	{ "name": "Midgard Portal Keep", "x_pos": 9805, "y_pos": 10654, "z_pos": 0 },
+	{ "name": "Hibernia Portal Keep", "x_pos": 18108, "y_pos": 57481, "z_pos": 0 },
+	{ "name": "Midgard Leirvik Tower", "x_pos": 20516, "y_pos": 31986, "z_pos": 0 },
+	{ "name": "Albion Leirvik Tower", "x_pos": 40161, "y_pos": 22776, "z_pos": 0 },
+	{ "name": "Hibernia Leirvik Tower", "x_pos": 33584, "y_pos": 45297, "z_pos": 0 }
+]

@@ -1,0 +1,13 @@
+[
+	{ "name": "Caer Boldiam", "x_pos": 49809, "y_pos": 19374, "z_pos": 0 },
+	{ "name": "Caer Sursbrooke", "x_pos": 24530, "y_pos": 43961, "z_pos": 0 },
+	{ "name": "Caer Boldiam Watchtower", "x_pos": 48558, "y_pos": 13789, "z_pos": 0 },
+	{ "name": "Caer Sursbrooke Watchtower", "x_pos": 25517, "y_pos": 49878, "z_pos": 0 },
+	{ "name": "Caer Boldiam Guardtower", "x_pos": 51292, "y_pos": 23961, "z_pos": 0 },
+	{ "name": "Caer Sursbrooke Guardtower", "x_pos": 20780, "y_pos": 42134, "z_pos": 0 },
+	{ "name": "Caer Boldiam Outpost", "x_pos": 29247, "y_pos": 3575, "z_pos": 0 },
+	{ "name": "Caer Sursbrooke Outpost", "x_pos": 7000, "y_pos": 46026, "z_pos": 0 },
+	{ "name": "Caer Boldiam Spire", "x_pos": 52730, "y_pos": 3129, "z_pos": 0 },
+	{ "name": "Caer Sursbrooke Spire", "x_pos": 34206, "y_pos": 26174, "z_pos": 0 },
+	{ "name": "Caer Renaris Outpost", "x_pos": 54139, "y_pos": 52215, "z_pos": 0 }
+]

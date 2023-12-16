@@ -1,0 +1,15 @@
+[
+	{ "name": "Hlidskialf Faste", "x_pos": 50936, "y_pos": 50612, "z_pos": 0 },
+	{ "name": "Blendrake Faste", "x_pos": 11342, "y_pos": 48188, "z_pos": 0 },
+	{ "name": "Glenlock Faste", "x_pos": 19648, "y_pos": 15552, "z_pos": 0 },
+	{ "name": "Hlidskialf Faste Guardtower", "x_pos": 54862, "y_pos": 55041, "z_pos": 0 },
+	{ "name": "Blendrake Faste Watchtower", "x_pos": 5944, "y_pos": 46563, "z_pos": 0 },
+	{ "name": "Glenlock Faste Guardtower", "x_pos": 18384, "y_pos": 9908, "z_pos": 0 },
+	{ "name": "Hlidskialf Faste Watchtower", "x_pos": 54934, "y_pos": 46822, "z_pos": 0 },
+	{ "name": "Blendrake Faste Guardtower", "x_pos": 14067, "y_pos": 52741, "z_pos": 0 },
+	{ "name": "Glenlock Faste Watchtower", "x_pos": 14946, "y_pos": 18673, "z_pos": 0 },
+	{ "name": "Blendrake Faste Spire", "x_pos": 25397, "y_pos": 41313, "z_pos": 0 },
+	{ "name": "Glenlock Faste Spire", "x_pos": 11706, "y_pos": 30754, "z_pos": 0 },
+	{ "name": "Hlidskialf Faste Outpost", "x_pos": 35089, "y_pos": 35684, "z_pos": 0 },
+	{ "name": "Glenlock Faste Outpost", "x_pos": 2520, "y_pos": 5697, "z_pos": 0 }
+]
