@@ -37,9 +37,11 @@
 	const nifsList = await response.json();
 
 	const responseKeep = await fetch("assets/zones/"+zone+"/keeps.json");
-	var keepsList; 
+	var keepsList;
+	var displayKeeps = false; 
     if (responseKeep.ok) {
 		keepsList = await responseKeep.json();
+		displayKeeps = true;
     }
 	
 	function remap(val) {
@@ -255,8 +257,12 @@
   
   var groupCities =L.layerGroup(citiesMarquers);
   groupCities.addTo(map);
-  var groupKeeps =L.layerGroup(keepsMarquers);
-  groupKeeps.addTo(map);
+  
+  if (displayKeeps==true)
+  {
+	  var groupKeeps =L.layerGroup(keepsMarquers);
+	  groupKeeps.addTo(map);  	
+  }
   
   var groupTrees =L.layerGroup(treesMarquers);
   var groupCamps =L.layerGroup(campsMarquers);
@@ -268,7 +274,11 @@
 	
   
 //Marker Overlay
-  var overlays={
+  var overlays;
+  
+  if (displayKeeps==true)
+  {
+    overlays={
     "Cities" : groupCities,
     "Keeps" : groupKeeps,
     "Trees" : groupTrees,
@@ -279,6 +289,20 @@
     "Structures" : groupStructures,
     "Others" : groupOthers,
     }
+  }
+  else
+  {
+      overlays={
+      "Cities" : groupCities,
+      "Trees" : groupTrees,
+      "Camps" : groupCamps,
+      "Bindstones" : groupBindstones,
+      "Stones" : groupStones,
+      "Portals" : groupPortals,
+      "Structures" : groupStructures,
+      "Others" : groupOthers,
+      }  	
+  }
 
 //Group Controls
   L.control.layers(null, overlays).addTo(map);
