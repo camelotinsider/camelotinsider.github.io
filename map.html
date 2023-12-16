@@ -35,7 +35,13 @@
 
 	const response = await fetch("assets/zones/"+zone+"/nifs.json");
 	const nifsList = await response.json();
-		
+
+	const responseKeep = await fetch("assets/zones/"+zone+"/keeps.json");
+	var keepsList; 
+    if (responseKeep.ok) {
+		keepsList = await responseKeep.json();
+    }
+	
 	function remap(val) {
 		  if (val != 0)
 		    return ((val/65536)*256);
@@ -112,6 +118,7 @@
   	var structures = L.icon({		iconUrl:       'assets/icons/structures.png',		iconRetinaUrl: 'assets/icons/structures.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
   	var tree = L.icon({		iconUrl:       'assets/icons/tree.png',		iconRetinaUrl: 'assets/icons/tree.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
   	var other = L.icon({		iconUrl:       'assets/icons/other.png',		iconRetinaUrl: 'assets/icons/other.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
+	var keep = L.icon({		iconUrl:       'assets/icons/keep.png',		iconRetinaUrl: 'assets/icons/keep.png',		shadowUrl:     'assets/icons/shadow.png',		iconSize:    [25, 41],		iconAnchor:  [12, 41],		popupAnchor: [1, -34],		tooltipAnchor: [16, -28],		shadowSize:  [41, 41]	});
 
  
     const portalPatternArray = ["portalplat", "DemonPortal", "demonportal", "SI\\sPortal", "Cave", "Entrance", "entrance", "KT\\sEnt", "Mine\\sEnt", "tomb-ent", "Killdoor", "CorruptEnt", "MarfachEnt"];
@@ -182,7 +189,10 @@
   let portalsMarquers = [];
   let structuresMarquers = [];
   let othersMarquers = [];
-  	
+
+  let keepsMarquers = [];
+    	
+  // Parse nifs.json 
   for (var key in nifsList) {
 	  var filename=nifsList[key].filename;
 	  var nifname=nifsList[key].name;
@@ -224,10 +234,29 @@
 		  
   } 
   
+  // Parse keeps.json 
+  for (var key in keepsList) {
+	  var nifname=keepsList[key].name;
+	  var x=keepsList[key].x_pos;
+	  var y=keepsList[key].y_pos;
+	  var z=keepsList[key].z_pos;
+	  var link = nifname;
+	  var icon = keep;
+	
+	  var x = remap(keepsList[key].x_pos);
+	  var y = remap(-keepsList[key].y_pos);
+
+	  keepsMarquers.push(L.marker([y, x], {icon: icon}).bindPopup(link));	  	
+
+  } 
+  
+  
   //poiCave
   
   var groupCities =L.layerGroup(citiesMarquers);
   groupCities.addTo(map);
+  var groupKeeps =L.layerGroup(keepsMarquers);
+  groupKeeps.addTo(map);
   
   var groupTrees =L.layerGroup(treesMarquers);
   var groupCamps =L.layerGroup(campsMarquers);
@@ -241,6 +270,7 @@
 //Marker Overlay
   var overlays={
     "Cities" : groupCities,
+    "Keeps" : groupKeeps,
     "Trees" : groupTrees,
     "Camps" : groupCamps,
     "Bindstones" : groupBindstones,

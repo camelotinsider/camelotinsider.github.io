@@ -1,0 +1,17 @@
+[
+	{ "name": "Dun Crauchon", "x_pos": 46331, "y_pos": 9705, "z_pos": 0 },
+	{ "name": "Dun Crimthain", "x_pos": 5924, "y_pos": 15906, "z_pos": 0 },
+	{ "name": "Dun Bolg", "x_pos": 49616, "y_pos": 51914, "z_pos": 0 },
+	{ "name": "Dun Crauchon Guardtower", "x_pos": 51012, "y_pos": 7393, "z_pos": 0 },
+	{ "name": "Dun Crimthain Watchtower", "x_pos": 13984, "y_pos": 15634, "z_pos": 0 },
+	{ "name": "Dun Bolg Watchtower", "x_pos": 53464, "y_pos": 47374, "z_pos": 0 },
+	{ "name": "Dun Crauchon Watchtower", "x_pos": 43568, "y_pos": 13713, "z_pos": 0 },
+	{ "name": "Dun Crimthain Guardtower", "x_pos": 22360, "y_pos": 20160, "z_pos": 0 },
+	{ "name": "Dun Bolg Guardtower", "x_pos": 46255, "y_pos": 56606, "z_pos": 0 },
+	{ "name": "Dun Crauchon Outpost", "x_pos": 43865, "y_pos": 28635, "z_pos": 0 },
+	{ "name": "Dun Crimthain Outpost", "x_pos": 9716, "y_pos": 38480, "z_pos": 0 },
+	{ "name": "Dun nGed Spire", "x_pos": 10179, "y_pos": 59140, "z_pos": 0 },
+	{ "name": "Dun Crauchon Spire", "x_pos": 30574, "y_pos": 8893, "z_pos": 0 },
+	{ "name": "Dun Crimthain Spire", "x_pos": 5584, "y_pos": 11221, "z_pos": 0 },
+	{ "name": "Dun Bolg Spire", "x_pos": 33458, "y_pos": 52652, "z_pos": 0 }
+]

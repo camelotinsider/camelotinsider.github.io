@@ -1,0 +1,9 @@
+[
+	{ "name": "Molvik Faste", "x_pos": 33389, "y_pos": 27463, "z_pos": 0 },
+	{ "name": "Albion Portal Keep", "x_pos": 7411, "y_pos": 17718, "z_pos": 0 },
+	{ "name": "Midgard Portal Keep", "x_pos": 26113, "y_pos": 53076, "z_pos": 0 },
+	{ "name": "Hibernia Portal Keep", "x_pos": 51627, "y_pos": 19149, "z_pos": 0 },
+	{ "name": "Molvik Albion Tower", "x_pos": 22426, "y_pos": 25236, "z_pos": 0 },
+	{ "name": "Molvik Midgard Tower", "x_pos": 30340, "y_pos": 40454, "z_pos": 0 },
+	{ "name": "Molvik Hibernian Tower", "x_pos": 41302, "y_pos": 20561, "z_pos": 0 }
+]

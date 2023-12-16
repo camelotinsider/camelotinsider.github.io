@@ -1,0 +1,13 @@
+[
+	{ "name": "Bledmeer Faste", "x_pos": 9231, "y_pos": 47040, "z_pos": 0 },
+	{ "name": "Nottmoor Faste", "x_pos": 11053, "y_pos": 6052, "z_pos": 0 },
+	{ "name": "Bledmeer Faste Guardtower", "x_pos": 5988, "y_pos": 50896, "z_pos": 0 },
+	{ "name": "Nottmoor Faste Watchtower", "x_pos": 18273, "y_pos": 4565, "z_pos": 0 },
+	{ "name": "Bledmeer Faste Watchtower", "x_pos": 13485, "y_pos": 43882, "z_pos": 0 },
+	{ "name": "Nottmoor Faste Guardtower", "x_pos": 10326, "y_pos": 10730, "z_pos": 0 },
+	{ "name": "Bledmeer Faste Outpost", "x_pos": 30626, "y_pos": 53218, "z_pos": 0 },
+	{ "name": "Nottmoor Faste Outpost", "x_pos": 29400, "y_pos": 6944, "z_pos": 0 },
+	{ "name": "Bledmeer Faste Spire", "x_pos": 8609, "y_pos": 31784, "z_pos": 0 },
+	{ "name": "Nottmoor Faste Spire", "x_pos": 25254, "y_pos": 15813, "z_pos": 0 },
+	{ "name": "Blendrake Faste Outpost", "x_pos": 58297, "y_pos": 51883, "z_pos": 0 }
+]
