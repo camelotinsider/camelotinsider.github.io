@@ -956,5 +956,5 @@
     { "name": "06_bbarrel", "x_pos": 5810.94, "y_pos": 52051.96, "z_pos": 5810.00, "filename": "06_bbarrel.nif" },
     { "name": "06_bbarrel", "x_pos": 5887.15, "y_pos": 52069.09, "z_pos": 5810.00, "filename": "06_bbarrel.nif" },
     { "name": "06_bbarrel", "x_pos": 5881.13, "y_pos": 52110.03, "z_pos": 5810.00, "filename": "06_bbarrel.nif" },
-    { "name": "Hfrontkeep", "x_pos": 61508.93, "y_pos": 32994.61, "z_pos": 5672.00, "filename": "hfrontkeep.nif" },
+    { "name": "Hfrontkeep", "x_pos": 61508.93, "y_pos": 32994.61, "z_pos": 5672.00, "filename": "hfrontkeep.nif" }
 ]
