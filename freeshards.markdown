@@ -7,3 +7,9 @@ search_exclude: true
 
 Information about Live Freeshards
 
+Eden
+BrotherLand 2
+Strom D2
+
+
+
