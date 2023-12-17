@@ -90,7 +90,12 @@ page_gen:
     template: 'item'
     name: 'ObjectName'
     dir: 'items'
+  - data: 'nifs_enhanced'
+    template: 'nif'
+    name: 'TextualName'
+    dir: 'nifs'
   - data: 'zones_enhanced'
     template: 'zone'
     name: 'zonename'
     dir: 'zones'
+

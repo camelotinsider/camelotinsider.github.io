@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Introduction
+title: Welcome
 nav_order: 1
 ---
 
-# Introduction
+# Welcome 
 {: .no_toc }
 
-This documentation aims to give some detailled information on game assets
+Welcome to Camelot Insider Library !
 
 {: .fs-6 .fw-300 }
 

@@ -1,0 +1,26 @@
+---
+title: {{page.title}}
+nav_exclude: true
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+
+<table>
+  <tr>
+    <th align="left">NIF filename</th>
+    <th align="left">Textual name</th> 
+    <th align="left">Category</th>
+  </tr>
+  <tr>
+    <td>{{page.ID}}</td>
+    <td>{{page.TextualName}}</td> 
+    <td>{{page.Category}}</td>
+  </tr>
+</table>
+
+<br>
+
+<img src="/assets/nifs/{{ page.ID | remove: ".nif" }}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';">
+

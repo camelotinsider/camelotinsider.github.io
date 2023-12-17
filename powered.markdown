@@ -25,3 +25,7 @@ Website graphical design :
 - Maps building with <a href="https://www.gimp.org">The Gimp</a>
 - Maps legends created with <a href="https://paintbrush.sourceforge.io">Paintbrush</a> for MacOS
 
+Additional tools : 
+- The nice <a href="https://github.com/Merec/DAoC-MapCreator">Map Creator</a> by Merec
+- <a href="https://imagemagick.org/">Image Magick</a> for images format conversion
+- <a href="https://github.com/niftools/nifskope/releases">Nifskope</a> for NIF visualization and jpeg conversion
