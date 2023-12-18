@@ -9,65 +9,263 @@ layout: default
 <table>
   <tr>
     <th align="left">Id</th>
-    <th align="left">Name</th> 
-    <th align="left">Walk</th>
-    <th align="left">Back</th>
-    <th align="left">Run</th>
-	
-    <th align="left">TurnLeft</th>
-    <th align="left">TurnRight</th> 
-    <th align="left">Jump</th>
-    <th align="left">Land</th>
-    <th align="left">Fly</th>
-	
-    <th align="left">Idle</th>
-    <th align="left">Death</th> 
-    <th align="left">Ladder</th>
-    <th align="left">SlideLeft</th>
-    <th align="left">SlideRight</th>	
-	
-    <th align="left">Idle1</th>
-    <th align="left">Idle2</th> 
-    <th align="left">Idle3</th>
-    <th align="left">CastStart</th>
-    <th align="left">CastMid</th>		
-	
-    <th align="left">CastEnd</th>
-    <th align="left">SitDown</th> 
-    <th align="left">SitIdle</th>
-    <th align="left">StandUp</th>
-
+    <td>{{page.ID}}</td>
   </tr>
   <tr>
-    <td>{{page.ID}}</td>
+    <th align="left">Name</th> 
     <td>{{page.AnimName}}</td> 
+  </tr>
+  <tr>
+    <th align="left">Walk</th>
     <td>{% if page.Walk != "0" %} <a href="/animnifs/{{page.Walk}}.html">{{page.Walk}}</a>{% endif %} </td>
-    <td>{% if page.Back != "0" %} <a href="/animnifs/{{page.Back}}.html">{{page.Back}}</a>{% endif %} </td>
-    <td>{% if page.Run != "0" %} <a href="/animnifs/{{page.Run}}.html">{{page.Run}}</a>{% endif %} </td>
-	
-    <td>{% if page.TurnLeft != "0" %} <a href="/animnifs/{{page.TurnLeft}}.html">{{page.TurnLeft}}</a>{% endif %} </td>
-    <td>{% if page.TurnRight != "0" %} <a href="/animnifs/{{page.TurnRight}}.html">{{page.TurnRight}}</a>{% endif %} </td>
-    <td>{% if page.Jump != "0" %} <a href="/animnifs/{{page.Jump}}.html">{{page.Jump}}</a>{% endif %} </td>
-    <td>{% if page.Land != "0" %} <a href="/animnifs/{{page.Land}}.html">{{page.Land}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">Back</th>
+    <td>{% if page.Back != "0" %} <a href="/animnifs/{{page.Back}}.html">{{page.Back}}</a>{% endif %} </td>	  
+  </tr>
+  <tr>
+    <th align="left">Run</th>
+    <td>{% if page.Run != "0" %} <a href="/animnifs/{{page.Run}}.html">{{page.Run}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">TurnLeft</th>
+    <td>{% if page.TurnLeft != "0" %} <a href="/animnifs/{{page.TurnLeft}}.html">{{page.TurnLeft}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">TurnRight</th> 
+    <td>{% if page.TurnRight != "0" %} <a href="/animnifs/{{page.TurnRight}}.html">{{page.TurnRight}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">Jump</th>
+    <td>{% if page.Jump != "0" %} <a href="/animnifs/{{page.Jump}}.html">{{page.Jump}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">Land</th>
+    <td>{% if page.Land != "0" %} <a href="/animnifs/{{page.Land}}.html">{{page.Land}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">Fly</th>
     <td>{% if page.Fly != "0" %} <a href="/animnifs/{{page.Fly}}.html">{{page.Fly}}</a>{% endif %} </td>
-	
+  </tr>
+  <tr>
+    <th align="left">Idle</th>
     <td>{% if page.Idle != "0" %} <a href="/animnifs/{{page.Idle}}.html">{{page.Idle}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">Death</th> 
     <td>{% if page.Death != "0" %} <a href="/animnifs/{{page.Death}}.html">{{page.Death}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">Ladder</th>
     <td>{% if page.Ladder != "0" %} <a href="/animnifs/{{page.Ladder}}.html">{{page.Ladder}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">SlideLeft</th>
     <td>{% if page.SlideLeft != "0" %} <a href="/animnifs/{{page.SlideLeft}}.html">{{page.SlideLeft}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">SlideRight</th>	
     <td>{% if page.SlideRight != "0" %} <a href="/animnifs/{{page.SlideRight}}.html">{{page.SlideRight}}</a>{% endif %} </td>
-	 
+  </tr>
+  <tr>
+    <th align="left">Idle1</th>
     <td>{% if page.Idle1 != "0" %} <a href="/animnifs/{{page.Idle1}}.html">{{page.Idle1}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">Idle2</th> 
     <td>{% if page.Idle2 != "0" %} <a href="/animnifs/{{page.Idle2}}.html">{{page.Idle2}}</a>{% endif %} </td>
-    <td>{% if page.Idle3 != "0" %} <a href="/animnifs/{{page.Idle3}}.html">{{page.Idle3}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">Idle3</th>
+    <td>{% if page.Idle3 != "0" %} <a href="/animnifs/{{page.Idle3}}.html">{{page.Idle3}}</a>{% endif %} </td>  
+  </tr>
+  <tr>
+    <th align="left">CastStart</th>
     <td>{% if page.CastStart != "0" %} <a href="/animnifs/{{page.CastStart}}.html">{{page.CastStart}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">CastMid</th>		
     <td>{% if page.CastMid != "0" %} <a href="/animnifs/{{page.CastMid}}.html">{{page.CastMid}}</a>{% endif %} </td>	
-	
+  </tr>
+  <tr>
+    <th align="left">CastEnd</th>
     <td>{% if page.CastEnd != "0" %} <a href="/animnifs/{{page.CastEnd}}.html">{{page.CastEnd}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">SitDown</th> 
     <td>{% if page.SitDown != "0" %} <a href="/animnifs/{{page.SitDown}}.html">{{page.SitDown}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">SitIdle</th>
     <td>{% if page.SitIdle != "0" %} <a href="/animnifs/{{page.SitIdle}}.html">{{page.SitIdle}}</a>{% endif %} </td>
+  </tr>
+  <tr>
+    <th align="left">StandUp</th>
     <td>{% if page.StandUp != "0" %} <a href="/animnifs/{{page.StandUp}}.html">{{page.StandUp}}</a>{% endif %} </td>	
   </tr>
+	<tr>     <th align="left">Lute1</th>     <td>{% if page.Lute1 != "0" %} <a href="/animnifs/{{page.Lute1}}.html">{{page.Lute1}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Lute2</th>     <td>{% if page.Lute2 != "0" %} <a href="/animnifs/{{page.Lute2}}.html">{{page.Lute2}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Lute3</th>     <td>{% if page.Lute3 != "0" %} <a href="/animnifs/{{page.Lute3}}.html">{{page.Lute3}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">drums1</th>     <td>{% if page.drums1 != "0" %} <a href="/animnifs/{{page.drums1}}.html">{{page.drums1}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">drums2</th>     <td>{% if page.drums2 != "0" %} <a href="/animnifs/{{page.drums2}}.html">{{page.drums2}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">drums3</th>     <td>{% if page.drums3 != "0" %} <a href="/animnifs/{{page.drums3}}.html">{{page.drums3}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Crawl</th>     <td>{% if page.Crawl != "0" %} <a href="/animnifs/{{page.Crawl}}.html">{{page.Crawl}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Flute1</th>     <td>{% if page.Flute1 != "0" %} <a href="/animnifs/{{page.Flute1}}.html">{{page.Flute1}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Flute2</th>     <td>{% if page.Flute2 != "0" %} <a href="/animnifs/{{page.Flute2}}.html">{{page.Flute2}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Flute3</th>     <td>{% if page.Flute3 != "0" %} <a href="/animnifs/{{page.Flute3}}.html">{{page.Flute3}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">UpraisedStart</th>     <td>{% if page.UpraisedStart != "0" %} <a href="/animnifs/{{page.UpraisedStart}}.html">{{page.UpraisedStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">UpraisedMid</th>     <td>{% if page.UpraisedMid != "0" %} <a href="/animnifs/{{page.UpraisedMid}}.html">{{page.UpraisedMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">UpraisedEnd</th>     <td>{% if page.UpraisedEnd != "0" %} <a href="/animnifs/{{page.UpraisedEnd}}.html">{{page.UpraisedEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Bk-HandStart</th>     <td>{% if page.Bk-HandStart != "0" %} <a href="/animnifs/{{page.Bk-HandStart}}.html">{{page.Bk-HandStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Bk-HandMid</th>     <td>{% if page.Bk-HandMid != "0" %} <a href="/animnifs/{{page.Bk-HandMid}}.html">{{page.Bk-HandMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Bk-HandEnd</th>     <td>{% if page.Bk-HandEnd != "0" %} <a href="/animnifs/{{page.Bk-HandEnd}}.html">{{page.Bk-HandEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">StampStart</th>     <td>{% if page.StampStart != "0" %} <a href="/animnifs/{{page.StampStart}}.html">{{page.StampStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">StampMid</th>     <td>{% if page.StampMid != "0" %} <a href="/animnifs/{{page.StampMid}}.html">{{page.StampMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">StampEnd</th>     <td>{% if page.StampEnd != "0" %} <a href="/animnifs/{{page.StampEnd}}.html">{{page.StampEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">CrossedStart</th>     <td>{% if page.CrossedStart != "0" %} <a href="/animnifs/{{page.CrossedStart}}.html">{{page.CrossedStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">CrossedMid</th>     <td>{% if page.CrossedMid != "0" %} <a href="/animnifs/{{page.CrossedMid}}.html">{{page.CrossedMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">CrossedEnd</th>     <td>{% if page.CrossedEnd != "0" %} <a href="/animnifs/{{page.CrossedEnd}}.html">{{page.CrossedEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZStart</th>     <td>{% if page.ZStart != "0" %} <a href="/animnifs/{{page.ZStart}}.html">{{page.ZStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZMid</th>     <td>{% if page.ZMid != "0" %} <a href="/animnifs/{{page.ZMid}}.html">{{page.ZMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZEnd</th>     <td>{% if page.ZEnd != "0" %} <a href="/animnifs/{{page.ZEnd}}.html">{{page.ZEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMBeckon</th>     <td>{% if page.EMBeckon != "0" %} <a href="/animnifs/{{page.EMBeckon}}.html">{{page.EMBeckon}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMBlush</th>     <td>{% if page.EMBlush != "0" %} <a href="/animnifs/{{page.EMBlush}}.html">{{page.EMBlush}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMbow</th>     <td>{% if page.EMbow != "0" %} <a href="/animnifs/{{page.EMbow}}.html">{{page.EMbow}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMCheer</th>     <td>{% if page.EMCheer != "0" %} <a href="/animnifs/{{page.EMCheer}}.html">{{page.EMCheer}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMClap</th>     <td>{% if page.EMClap != "0" %} <a href="/animnifs/{{page.EMClap}}.html">{{page.EMClap}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMCry</th>     <td>{% if page.EMCry != "0" %} <a href="/animnifs/{{page.EMCry}}.html">{{page.EMCry}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMFlex</th>     <td>{% if page.EMFlex != "0" %} <a href="/animnifs/{{page.EMFlex}}.html">{{page.EMFlex}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMkiss</th>     <td>{% if page.EMkiss != "0" %} <a href="/animnifs/{{page.EMkiss}}.html">{{page.EMkiss}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMDance</th>     <td>{% if page.EMDance != "0" %} <a href="/animnifs/{{page.EMDance}}.html">{{page.EMDance}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMFlex2</th>     <td>{% if page.EMFlex2 != "0" %} <a href="/animnifs/{{page.EMFlex2}}.html">{{page.EMFlex2}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMLaugh</th>     <td>{% if page.EMLaugh != "0" %} <a href="/animnifs/{{page.EMLaugh}}.html">{{page.EMLaugh}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPoint</th>     <td>{% if page.EMPoint != "0" %} <a href="/animnifs/{{page.EMPoint}}.html">{{page.EMPoint}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMSalute</th>     <td>{% if page.EMSalute != "0" %} <a href="/animnifs/{{page.EMSalute}}.html">{{page.EMSalute}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMShield</th>     <td>{% if page.EMShield != "0" %} <a href="/animnifs/{{page.EMShield}}.html">{{page.EMShield}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMVictory</th>     <td>{% if page.EMVictory != "0" %} <a href="/animnifs/{{page.EMVictory}}.html">{{page.EMVictory}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMWave</th>     <td>{% if page.EMWave != "0" %} <a href="/animnifs/{{page.EMWave}}.html">{{page.EMWave}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMCurtsey</th>     <td>{% if page.EMCurtsey != "0" %} <a href="/animnifs/{{page.EMCurtsey}}.html">{{page.EMCurtsey}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Distract</th>     <td>{% if page.Distract != "0" %} <a href="/animnifs/{{page.Distract}}.html">{{page.Distract}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideHorse</th>     <td>{% if page.RideHorse != "0" %} <a href="/animnifs/{{page.RideHorse}}.html">{{page.RideHorse}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMFrenzy</th>     <td>{% if page.EMFrenzy != "0" %} <a href="/animnifs/{{page.EMFrenzy}}.html">{{page.EMFrenzy}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMDirtThrow</th>     <td>{% if page.EMDirtThrow != "0" %} <a href="/animnifs/{{page.EMDirtThrow}}.html">{{page.EMDirtThrow}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMStagFrenzy</th>     <td>{% if page.EMStagFrenzy != "0" %} <a href="/animnifs/{{page.EMStagFrenzy}}.html">{{page.EMStagFrenzy}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmDragon</th>     <td>{% if page.EmDragon != "0" %} <a href="/animnifs/{{page.EmDragon}}.html">{{page.EmDragon}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RunFlinch</th>     <td>{% if page.RunFlinch != "0" %} <a href="/animnifs/{{page.RunFlinch}}.html">{{page.RunFlinch}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMDrink</th>     <td>{% if page.EMDrink != "0" %} <a href="/animnifs/{{page.EMDrink}}.html">{{page.EMDrink}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">AltFlyAnim</th>     <td>{% if page.AltFlyAnim != "0" %} <a href="/animnifs/{{page.AltFlyAnim}}.html">{{page.AltFlyAnim}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">AltSwimAnim</th>     <td>{% if page.AltSwimAnim != "0" %} <a href="/animnifs/{{page.AltSwimAnim}}.html">{{page.AltSwimAnim}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmPonder</th>     <td>{% if page.EmPonder != "0" %} <a href="/animnifs/{{page.EmPonder}}.html">{{page.EmPonder}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMMilitary</th>     <td>{% if page.EMMilitary != "0" %} <a href="/animnifs/{{page.EMMilitary}}.html">{{page.EMMilitary}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPresent</th>     <td>{% if page.EMPresent != "0" %} <a href="/animnifs/{{page.EMPresent}}.html">{{page.EMPresent}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMTaunt</th>     <td>{% if page.EMTaunt != "0" %} <a href="/animnifs/{{page.EMTaunt}}.html">{{page.EMTaunt}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMRude</th>     <td>{% if page.EMRude != "0" %} <a href="/animnifs/{{page.EMRude}}.html">{{page.EMRude}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmChicken</th>     <td>{% if page.EmChicken != "0" %} <a href="/animnifs/{{page.EmChicken}}.html">{{page.EmChicken}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHug</th>     <td>{% if page.EMHug != "0" %} <a href="/animnifs/{{page.EMHug}}.html">{{page.EMHug}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMLetsGo</th>     <td>{% if page.EMLetsGo != "0" %} <a href="/animnifs/{{page.EMLetsGo}}.html">{{page.EMLetsGo}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMMeditate</th>     <td>{% if page.EMMeditate != "0" %} <a href="/animnifs/{{page.EMMeditate}}.html">{{page.EMMeditate}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMNo</th>     <td>{% if page.EMNo != "0" %} <a href="/animnifs/{{page.EMNo}}.html">{{page.EMNo}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMRaiseHand</th>     <td>{% if page.EMRaiseHand != "0" %} <a href="/animnifs/{{page.EMRaiseHand}}.html">{{page.EMRaiseHand}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMShrug</th>     <td>{% if page.EMShrug != "0" %} <a href="/animnifs/{{page.EMShrug}}.html">{{page.EMShrug}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMSlap</th>     <td>{% if page.EMSlap != "0" %} <a href="/animnifs/{{page.EMSlap}}.html">{{page.EMSlap}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMSlit</th>     <td>{% if page.EMSlit != "0" %} <a href="/animnifs/{{page.EMSlit}}.html">{{page.EMSlit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMSurrender</th>     <td>{% if page.EMSurrender != "0" %} <a href="/animnifs/{{page.EMSurrender}}.html">{{page.EMSurrender}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMYes</th>     <td>{% if page.EMYes != "0" %} <a href="/animnifs/{{page.EMYes}}.html">{{page.EMYes}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SquatSit</th>     <td>{% if page.SquatSit != "0" %} <a href="/animnifs/{{page.SquatSit}}.html">{{page.SquatSit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SquatIdle</th>     <td>{% if page.SquatIdle != "0" %} <a href="/animnifs/{{page.SquatIdle}}.html">{{page.SquatIdle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">KneeupSit</th>     <td>{% if page.KneeupSit != "0" %} <a href="/animnifs/{{page.KneeupSit}}.html">{{page.KneeupSit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">KneeupIdle</th>     <td>{% if page.KneeupIdle != "0" %} <a href="/animnifs/{{page.KneeupIdle}}.html">{{page.KneeupIdle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">KneelSit</th>     <td>{% if page.KneelSit != "0" %} <a href="/animnifs/{{page.KneelSit}}.html">{{page.KneelSit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">KneelIdle</th>     <td>{% if page.KneelIdle != "0" %} <a href="/animnifs/{{page.KneelIdle}}.html">{{page.KneelIdle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SitbackSit</th>     <td>{% if page.SitbackSit != "0" %} <a href="/animnifs/{{page.SitbackSit}}.html">{{page.SitbackSit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SitbackIdle</th>     <td>{% if page.SitbackIdle != "0" %} <a href="/animnifs/{{page.SitbackIdle}}.html">{{page.SitbackIdle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">OneKneeSit</th>     <td>{% if page.OneKneeSit != "0" %} <a href="/animnifs/{{page.OneKneeSit}}.html">{{page.OneKneeSit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">OneKneeIdle</th>     <td>{% if page.OneKneeIdle != "0" %} <a href="/animnifs/{{page.OneKneeIdle}}.html">{{page.OneKneeIdle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMBeg</th>     <td>{% if page.EMBeg != "0" %} <a href="/animnifs/{{page.EMBeg}}.html">{{page.EMBeg}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMInduct</th>     <td>{% if page.EMInduct != "0" %} <a href="/animnifs/{{page.EMInduct}}.html">{{page.EMInduct}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMDismiss</th>     <td>{% if page.EMDismiss != "0" %} <a href="/animnifs/{{page.EMDismiss}}.html">{{page.EMDismiss}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMKnock</th>     <td>{% if page.EMKnock != "0" %} <a href="/animnifs/{{page.EMKnock}}.html">{{page.EMKnock}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">BoatRide</th>     <td>{% if page.BoatRide != "0" %} <a href="/animnifs/{{page.BoatRide}}.html">{{page.BoatRide}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideGriffon</th>     <td>{% if page.RideGriffon != "0" %} <a href="/animnifs/{{page.RideGriffon}}.html">{{page.RideGriffon}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideAmphitere</th>     <td>{% if page.RideAmphitere != "0" %} <a href="/animnifs/{{page.RideAmphitere}}.html">{{page.RideAmphitere}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideDragonfly</th>     <td>{% if page.RideDragonfly != "0" %} <a href="/animnifs/{{page.RideDragonfly}}.html">{{page.RideDragonfly}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideHarpie</th>     <td>{% if page.RideHarpie != "0" %} <a href="/animnifs/{{page.RideHarpie}}.html">{{page.RideHarpie}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideKnockback</th>     <td>{% if page.RideKnockback != "0" %} <a href="/animnifs/{{page.RideKnockback}}.html">{{page.RideKnockback}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">RideMineCart</th>     <td>{% if page.RideMineCart != "0" %} <a href="/animnifs/{{page.RideMineCart}}.html">{{page.RideMineCart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockStart</th>     <td>{% if page.WarlockStart != "0" %} <a href="/animnifs/{{page.WarlockStart}}.html">{{page.WarlockStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockGather</th>     <td>{% if page.WarlockGather != "0" %} <a href="/animnifs/{{page.WarlockGather}}.html">{{page.WarlockGather}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockCast</th>     <td>{% if page.WarlockCast != "0" %} <a href="/animnifs/{{page.WarlockCast}}.html">{{page.WarlockCast}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockStart</th>     <td>{% if page.WarlockStart != "0" %} <a href="/animnifs/{{page.WarlockStart}}.html">{{page.WarlockStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockGather</th>     <td>{% if page.WarlockGather != "0" %} <a href="/animnifs/{{page.WarlockGather}}.html">{{page.WarlockGather}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">WarlockCast</th>     <td>{% if page.WarlockCast != "0" %} <a href="/animnifs/{{page.WarlockCast}}.html">{{page.WarlockCast}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZealotCastA</th>     <td>{% if page.ZealotCastA != "0" %} <a href="/animnifs/{{page.ZealotCastA}}.html">{{page.ZealotCastA}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZealotCastB</th>     <td>{% if page.ZealotCastB != "0" %} <a href="/animnifs/{{page.ZealotCastB}}.html">{{page.ZealotCastB}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ZealotCastC</th>     <td>{% if page.ZealotCastC != "0" %} <a href="/animnifs/{{page.ZealotCastC}}.html">{{page.ZealotCastC}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Run2</th>     <td>{% if page.Run2 != "0" %} <a href="/animnifs/{{page.Run2}}.html">{{page.Run2}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMLookFar</th>     <td>{% if page.EMLookFar != "0" %} <a href="/animnifs/{{page.EMLookFar}}.html">{{page.EMLookFar}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMStench</th>     <td>{% if page.EMStench != "0" %} <a href="/animnifs/{{page.EMStench}}.html">{{page.EMStench}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMRiderHalt</th>     <td>{% if page.EMRiderHalt != "0" %} <a href="/animnifs/{{page.EMRiderHalt}}.html">{{page.EMRiderHalt}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMRiderPet</th>     <td>{% if page.EMRiderPet != "0" %} <a href="/animnifs/{{page.EMRiderPet}}.html">{{page.EMRiderPet}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHorse-Corbette</th>     <td>{% if page.EMHorse-Corbette != "0" %} <a href="/animnifs/{{page.EMHorse-Corbette}}.html">{{page.EMHorse-Corbette}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHorse-Startle</th>     <td>{% if page.EMHorse-Startle != "0" %} <a href="/animnifs/{{page.EMHorse-Startle}}.html">{{page.EMHorse-Startle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHorse-Nod</th>     <td>{% if page.EMHorse-Nod != "0" %} <a href="/animnifs/{{page.EMHorse-Nod}}.html">{{page.EMHorse-Nod}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHorse-Graze</th>     <td>{% if page.EMHorse-Graze != "0" %} <a href="/animnifs/{{page.EMHorse-Graze}}.html">{{page.EMHorse-Graze}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMHorse-Rear</th>     <td>{% if page.EMHorse-Rear != "0" %} <a href="/animnifs/{{page.EMHorse-Rear}}.html">{{page.EMHorse-Rear}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMSweat</th>     <td>{% if page.EMSweat != "0" %} <a href="/animnifs/{{page.EMSweat}}.html">{{page.EMSweat}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMStagger</th>     <td>{% if page.EMStagger != "0" %} <a href="/animnifs/{{page.EMStagger}}.html">{{page.EMStagger}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMRiderTrick</th>     <td>{% if page.EMRiderTrick != "0" %} <a href="/animnifs/{{page.EMRiderTrick}}.html">{{page.EMRiderTrick}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMyawn</th>     <td>{% if page.EMyawn != "0" %} <a href="/animnifs/{{page.EMyawn}}.html">{{page.EMyawn}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMdoh</th>     <td>{% if page.EMdoh != "0" %} <a href="/animnifs/{{page.EMdoh}}.html">{{page.EMdoh}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMconfused</th>     <td>{% if page.EMconfused != "0" %} <a href="/animnifs/{{page.EMconfused}}.html">{{page.EMconfused}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMshiver</th>     <td>{% if page.EMshiver != "0" %} <a href="/animnifs/{{page.EMshiver}}.html">{{page.EMshiver}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMrofl</th>     <td>{% if page.EMrofl != "0" %} <a href="/animnifs/{{page.EMrofl}}.html">{{page.EMrofl}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMmemememe</th>     <td>{% if page.EMmemememe != "0" %} <a href="/animnifs/{{page.EMmemememe}}.html">{{page.EMmemememe}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMhorsewhistle</th>     <td>{% if page.EMhorsewhistle != "0" %} <a href="/animnifs/{{page.EMhorsewhistle}}.html">{{page.EMhorsewhistle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMkowtow</th>     <td>{% if page.EMkowtow != "0" %} <a href="/animnifs/{{page.EMkowtow}}.html">{{page.EMkowtow}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">TankGrapple</th>     <td>{% if page.TankGrapple != "0" %} <a href="/animnifs/{{page.TankGrapple}}.html">{{page.TankGrapple}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SummonA</th>     <td>{% if page.SummonA != "0" %} <a href="/animnifs/{{page.SummonA}}.html">{{page.SummonA}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SummonB</th>     <td>{% if page.SummonB != "0" %} <a href="/animnifs/{{page.SummonB}}.html">{{page.SummonB}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">SummonC</th>     <td>{% if page.SummonC != "0" %} <a href="/animnifs/{{page.SummonC}}.html">{{page.SummonC}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPlayerPrepare</th>     <td>{% if page.EMPlayerPrepare != "0" %} <a href="/animnifs/{{page.EMPlayerPrepare}}.html">{{page.EMPlayerPrepare}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPlayerPickup</th>     <td>{% if page.EMPlayerPickup != "0" %} <a href="/animnifs/{{page.EMPlayerPickup}}.html">{{page.EMPlayerPickup}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPlayerListen</th>     <td>{% if page.EMPlayerListen != "0" %} <a href="/animnifs/{{page.EMPlayerListen}}.html">{{page.EMPlayerListen}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">MaulerSideKick</th>     <td>{% if page.MaulerSideKick != "0" %} <a href="/animnifs/{{page.MaulerSideKick}}.html">{{page.MaulerSideKick}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">MaulerFrontKick</th>     <td>{% if page.MaulerFrontKick != "0" %} <a href="/animnifs/{{page.MaulerFrontKick}}.html">{{page.MaulerFrontKick}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">MaulerLowkick</th>     <td>{% if page.MaulerLowkick != "0" %} <a href="/animnifs/{{page.MaulerLowkick}}.html">{{page.MaulerLowkick}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">MaulerKneeHit</th>     <td>{% if page.MaulerKneeHit != "0" %} <a href="/animnifs/{{page.MaulerKneeHit}}.html">{{page.MaulerKneeHit}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">BowReady-SpellVersion</th>     <td>{% if page.BowReady-SpellVersion != "0" %} <a href="/animnifs/{{page.BowReady-SpellVersion}}.html">{{page.BowReady-SpellVersion}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">BowAim-SpellVersion</th>     <td>{% if page.BowAim-SpellVersion != "0" %} <a href="/animnifs/{{page.BowAim-SpellVersion}}.html">{{page.BowAim-SpellVersion}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">BowFire-SpellVersion</th>     <td>{% if page.BowFire-SpellVersion != "0" %} <a href="/animnifs/{{page.BowFire-SpellVersion}}.html">{{page.BowFire-SpellVersion}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">VolleyReady</th>     <td>{% if page.VolleyReady != "0" %} <a href="/animnifs/{{page.VolleyReady}}.html">{{page.VolleyReady}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">VolleyAim</th>     <td>{% if page.VolleyAim != "0" %} <a href="/animnifs/{{page.VolleyAim}}.html">{{page.VolleyAim}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">VolleyFire</th>     <td>{% if page.VolleyFire != "0" %} <a href="/animnifs/{{page.VolleyFire}}.html">{{page.VolleyFire}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">stealth_idle</th>     <td>{% if page.stealth_idle != "0" %} <a href="/animnifs/{{page.stealth_idle}}.html">{{page.stealth_idle}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">stealth_run</th>     <td>{% if page.stealth_run != "0" %} <a href="/animnifs/{{page.stealth_run}}.html">{{page.stealth_run}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmoteHowl</th>     <td>{% if page.EmoteHowl != "0" %} <a href="/animnifs/{{page.EmoteHowl}}.html">{{page.EmoteHowl}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmoteDiabolical</th>     <td>{% if page.EmoteDiabolical != "0" %} <a href="/animnifs/{{page.EmoteDiabolical}}.html">{{page.EmoteDiabolical}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EMPTY</th>     <td>{% if page.EMPTY != "0" %} <a href="/animnifs/{{page.EMPTY}}.html">{{page.EMPTY}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotebrandish</th>     <td>{% if page.Emotebrandish != "0" %} <a href="/animnifs/{{page.Emotebrandish}}.html">{{page.Emotebrandish}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotestartled</th>     <td>{% if page.Emotestartled != "0" %} <a href="/animnifs/{{page.Emotestartled}}.html">{{page.Emotestartled}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotetalk</th>     <td>{% if page.Emotetalk != "0" %} <a href="/animnifs/{{page.Emotetalk}}.html">{{page.Emotetalk}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotekick</th>     <td>{% if page.Emotekick != "0" %} <a href="/animnifs/{{page.Emotekick}}.html">{{page.Emotekick}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotestomp</th>     <td>{% if page.Emotestomp != "0" %} <a href="/animnifs/{{page.Emotestomp}}.html">{{page.Emotestomp}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">EmoteMonty</th>     <td>{% if page.EmoteMonty != "0" %} <a href="/animnifs/{{page.EmoteMonty}}.html">{{page.EmoteMonty}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emoteloco</th>     <td>{% if page.Emoteloco != "0" %} <a href="/animnifs/{{page.Emoteloco}}.html">{{page.Emoteloco}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emoteduh</th>     <td>{% if page.Emoteduh != "0" %} <a href="/animnifs/{{page.Emoteduh}}.html">{{page.Emoteduh}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotebackslap</th>     <td>{% if page.Emotebackslap != "0" %} <a href="/animnifs/{{page.Emotebackslap}}.html">{{page.Emotebackslap}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotehalt</th>     <td>{% if page.Emotehalt != "0" %} <a href="/animnifs/{{page.Emotehalt}}.html">{{page.Emotehalt}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotestay</th>     <td>{% if page.Emotestay != "0" %} <a href="/animnifs/{{page.Emotestay}}.html">{{page.Emotestay}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotedespair</th>     <td>{% if page.Emotedespair != "0" %} <a href="/animnifs/{{page.Emotedespair}}.html">{{page.Emotedespair}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotecower</th>     <td>{% if page.Emotecower != "0" %} <a href="/animnifs/{{page.Emotecower}}.html">{{page.Emotecower}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">Emotethankyou</th>     <td>{% if page.Emotethankyou != "0" %} <a href="/animnifs/{{page.Emotethankyou}}.html">{{page.Emotethankyou}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ThrowReady</th>     <td>{% if page.ThrowReady != "0" %} <a href="/animnifs/{{page.ThrowReady}}.html">{{page.ThrowReady}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ThrowAim</th>     <td>{% if page.ThrowAim != "0" %} <a href="/animnifs/{{page.ThrowAim}}.html">{{page.ThrowAim}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">ThrowFire</th>     <td>{% if page.ThrowFire != "0" %} <a href="/animnifs/{{page.ThrowFire}}.html">{{page.ThrowFire}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">OneHCircStart</th>     <td>{% if page.OneHCircStart != "0" %} <a href="/animnifs/{{page.OneHCircStart}}.html">{{page.OneHCircStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">OneHCircMid</th>     <td>{% if page.OneHCircMid != "0" %} <a href="/animnifs/{{page.OneHCircMid}}.html">{{page.OneHCircMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">OneHCircEnd</th>     <td>{% if page.OneHCircEnd != "0" %} <a href="/animnifs/{{page.OneHCircEnd}}.html">{{page.OneHCircEnd}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">TwoHWaxStart</th>     <td>{% if page.TwoHWaxStart != "0" %} <a href="/animnifs/{{page.TwoHWaxStart}}.html">{{page.TwoHWaxStart}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">TwoHWaxMid</th>     <td>{% if page.TwoHWaxMid != "0" %} <a href="/animnifs/{{page.TwoHWaxMid}}.html">{{page.TwoHWaxMid}}</a>{% endif %} </td>   </tr>
+	<tr>     <th align="left">TwoHWaxEnd</th>     <td>{% if page.TwoHWaxEnd != "0" %} <a href="/animnifs/{{page.TwoHWaxEnd}}.html">{{page.TwoHWaxEnd}}</a>{% endif %} </td>   </tr>
 </table>
-
 

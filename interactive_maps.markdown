@@ -5,6 +5,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
+
+<center>Select your realm or the RVR zone</center>
+<br>
 <div class="imgbox">
 <img class="center-fit" src="assets/zones/overview/Interactive_overview.jpg" usemap="#overview_map">
 </div>

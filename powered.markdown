@@ -12,7 +12,7 @@ This site has been made possible up to a list of great tools and technology.
 Website core design :
 - <a href="https://jekyllrb.com">Jekyll</a> static site generator (SSG)
 - Javascript, CSS, CSV and JSON to bring this website dynamic
-- The great simple to use <a href="https://leafletjs.com">Leaflet</a> JS library by Volodymyr Agafonkin for maps
+- The great simple to use <a href="https://leafletjs.com">Leaflet</a> JS library by Volodymyr Agafonkin for the interactive maps
 - <a href="https://github.com/stowball/jQuery-rwdImageMaps">Responsive image maps</a> by Matt Stow
 - Additional Jekyll features via plugins : 
 	- <a href="https://github.com/just-the-docs/just-the-docs">Just the docs</a> to build the library of the site and the search module
