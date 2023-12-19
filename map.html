@@ -34,7 +34,10 @@
 	const title = urlParams.get('title');
 
 	const response = await fetch("assets/zones/"+zone+"/nifs.json");
-	const nifsList = await response.json();
+	var nifsList;
+    if (response.ok) {
+		nifsList = await response.json();
+    }	
 
 	const responseKeep = await fetch("assets/zones/"+zone+"/keeps.json");
 	var keepsList;
