@@ -323,9 +323,9 @@ zone332,1,,2,,332,Kingdom of the Sidhe,1,1,8,8,,,,,,3
 zone333,1,,2,,333,Battle Atop the Oseberg,1,1,8,8,,,,,,3
 zone334,1,,0,,334,The Foothills of Midgard,1,1,8,8,,35,,,,
 zone335,1,,0,,335,The Foothills of Hibernia,1,1,8,8,,,,,,
-zone336,1,,2,,336,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
-zone337,1,,2,,337,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
-zone338,1,,2,,338,Demonic Prison,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone336,1,,2,,336,Demonic Prison Alb,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone337,1,,2,,337,Demonic Prison Mid,1,1,8,8,,,sky_theveil.dat,1,43200,
+zone338,1,,2,,338,Demonic Prison Hib,1,1,8,8,,,sky_theveil.dat,1,43200,
 zone339,1,,2,,339,Brimstone Caverns,1,1,8,8,,,,1,,
 zone340,1,,2,,340,Halls of Helgardh,1,1,8,8,,,,1,,
 zone341,1,,2,,341,Cave of Cruachan,1,1,8,8,,,,1,,

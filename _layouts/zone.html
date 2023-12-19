@@ -36,7 +36,6 @@ layout: default
 
     
 
-{%if page.type=="0" or page.type==null %}
 
 <center>Click on image for interactive map</center><br>
 
@@ -46,4 +45,3 @@ layout: default
 <a href="/map.html?zone=zone0{{page.proxy_zone}}&title={{page.zonename}}"><img src="/assets/zones/zone0{{page.proxy_zone}}.jpg" onerror="this.onerror=null;this.src='/assets/img/nop.jpg';"></a>
 	{% endif %}
 
-{% endif %}
