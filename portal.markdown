@@ -7,7 +7,7 @@ search_exclude: true
 
 DAOC Portal is the tool to connect to your personal server.<br>
 
-For that you can download the <a href="https://www.mediafire.com/file/12s7yvh604ot0lv/DAOC_Portal.zip/file">zip version</a> of the program.<br>
+For that you can download the <a href="{{ '/assets/files/Portal.zip' | relative_url }}">zip version</a> of the program.<br>
 
 Once downloaded, go to the settings : <br>
 

@@ -45,6 +45,7 @@ plugins:
 
 include:
   - .nojekyll
+  - assets
 
 #
 # exclude:
